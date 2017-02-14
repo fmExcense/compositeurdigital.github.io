@@ -2,7 +2,5 @@
 ---
 
 @import "{{ site.theme }}";
-.page-header {
-  background-color:#159957;
-  background-image:clear;
-}
+
+.page-header { background-color:#159957; background-image:none; }
