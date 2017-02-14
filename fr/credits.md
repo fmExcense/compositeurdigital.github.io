@@ -1,0 +1,1 @@
+Finger touch icons designed by Jeff Portaro from the thenounproject.com
