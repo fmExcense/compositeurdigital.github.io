@@ -1,3 +1,6 @@
-# test
+# Documentation
 
-[Link](fr/index.md)
+[English](en/index.md)
+
+[Français](fr/index.md)
+
