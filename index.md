@@ -1,3 +1,3 @@
 # test
 
-[Link](url)
+[Link](fr/test.md)
