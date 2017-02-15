@@ -1,26 +1,26 @@
 # Documentation
 
-### [Guide de démarrage](gettingstarted.md)
-Installez et exécutez le Compositeur Digital.
+### [Getting started](gettingstarted.md)
+Set up and run Compositeur Digital.
 
-### [Utilisation](use.md)
-Découvrez comment ouvrir et manipuler vos documents.
+### [Usage overview](use.md)
+Discover how to present and explore your documents.
 
-### [Gérer les contenus](manage_contents.md)
-Ajoutez, et organisez vos contenus.
+### [Content management](manage_contents.md)
+Add and organize content.
 
-### [Types de contenus](content_types.md)
-Types de documents supportés et fonctionnalités associés.
+### [Supported Content](content_types.md)
+List of supported content types and corresponding functionality.
 
-### [Notes de version](version_history.md)
-Nouveautés et correctifs présents dans chaque version du Compositeur Digital.
+### [Release notes](version_history.md)
+Evolutions and fixes for each Compositeur Digital version.
 
 ### Divers
-#### [Configuration avancée](config.md)
-Powerusers
+#### [Advanced configuration](config.md)
+For powerusers.
 
-#### [Mode kiosque](kiosk_mode.md)
-Configurez une borne en libre-service.
+#### [Kiosk mode](kiosk_mode.md)
+How to configure Compositeur Digital for self-service use.
 
-#### [Protocole cdigital://](cdigital_uri)
-Déclenchez des actions depuis un navigateur ou un tag NFC.
+#### [cdigital://](cdigital_uri)
+Trigger actions in Compositeur Digital from external sources such as web pages or NFC.
