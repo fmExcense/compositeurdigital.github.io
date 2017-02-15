@@ -1,7 +1,7 @@
 # Documentation
 
 ### [Getting started](gettingstarted.md)
-Set up and run Compositeur Digital.
+Set up and run *Compositeur Digital*.
 
 ### [Usage overview](use.md)
 Discover how to present and explore your documents.
@@ -13,14 +13,14 @@ Add and organize content.
 List of supported content types and corresponding functionality.
 
 ### [Release notes](version_history.md)
-Evolutions and fixes for each Compositeur Digital version.
+Evolutions and fixes for each *Compositeur Digital* version.
 
 ### Divers
 #### [Advanced configuration](config.md)
 For powerusers.
 
 #### [Kiosk mode](kiosk_mode.md)
-How to configure Compositeur Digital for self-service use.
+How to configure *Compositeur Digital* for self-service use.
 
 #### [cdigital://](cdigital_uri)
-Trigger actions in Compositeur Digital from external sources such as web pages or NFC.
+Trigger actions in *Compositeur Digital* from external sources such as web pages or NFC.
