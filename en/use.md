@@ -1,18 +1,18 @@
-# Utilisation
+# Usage overview
 
-## Présentation
+## Overview
 
 ![start](img/use_empy.jpg)
+The visual interface is made of two main areas:
 
-L'interface utilisateurs est constituée de 2 parties :
+1. A collaborative space where you will manipulate documents.
+2. A menu bar that let you drive your presentation.
+3. On the menu bar you find a button for the project menu.
 
-1. Bureau collaboratif, sur lequel vous allez manipuler vos documents.
-2. Barre de menu, pour piloter votre présentation.
-3. Bouton de menu projet.
-
-## Ouvrir un document
+## Open a document
 
 1. Dans la barre de menu, tapez sur la rubrique contenant le document;
+1. On the menu bar, tap the category containing the desired document;
 2. Dans la rubrique ouverte, tapez sur le document désiré. Le document s'affiche alors.
 
 ![open item step 1](img/open_item_1.jpg)
