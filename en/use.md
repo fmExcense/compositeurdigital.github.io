@@ -3,95 +3,95 @@
 ## Overview
 
 ![start](img/use_empy.jpg)
+
 The visual interface is made of two main areas:
 
 1. A collaborative space where you will manipulate documents.
 2. A menu bar that let you drive your presentation.
 3. On the menu bar you find a button for the project menu.
 
-## Open a document
+## Opening a document
 
-1. Dans la barre de menu, tapez sur la rubrique contenant le document;
 1. On the menu bar, tap the category containing the desired document;
-2. Dans la rubrique ouverte, tapez sur le document désiré. Le document s'affiche alors.
+2. In the list that opened, tap on the desired document. It will the appear on screen.
 
 ![open item step 1](img/open_item_1.jpg)
 ![open item step 2](img/open_item_2.jpg)
 
-## Manipuler un document
+## Manipulating a document
 
-Vous pouvez effectuer les gestes suivants :
+Use the following gestures:
 
-Déplacer ![move item](img/move.png)
+Move ![move item](img/move.png)
 
-Agrandir ![zoom item](img/pinch.png)
+Resize ![zoom item](img/pinch.png)
 
-Tourner ![rotate item](img/rotate.png)
+Rotate ![rotate item](img/rotate.png)
 
-Pour fermer un document, utilisez le bouton en haut à droite :
+To close a document, tap the top right button:
 
 ![close item](img/item_close.jpg)
 
-Vous pouvez accéder à des actions supplémentaires (annotations, impression, etc.) à travers le bouton situé en bas à droite de chaque document :
+Some additionnal actions (annotate, print, share, *etc.*) are available in a menu by tapping the bottom right button:
 
 ![open item menu](img/item_menu_button.jpg)
 ![opened item menu](img/item_menu_open.jpg)
 
-## Gérer un projet
+## Using projects
 
-Le Compositeur Digital enregistre l'activité de votre espace d'échange (documents ouverts, annotations, profil utilisateur) et vous permet de gérer ces information sous forme de projets.
-Pour créer un nouveau projet vous pouvez nommer votre session d'utilisation courante.
+Compositeur Digital continuously saves your activity while you are using documents in your space (opened documents, annotations, user data). You can then make use this information in the form of projects.
+To create a project you can assign a name to the current session.
 
 ![menu manage project](img/menu_manage.jpg)
 
-1. Ouvrez le menu projet.
-2. Le nom du projet courant est affiché en haut du menu. Appuyez sur le nom pour le renommer et ainsi pouvoir retrouver ultérieurement ce projet.
+1. Open the project menu.
+2. The name of the current project is visible at the top of the menu. Tap on this name to assign a new name. You will be able to find your project later under this name.
 
 ![menu rename project](img/menu_create.jpg)
 
-3. Les boutons `Ouvrir` et `Nouveau` permettent respectivement de charger un projet existant et de créer un nouveau projet.
-4. Le bouton `Quitter` permet de fermer l'univers courant et de revenir à la page d'accueil
+3. The `Open` and `New` buttons let you respectively load an existing project and create a new project for the current universe.
+4. The `Quit` button let you close the current universe and go back to the home page.
 
-## Rechercher des documents
+## Search for documents
 
 ![menu search](img/menu_search.jpg)
 
-1. Dans le menu projet, saisissez directement votre terme de recherche dans le cadre prévu à cet effet.
-2. Les documents apparaissent au fur et à mesure. Vous pouvez alors les ouvrir directement en appuyant dessus.
+1. In the project menu, type in your search term in the designated entry.
+2. Documents with names matching your term will appear as you type. Tap on a document to open it directly in your space.
 
-## Documents récents et fréquemment utilisés
+## Recent and frequetly used documents
 ![menu recents](img/menu_recents.jpg)
 
-Cet onglet vous permet d'accéder à tous les documents déjà ouverts. Vous pouvez les trier soit suivant leur date de dernière ouverture en appuyant sur `Récents`, soit suivant leur fréquence d'utilisation en appuyant sur `Les plus utilisés`.
+This tab gives you quick access to all the documents that wwere opened. You can either sort them by most recent use with the `Recent` filter, or by total uses by tapping the `Most frequently used` filter.
 
-## Notes et Feuilles blanches
+## Notes and blank sheets
 ![menu notes and blanksheets](img/menu_notes.jpg)
 
-Cet onglet vous permet d'accéder à toutes les notes et feuilles blanches créées.
+This tab lets you find all sticky notes and blank sheets that were created.
 
-## Panier
+## Basket
 ![menu basket](img/menu_basket.jpg)
 
-Le panier est un espace permettant de regrouper des documents qui vous intéressent au même endroit.
-Le bouton `partager` vous permet de partager en même temps l'ensemble de ces documents sur une clé usb ou par mail.
+Your basket is where you can store documents of interest. 
+The `share` button will the let you share all the documents in the basket at the same time on a usb key, or by e-mail.
 
-Pour ajouter un document au panier, ouvrez le menu du document et appuyez sur `ajouter panier`.
+To add a document to the basket, tap the `Add to basket` button in the document menu.
 
 ![add to basket](img/item_menu_basket_add.jpg)
 ![add to basket](img/item_menu_basket_rm.jpg)
 
-Pour enlever un document du panier, appuyez sur `suppr. panier` dans ce même menu, ou appuyez sur la croix en haut à droite du document dans le panier.
+To remove a document from your basket, tap the `Remove from basket` button in the same menu, or tap the close button on the top right of the document icon in the basket menu tab.
 
-## Profil
+## Profile
 ![menu profile](img/menu_profile.jpg)
 
-L'onglet Profil regroupe un ensemble de données concernant votre interlocuteur. Une fois ces données renseignées, elles seront réutilisées automatiquement par le compositeur digital. Pour modifier un champ, appuyez sur sa valeur. 
-Ainsi le champ `adresse email` sera utilisé comme destinataire dès que vous voudrez partager un document par mail, le champ `Budget` permettra de positionner le montant du crédit dans un simulateur de prêt...
+The Profile tab is where you can find data relating to your interlocutor. Once entered here they will be used accordingly in relevant activities in the current project. e.g. when you fill out the `e-mail` field, it will be used as the recipient address when sharing a document by e-mail, and the `budget` information will be used by the [mortgage simulator](bank_simulator.md).
 
-## Infos
+## Information
 ![menu infos](img/menu_infos.jpg)
 
-Le dernier onglet du menu permet d'accéder à des informations générales sur le logiciel. Vous pourrez également accéder à cette documentation ou nous donner votre avis sur le compositeur digital.
-Appuyez sur le bouton `support` pour envoyer un mail au support technique d'excense : si vous rencontrez une anomalie ou un problème dans votre utilisation du logiciel, décrivez nous la situation dans ce mail.
+This last tab gives out general information on the software.
+You will also find there a link to this documentation, and a way of sharing with us your impressions about Compositeur Digital with a rating.
+Tap the `Support` button to send a mail to the excense tech support should you encounter a problem while using the software.
 
-Vous pouvez maintenant consulter la rubrique sur la [gestion des contenus](manage_contents.md).
+You can now move to [Content management](manage_contents.md).
