@@ -85,7 +85,7 @@ To remove a document from your basket, tap the `Remove from basket` button in th
 ## Profile
 ![menu profile](img/menu_profile.jpg)
 
-The Profile tab is where you can find data relating to your interlocutor. Once entered here they will be used accordingly in relevant activities in the current project. e.g. when you fill out the `e-mail` field, it will be used as the recipient address when sharing a document by e-mail, and the `budget` information will be used by the [mortgage simulator](bank_simulator.md).
+The Profile tab is where you can find data relating to your interlocutor. Once entered here it will be used accordingly in relevant activities in the current project. e.g. when you fill out the `e-mail` field, it will be used as the recipient address when sharing a document by e-mail, and the `budget` information will be used by the [mortgage simulator](bank_simulator.md).
 
 ## Information
 ![menu infos](img/menu_infos.jpg)
