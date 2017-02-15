@@ -1,110 +1,109 @@
-# Gérer les contenus
+# Content management
 
-Le Compositeur Digital exploite un ensemble de documents que vous préparez à l'avance. Ces documents se trouvent sur votre ordinateur sous la forme de fichiers organisés en dossiers.
+Compositeur Digital uses a set of documents that you prepared in advance. Those documents are files on your computer that you can organize with folders for use in Compositeur Digital.
 
-## Connaissances requises
+## Required skills
 
-La préparation s'effectue à travers l'explorateur de fichiers.
+The preparation of a Compositeur Digital universe is done in Windows file explorer.
 
-Vous devez maîtriser les actions suivantes :
+You should be confortable with:
 
-- Naviguer dans une arborescence de dossiers à travers l'explorateur de fichiers de Microsoft Windows.
-- Manipuler des fichiers : déplacer, renommer, supprimer, copier, coller.
+- Navigate a files and folders hierarchy in Windows file explorer.
+- Handle file operations : move, rename, delete, copy and paste.
 
-### Extension
+### File extensions
 
-Sous Microsoft Windows, les fichiers sont représentés par leur nom auquel est associée une *extension*, généralement composée de 3 ou 4 lettres située après un point. L'extension détermine le type de document contenu dans le fichier. Quelques exemples :
+Using Microsoft Windows, files are represented by a name an an *extension*, usually consisting of 3 or 4 letters after a point. The extension indicates the type of document stored in the file:
 
 - Images : photo1.jpg, photo2.png
-- Présentation : pres1.pptx, pres2.pdf
-- Fichier texte : sommaire.txt
+- Presentation : pres1.pptx, pres2.pdf
+- Text file : table of content.txt
 
-Par défaut, l'explorateur de fichiers masque les extensions, nous vous conseillons fortement de changer ce comportement :
+File explorer hides file extensions by default, we strongly recommend to change this setting:
 
 ![show extensions](img/show_extensions.jpg)
 
-## Univers
+## Universe
 
-Vous pouvez créer plusieurs univers : vous regroupez tous les documents d'une même présentation (réunion, rencontre client, etc.) dans un univers. Exemples :
+You can create multiple universes: group all documents relevant for your presentation (meeting, rsales pitch, etc.) in an universe:
 
-Projet immobilier 
+Real estate
 
 ![univers 1](img/univers1.jpg)
 
-Services d'une banque
+Banking services
 
 ![univers 2](img/univers2.jpg)
 
-A chaque univers correspond un dossier sur votre ordinateur. Par défaut, le Compositeur Digital cherche ces dossiers dans `Documents\Compositeur Digital` :
+Ech univers is a folder on your computer. Compositeur Digital will look fol univers folders in `Documents\Compositeur Digital` by default:
 
-![univers in explorer](img/explorer_univers.jpg)
+![universes in explorer](img/explorer_univers.jpg)
 
-Pour créer un nouvel univers, dupliquez un dossier d'univers existant ou créez un nouveau dossier dans `Documents\Compositeur Digital`.
+To create an univers, you can start from an existing univers by dublicating its folder, or simply create a folder in `Documents\Compositeur Digital`.
 
-## Fond d'écran
+## Background
 
-Pour personnaliser le fond d'écran par défaut du Compositeur Digital, ajoutez un fichier image nommé `_background` dans le dossier de l'univers :
+You might want to customize your univers by changing its background image. To do so, add an image file named `_background` directly in the universe folder:
 
-![univers in explorer](img/explorer_background.jpg)
+![universe background](img/explorer_background.jpg)
 
-## Dossiers
+## Folders
 
-Dans un univers, organisez vos documents en dossiers et sous-dossiers.
+In an universe, you can organize your documents in folders and sub-folders.
 
-Le premier niveau de dossier correspond aux rubriques accessibles dans la barre de menu du Compositeur Digital :
+The first level of folders will correspond to the sections avalaible int the menu bar in Compositeur Digital:
 
 ![explorer root folders](img/explorer_root_folders.jpg)
 
 ![root folders](img/root_folders.jpg)
 
-### <a name="contentFolder"></a> Dossiers cachés
-
-Les dossiers ayant l'extension '.content' ne seront pas visibles dans le Compositeur Digital. 
-Leur contenu reste par contre référençable,
-par un [diaporama interactif](slideshow#interactive) par exemple.
+>### <a name="contentFolder"></a> Hidden folders
+>
+>Folders with extension '.content' will not be visible in Compositeur Digital. 
+>See [interactive slideshow](slideshow#interactive) for a common use of this feature.
 
 ## Documents
 
-Ajoutez vos documents dans les dossiers de votre univers.
+Directly add documents in the folders and sub-folders of an univers.
 
-Consultez la rubrique [Types de contenus](content_types.md) pour la liste complète des formats supportés.
+See [Supported content](content_types.md) an exhaustive list of the supported file types.
 
-## Ordre d'affichage
+## Display order
 
-Par défaut, le Compositeur Digital affiche les dossiers dans l'ordre alphabétique. Vous pouvez forcer un ordre particulier en préfixant à l'aide d'un numéro les noms des fichiers ou dossiers, les numéros n'apparaîtront pas dans le Compositeur Digital.
+Compositeur Digital will display items in folders in alphabetical order. You can however force a specific order by prefixing file and folder names with a number, Compositeur Digital will not display the numbers but will arrange the displayed element in the specified order.
 
-## Vignettes 
+>If you need to display a file with a name starting with a number (e.g. `3D render`), see the [Advanced configuration](config#configuration_dun_document) section.
 
-Par défaut, le Compositeur Digital tente d'afficher une vignette correspondant aux documents : vous pouvez personnaliser la vignette d'un document ou d'un dossier.
+## Thumbnails 
 
-### Vignette de dossier
+Compositeur Digital will generate thumbnails for all documents. You can also customize the thumbnail for any document or folder for cases.
 
-Exemple de dossier sans vignette, le Compositeur Digital utilise la première page du premier document dans le dossier :
+### Folder thumbnails
+
+With no specified thumbnail for a folder, Compositeur Digital will use the thumbnail of the first item in ths folder:
 
 ![explorer no preview folder](img/explorer_nopreview_folder.jpg)
 
 ![no preview folder](img/nopreview_folder.jpg) 
 
-Ajoutez un fichier image nommé `_preview` (format png ou jpg) dans le dossier :
+Add an image file named `_preview` (png or jpg) directly in the folder:
 
 ![explorer no preview folder](img/explorer_preview_folder.jpg)
 
 ![no preview folder](img/preview_folder.jpg) 
 
-### Vignette de document
+### Document thumbnail
 
-Pour personnaliser la vignette d'un document, placez un fichier image avec le même nom que le document, suffixé avec `_preview` :
+To customize the thumbnail for a document, place an image file with the same name suffixed with `_preview` in the same folder:
 
 ![explorer preview file](img/explorer_preview_file.jpg)
 
-Rendez-vous à la rubrique [Types de contenus](content_types.md) pour connaître les spécificités des différents contenus pris en charge.
+## Standby video
 
-## Ecran de veille vidéo 
+When in Kiosk mode Compositeur Digital can play a fullscreen video after a period of inactivity. The video will then loop until the screen is touched.
 
-En mode kiosque il est possible de définir un écran de veille vidéo qui s'affichera en plein écran après une période d'inactivité.
-
-Ajoutez un fichier vidéo nommé `_standby` dans le dossier de l'univers :
+Place a supported video file named `_standby` in the universe folder:
 
 ![standby](img/explorer_standby.jpg) 
 
-Rendez-vous à la rubrique [types de contenus vidéo](video.md) pour connaître les différents types de vidéos que vous pouvez utiliser pour l'écran de veille.
+All [supported video types](video.md) are suitable for use as a standby video.
