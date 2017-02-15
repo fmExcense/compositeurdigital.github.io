@@ -35,7 +35,7 @@ Banking services
 
 ![univers 2](img/univers2.jpg)
 
-Ech univers is a folder on your computer. Compositeur Digital will look fol univers folders in `Documents\Compositeur Digital` by default:
+Each univers is a folder on your computer. Compositeur Digital will look fol univers folders in `Documents\Compositeur Digital` by default:
 
 ![universes in explorer](img/explorer_univers.jpg)
 
@@ -51,7 +51,7 @@ You might want to customize your univers by changing its background image. To do
 
 In an universe, you can organize your documents in folders and sub-folders.
 
-The first level of folders will correspond to the sections avalaible int the menu bar in Compositeur Digital:
+The first level of folders will correspond to the sections available int the menu bar in Compositeur Digital:
 
 ![explorer root folders](img/explorer_root_folders.jpg)
 
