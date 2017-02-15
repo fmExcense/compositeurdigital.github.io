@@ -1,25 +1,25 @@
-# Guide de démarrage
+# Getting started
 
-## Installation
+## Install
 
-### Prérequis
+### Prerequisites
 
-1. PC tactile multitouch
-2. Windows 7 SP1 ou supérieur
+1. Multitouch-capable PC
+2. Windows 7 SP1 or newer
 
-_Configuration minimale conseillée : CPU Intel Core i5 3ème génération ou supérieur_
+_Minimum System requirements: Intel Core i5 3rd generation_
 
-### Installation
+### Install
 
-1. Rendez-vous à l'adresse suivante : <http://www.compositeurdigital.com/setup>
-2. Cliquez sur le bouton `Installer`
-3. Téléchargez puis ouvrez le programme `setup.exe` qui vous est proposé.
+1. Go to <http://www.compositeurdigital.com/setup>
+2. Click `Installer`
+3. Follow your browser's instructions to download and run `setup.exe`.
 
-### Premier lancement
+### First run
 
-Lorsque l'installation est finie, le Compositeur Digital se lance automatiquement.
+Compositeur Digital will launch automatically when the installation is complete.
 
-1. Le Compositeur Digital vous invite à télécharger des contenus de démonstration. Cliquez sur `télécharger`.
-2. Choisissez parmi les 3 univers de démonstration proposés.
+1. Compositeur Digital will suggest to downlowd some sample content. Click `download` to do so.
+2. Choose from one of the three sample universes.
 
-Vous pouvez maintenant consulter la rubrique [Utilisation](use.md).
+You can now move to the [Usage overview](use.md) section.
