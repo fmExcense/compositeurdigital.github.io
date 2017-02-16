@@ -1,19 +1,19 @@
-# Usage overview
+# Features overview
 
 ## Overview
 
 ![start](img/use_empy.jpg)
 
-The visual interface is made of two main areas:
+The user interface contains three main areas:
 
-1. A collaborative space where you will manipulate documents.
-2. A menu bar that let you drive your presentation.
-3. On the menu bar you find a button for the project menu.
+1. A collaborative area to display and interact with the content.
+2. A dock to browse and access your content. 
+3. The project menu button  
 
 ## Opening a document
 
-1. On the menu bar, tap the category containing the desired document;
-2. In the list that opened, tap on the desired document. It will the appear on screen.
+1. On the dock, tap on the section of your choice;
+2. In the folder view, tap on document to display
 
 ![open item step 1](img/open_item_1.jpg)
 ![open item step 2](img/open_item_2.jpg)
@@ -28,18 +28,18 @@ Resize ![zoom item](img/pinch.png)
 
 Rotate ![rotate item](img/rotate.png)
 
-To close a document, tap the top right button:
+To close a document, tap the top right cross:
 
 ![close item](img/item_close.jpg)
 
-Some additionnal actions (annotate, print, share, *etc.*) are available in a menu by tapping the bottom right button:
+ Additionnal actions (annotate, print, share, *etc.*) are available in the `document action menu` available at the bottom right of any content:
 
 ![open item menu](img/item_menu_button.jpg)
 ![opened item menu](img/item_menu_open.jpg)
 
-## Using projects
+## Creating projects
 
-Compositeur Digital continuously saves your activity while you are using documents in your space (opened documents, annotations, user data). You can then make use this information in the form of projects.
+The Compositeur Digital saves automaticaly your activity within your environnement (opened documents, annotations, user data). You can then make use this information in the form of projects.
 To create a project you can assign a name to the current session.
 
 ![menu manage project](img/menu_manage.jpg)
