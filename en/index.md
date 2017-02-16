@@ -18,10 +18,10 @@ Description of new features and bug fixes for all versions of the *Compositeur D
 ### Other
 
 #### [Advanced configuration](config.md)
-Advanced feature description for powerusers.
+Advanced features description for powerusers.
 
 #### [Kiosk mode](kiosk_mode.md)
-How to configure the *Compositeur Digital* for self-service mode.
+Configuring the *Compositeur Digital* in self-service mode.
 
 #### [cdigital://](cdigital_uri)
 Trigger actions in the *Compositeur Digital* from external applications or events such as web pages or NFC tags 
