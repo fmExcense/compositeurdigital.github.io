@@ -1,19 +1,19 @@
-# Types de contenus
+# Supported content
 
-Le Compositeur Digital exploite les formats de documents suivants :
+Compositeur Digital can use the following types of content:
 
-- [Image](image.md)
-- [Présentation PDF, Powerpoint, diaporama](slideshow.md)
-- [Vidéo](video.md)
-- [Objet 3D (rendu temps réel)](3d.md)
-- [Objet 360° (rendu pré-calculé)](sequence.md)
-- [Panorama 3D](panorama.md)
-- [Formulaire](form.md)
+- [Images](image.md)
+- [Presentations: PDF, Powerpoint, diaporama](slideshow.md)
+- [Videos](video.md)
+- [3D objects (real time rendered)](3d.md)
+- [360° objects (pre-rendered)](sequence.md)
+- [3D panoramas (image or video)](panorama.md)
+- [Fill-in forms](form.md)
 - [Quiz](quiz.md)
 
-Auxquels viennent s'ajouter des contenus métiers :
+Additionally Compositeur Digital handles some interactive content for specific use cases:
 
-- [Collection de biens immobiliers](immo.md)
-- [Simulateur de prêt bancaire](bank_simulator.md)
+- [Real estate selector](immo.md)
+- [Mortgage simulator](bank_simulator.md)
 
-[Revenir à l'accueil de la documentation](home.md)
+[Back to the home page](home.md)
