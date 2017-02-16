@@ -2,7 +2,7 @@
 
 Use this type of content to display a picture, a non-interactive map, a document consisting of a single page, etc.
 
-## Usage
+## Use in Compositeur Digital
 
 With an image you can:
 
