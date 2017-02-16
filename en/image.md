@@ -1,18 +1,18 @@
 # Image
 
-Utilisez ce type de contenu pour afficher une photo, un plan non interactif, une brochure constituée d'une simple page.
+Use this type of content to display a picture, a non-interactive map, a document consisting of a single page, etc.
 
-## Utilisation
+## Usage
 
-Vous pouvez :
+With an image you can:
 
-- Annoter
-- Imprimer
+- Annotate
+- Print
 
-## Administration
+## Content management
 
-- Extension de fichier : `jpg`, `png`, `tif`.
+- Supported file extensions : `jpg`, `png`, `tif`.
 
-*Remarque : vous pouvez visualiser un dossier d'images sous la forme d'un diaporama. Voir rubrique [Diaporama](slideshow.md)*
+>You can display a folder of images as a slideshow. See the [Slideshow](slideshow.md) section.
 
-[Revenir au différents Types de contenus](content_types.md)
+[Back to supported content](content_types.md)
