@@ -1,21 +1,20 @@
-# Séquence 360°
+# 360° sequence
 
-Utilisez ce type de contenu pour afficher un panoramique d'un produit ou d'un bâtiment sous la forme d'une séquence d'images animées.
+Use this content type to display a 360° view of a product, building, etc as a sequence of pre-rendered images.
 
-## Utilisation
+## Use in Compositeur Digital
 
-Vous pouvez :
+With a sequence you can:
 
-- Avancer / reculer dans la séquence d'images.
+- Go forward and backward in the sequence of images.
 
+## Content management
 
-## Administration
+- Folder extension: `sequence`
+- Supported file extension in the folder: `jpg`, `png`
 
-- Extension de dossier : `sequence`
-- Extension de fichier dans le dossier : `jpg`, `png`
-
-Exemple d'arborescence :
+Here is a sample:
 
 ![explorer sequence](img/explorer_sequence.jpg)
 
-[Revenir au différents Types de contenus](content_types.md)
+[Back to supported content](content_types.md)
