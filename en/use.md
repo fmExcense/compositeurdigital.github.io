@@ -8,7 +8,7 @@ The user interface contains three main areas:
 
 1. A collaborative area to display and interact with the content.
 2. A dock to browse and access your content. 
-3. The project menu button  
+3. The main menu button  
 
 ## Opening a document
 
@@ -39,25 +39,24 @@ To close a document, tap the top right cross:
 
 ## Creating projects
 
-The Compositeur Digital saves automaticaly your activity within your environnement (opened documents, annotations, user data). You can then make use this information in the form of projects.
-To create a project you can assign a name to the current session.
+All your interactions with the content of an environnement are automaticaly saved (opened documents, annotations, user data). You can then assign a name your current projet to access it later.
 
 ![menu manage project](img/menu_manage.jpg)
 
-1. Open the project menu.
-2. The name of the current project is visible at the top of the menu. Tap on this name to assign a new name. You will be able to find your project later under this name.
+1. Open the main menu.
+2. The name of the current project is displayed at the top of the panel. Tap on the name to assign a new name. 
 
 ![menu rename project](img/menu_create.jpg)
 
-3. The `Open` and `New` buttons let you respectively load an existing project and create a new project for the current universe.
-4. The `Quit` button let you close the current universe and go back to the home page.
+3. The `Open` and `New` buttons allows you to load a previously saved project or create a new project in the current environment.
+4. The `Quit` button will close the current environment to take you to the home page.
 
-## Search for documents
+## Search feature
 
 ![menu search](img/menu_search.jpg)
 
-1. In the project menu, type in your search term in the designated entry.
-2. Documents with names matching your term will appear as you type. Tap on a document to open it directly in your space.
+1. In the main menu, type in your keywords in the designated area.
+2. Documents with file names matching your criteria will appear as you type. Tap on the selected document to open it.
 
 ## Recent and frequetly used documents
 ![menu recents](img/menu_recents.jpg)
