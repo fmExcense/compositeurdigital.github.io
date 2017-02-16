@@ -1,21 +1,23 @@
-# Vidéo
+# Video
 
-Utilisez ce type de contenu pour jouer un contenu vidéo.
+Play back video content in Compositeur Digital.
 
-## Utilisation
+## Use in Compositeur Digital
 
-Vous pouvez :
+You can :
 
-- lire, mettre en pause
-- déplacer la lecture à un instant donné
+- Play, pause playback
+- Mute/unmute sound
+- Skip playback to any time in the video
 
-## Administration
+## Content management
 
-- Extension de fichier : `wmv`, `mp4`, `avi`, `mpg`, `mov`, `mpeg`, `ts`, `flv`.
+- Supported file extensions : `wmv`, `mp4`, `avi`, `mpg`, `mov`, `mpeg`, `ts`, `flv`.
 
-### Codecs vidéo
-Un même format de fichier peut contenir différents format d'encodage vidéo/audio. Ces derniers sont dépendants de composants appelés "codecs" installés sur le PC. Toutes les vidéos ne sont pas donc pas lisibles par défaut, il faut parfois installer des codecs supplémentaires. Exemple : K-Lite Codec Pack. Certains codecs peuvent provoquer une instabilité du Compositeur Digital.
+### A/V Codecs
 
-Les formats les plus stables sont : WMV et MP4(H264).
+A given video file format can contain different coding/decoding standard. Those are called "codecs" and are installed on a computer. This means that some video file may not playback by default, installing the right codec can be necessary. K-Lite Codec Pack include a wide variety of codecs. Some codecs may cause the instability of Compositeur Digital.
 
-[Revenir au différents Types de contenus](content_types.md)
+As a rule, consider WMV et MP4(H264) as the safest, most stable codecs.
+
+[Back to supported content](content_types.md)
