@@ -22,7 +22,7 @@ A slideshow is created from a single PDF or Powerpoint file, or from a set of im
 
 >*Note 1:* som complex documents may no display properly. You may change the document format (e.g. save a Powerpoint presentation as a PDF) to try and circumvent the problem.
 
->*Note 2:* Compositeur Digital will not play transittion effects and animations: each slide is a fixed image. You can however add touch "buttons" to open other documents (see [Interactivity](interactive)).
+>*Note 2:* Compositeur Digital will not play transition effects and animations: each slide is a fixed image. You can however add touch "buttons" to open other documents (see [Interactivity](interactive)).
 
 ### Image set folder
 
