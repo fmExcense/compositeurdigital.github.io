@@ -1,25 +1,25 @@
 # Getting started
 
-## Install
+## Installation
 
 ### Prerequisites
 
-1. Multitouch-capable PC
-2. Windows 7 SP1 or newer
+1. Multitouch-enabled PC
+2. Windows 7 SP1 or later
 
 _Minimum System requirements: Intel Core i5 3rd generation_
 
-### Install
+### Installation procedure
 
 1. Go to <http://www.compositeurdigital.com/setup>
-2. Click `Installer`
+2. Click on `Installer`
 3. Follow your browser's instructions to download and run `setup.exe`.
 
 ### First run
 
-Compositeur Digital will launch automatically when the installation is complete.
+The Compositeur Digital will start automatically after the installation procedure is completed.
 
-1. Compositeur Digital will suggest to download some sample content. Click `download` to do so.
-2. Choose from one of the three sample universes.
+1. When started, the application will suggest to download our demo content. Click on `download` 
+2. When completed, the application will display three demo environments. Click on any of it to enter   
 
 You can now move to the [Usage overview](use.md) section.
