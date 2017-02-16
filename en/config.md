@@ -1,14 +1,16 @@
-# Configuration avancée
-## Métadonnées
-Pour modifier le comportement ou les fonctionnalités d'un document, il est possible d'utiliser des paramètres dans un fichier `_meta.txt`.
+# Advanced configuration
+## Metadata
+To modify a document's behavior or functionalities, it is possible to write some parameters in a file `_meta.txt`.
 
-Dans le cas d'un dossier il suffit de le placer à l'intérieur de celui-ci.
+In the case of a folder, it must be inside the folder.
 
-Dans le cas d'un fichier il faut alors lui donner le nom du fichier suivi du suffixe `_meta` avec l'extension `txt`, et le placer au même endroit que le fichier.
+In the case of a file, it must be named with the file name followed by the suffix `_meta` with the `txt` extension, and positioned at the same place than the file.
 
-Par exemple, pour un fichier `1 - image.jpg`, le fichier meta correspondant doit s'appeler `1 - image_meta.txt`.
+For example, for a file `1 - image.jpg`, the corresponding meta file needs to be named `1 - image_meta.txt`.
 
-Dans ce fichier chaque ligne (nommée `meta`) permet de préciser un paramètre. 
+In this file, every line (named `meta`) allow to describe a parameter.
+
+---
 
 Une meta s'écrit sous la forme `nomDeLaMeta = valeur`
 
