@@ -2,7 +2,7 @@
 
 Use this type of content to display a slideshow of images, or a presentation in PDF or Powerpoint.
 
-## Usage
+## Use in Compositeur Digital
 
 With a slideshow you can :
 
