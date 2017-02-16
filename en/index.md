@@ -1,7 +1,7 @@
 # Documentation
 
 ### [Getting started](gettingstarted.md)
-Set up and run *Compositeur Digital*.
+Setting up and r *Compositeur Digital*.
 
 ### [Usage overview](use.md)
 Discover how to present and explore your documents.
