@@ -77,41 +77,37 @@ Every parameter is written in the form `<param name="parameterName" value="param
  - `FavoritesDestinationPath` folder path where favorites will be saved
  - `DisablePrint` disable print
  - `DisableAnnotation` disable annotations
- 
- -----
- 
- - `UseLegacyTouchEvents` force l'utilisation des évènements tactiles Windows 7 si est à "true"
- - `DisplayOnSecondaryScreen` quand vaut "true" : si deux écrans sont détéctés, ouvre le compositeur digital sur l'écran secondaire
- - `DisableBlankSheet` si est à "true", masque le bouton de partage rapide sur les documents
- - `DisablePostIt` si est à "true", désactive le mécanisme de favoris/panier : masque le bouton d'ouverture des favoris dans la barre de menu et les boutons d'ajout/suppression des documents
- - `DisableFastShare` si est à "true", masque le bouton de création d'une nouvelle feuille blanche
- - `DisableFavorites` si est à "true", masque le bouton de création d'un nouveau post-it
+ - `UseLegacyTouchEvents` if true, force the use of Windows 7 touch events
+ - `DisplayOnSecondaryScreen` if true and two screen are detected, use the secondary screen
+ - `DisableFastShare` if true hides the fast share button on all documents
+ - `DisableFavorites` disable the document basket/favorites mecanism.
+ - `DisableBlankSheet` hides the blanksheet creation button
+ - `DisablePostIt` hides the note creation button
 
 *Favorites.xml*
- - `FolderName` par défaut : panier
- - `ContactInfos` contient la liste des champs à afficher lors de la sauvegarde des favoris. Par défaut : <br />
+ - `FolderName` displayed name. By default : basket
+ - `ContactInfos` contains the list of field to display during saving. By default : <br />
     `<contactInfos><br />
-      <contactInfo key="true" label="nom" /><br />
+      <contactInfo key="true" label="name" /><br />
       <contactInfo label="email" /><br />
     </contactInfos><br />`
- - `FavoritesDestinationPath` chemin du dossier où enregistrer les favoris
- - `DisableFastShare` désactive le bouton de partage rapide si est à true
- - `DisableFavorites` désactive le mécanisme de favoris/panier si est à true : masque le bouton d'ouverture des favoris dans la barre de menu et les boutons d'ajout/suppression des documents
+ - `FavoritesDestinationPath` folder path where favorites document are saved
+ - `DisableFastShare` hides the fast share button on all documents
+ - `DisableFavorites` disable the document basket/favorites mecanism.
 
 *Page.xml*
- - `EnableMeasure` affiche le bouton de mesure parmi les annotations possibles si est à true
- - `DisableDuplicate` masque le bouton de duplication si est à true
- - `DisableSendBehind` masque le bouton d'envoi à l'arrière-plan si est à true
+ - `DisableDuplicate` hides the duplicate buttons
+ - `DisableSendBehind` hides the "send to background" buttons
 
 *Common.xml*
- - `AdditionalRootItemsFolderPaths` liste de répertoires supplémentaires dans lesquels le Compositeur Digital chargera des déclinaisons
- - `CacheDirectory` permet de spécifier un répertoire particulier où enregistrer les fichiers de cache 
+ - `AdditionalRootItemsFolderPaths` list of addional directories where to search universes
+ - `CacheDirectory` sets a folder permet de spécifier un répertoire particulier où enregistrer les fichiers de cache 
  
 
- ## <a name="valueKeys"></a>Données partagées entre les documents
- Certains types de documents permettent dans leur configuration de partager une donnée avec d'autres documents (c'est à dire de récupérer la valeur précédemment renseignée et de la modifier).
- Un mot clé commun renseigné pour un champ "valueKey" permettra de créer ce lien. Les clés par défaut sont modifiables dans l'onglet Profil du menu.
- Les clés déjà existantes sont :
+ ## <a name="valueKeys"></a>Shared data between documents
+ Some document types allow to share data with other documents (ie get a value previously saved and modify it)
+ A common keyword is used to create this link. The values of the default keys can be modified in the Profile panel of the menu.
+ The existing keys are :
   - `firstName`
   - `lastName`
   - `email`
@@ -119,4 +115,4 @@ Every parameter is written in the form `<param name="parameterName" value="param
   - `organization`
   - `finance.budget`
 
-[Revenir au menu](home.md)
+[Back to the menu](home.md)
