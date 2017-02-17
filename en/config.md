@@ -8,83 +8,78 @@ In the case of a file, it must be named with the file name followed by the suffi
 
 For example, for a file `1 - image.jpg`, the corresponding meta file needs to be named `1 - image_meta.txt`.
 
-In this file, every line (named `meta`) allow to describe a parameter.
+In this file, every line (named `meta`) allow to describe a parameter and is written in the form : `metaName = value`
 
----
+A binary meta (true or false) is then written `metaName = true`. It's default value is `false`. The values `1` (true) and `0` (false) can also be used.
 
-Une meta s'écrit sous la forme `nomDeLaMeta = valeur`
+To apply a comportment to a set of documents, use the `*.` suffix on every line and put the file at the root directory of all the concerned files.
 
-Une meta binaire (à valeur vrai ou faux) s'écrit donc : `nomDeLaMeta = true`. Par défaut, elle a pour valeur `false`. Les valeurs `1` (pour true) et `0` (pour false) peuvent également être utilisées.
-
-Pour appliquer un comportement à plusieurs documents en même temps il est possible de spécifier dans un fichier meta à la racine de l'ensemble des documents concernés et d'utiliser le suffixe `*.` pour chaque ligne.
-
-Exemple : `*.table.hideCommands = true`
+Example : `*.table.hideCommands = true`
 
 
-### Configuration d'un document :
-*Boutons :*
- - `table.hideCommands = true` permet de masquer les boutons de contrôle d'un document. Sur un slideshow les boutons précédents, suivant et diapositives disparaissent. Sur une vidéo, les boutons lecture/pause/muet et la barre de progression disparaissent.
- - `disablePrint = true` masque le bouton d'impression
- - `disableAnnotation = true` masque le bouton d'annotation
- - `enableMeasure = true` affiche le bouton de mesure parmi les annotations possibles
- - `disableDuplicate = true` masque le bouton de duplication
- - `disableSendBehind = true` masque le bouton d'envoi à l'arrière plan 
+### Document configuration :
+*Buttons :*
+ - `table.hideCommands = true` hides the control buttons of a document. On a slideshow, the buttons Next, Previous and Slides disappear. On a video, the buttons play/pause, mute and the progress bar disappear.
+ - `disablePrint = true` hides the print button
+ - `disableAnnotation = true` hides the annotation button
+ - `disableDuplicate = true` hides the duplicate button
+ - `disableSendBehind = true` hides the "send to background" button
 
 *Manipulation :*
- - `table.noRotate = true` empêche l'élément d'être tourné
- - `table.noScale = true` empêche l'élément d'être redimensionné
- - `table.noMove = true` empêche l'élément d'être déplacé (dans ce cas, il sera positionné au milieu de l'écran)
+ - `table.noRotate = true` inhibits the document rotation
+ - `table.noScale = true` inhibits the document resizing
+ - `table.noMove = true` inhibits the document moves (it will be opened in the middle of the screen)
 
-*Apparence :*
- - `Height = 400` fixe la hauteur du document
- - `Width = 400` fixe la largeur du document
- - `desiredHeight = 400` fixe la hauteur souhaitée du document
- - `desiredWidth = 400` fixe la largeur souhaitée du document
- - `minHeight = 400` fixe la hauteur minimale du document
- - `minWidth = 400` fixe la largeur minimale du document
- - `maxHeight = 400` fixe la hauteur maximale du document
- - `maxWidth = 400` fixe la largeur maximale du document
- - `table.hideChrome = true` supprime l'ombre du document et masque son menu et le bouton fermer
- - `table.alwaysBehind = true` force le document à rester à l'arrière-plan, derrière les autres documents
- - `name = toto` permet de modifier le nom du document qui sera affiché
- - `hideLinkLabel = true` masque le nom partout où il doit être affiché
- - `orientation = 90` fait pivoter le document de l'angle spécifié. `-90`  pour pivoter à gauche, `90` pour pivoter à droite ou `180` pour retourner
+*Appearence :*
+ - `desiredHeight = 400` sets the default height of the document
+ - `desiredWidth = 400` sets the default width of the document
+ - `minHeight = 400` sets the minimum height
+ - `minWidth = 400` sets the minimum width
+ - `maxHeight = 400` sets the maximum height
+ - `maxWidth = 400` sets the maximum width
+ - `table.hideChrome = true` hides the shadow, the menu and the close button of a document
+ - `table.alwaysBehind = true` force the document to stay on the background, behind the other documents
+ - `name = toto` change the displayed name of a document
+ - `hideLinkLabel = true` hide the name of a document
+ - `orientation = 90` rotate the document by the specified angle : `-90` to turn left, `90` to turn right or `180`  pour retourner
  
-### Paramètres de déclinaison
-*Apparence*
- - `themeColor = 9c211f` force la couleur du thème, qui est par défaut calculée en moyennant la couleur de l'image d'arrière-plan
+### Universe parameters
+*Appearence*
+ - `themeColor = 9c211f` sets the theme color, which is by default computed from the average color of the background
 
-*Boutons de la barre de menu :*
- - `disableGoBack = true` masque le bouton de retour
- - `disableReset = true` masque le bouton de réinitialisation
- - `disableQuit = true` masque le bouton quitter
- - `disableHelp = true` masque le bouton d'aide
- - `disableContactUs = true` masque le bouton de contact
+*Buttons :*
+ - `disableGoBack = true` hides the back button
+ - `disableReset = true` hides the reset button
+ - `disableQuit = true` hides the quit button
+ - `disableHelp = true` hides the help button
+ - `disableContactUs = true` hides the contact button
 
-*Favoris :*
- - `favorites.disableFastShare = true` masque le bouton de partage rapide sur les documents
- - `favorites.disableFavorites = true` désactive le mécanisme de favoris/panier : masque le bouton d'ouverture des favoris dans la barre de menu et les boutons d'ajout/suppression des documents
+*Favorites :*
+ - `favorites.disableFastShare = true` hides the fast share button on all documents
+ - `favorites.disableFavorites = true` disable the document basket/favorites mecanism.
 
-*Outils Papiers :*
- - `paper.disableBlankSheet = true` masque le bouton de création d'une nouvelle feuille blanche
- - `paper.disablePostIt = true` masque le bouton de création d'un nouveau post-it
+*Paper tools :*
+ - `paper.disableBlankSheet = true` hides the blanksheet creation button
+ - `paper.disablePostIt = true` hides the note creation button
 
 
-## <a name="configFiles"></a>Fichiers de configuration
-Chaque paramètre s'écrit sous la forme `<param name="nomDuParamètre" value="valeurDuParamètre, deuxièmeValeurFacultative, troisième, etc" />`
+## <a name="configFiles"></a>Configuration files
+Every parameter is written in the form `<param name="parameterName" value="parameterValue, secondOptionalValue, third, etc" />`
 
 *App.xml*
 
- - `HomePage` par défaut : Table 
- - `DemoItems` adresse vers les fichiers de démonstration à télécharger (par défaut http://www.compositeurdigital.com/demo/contents/config.json ) Peut être une adresse vers une resource embarquée (ex : /Compositeur Digital;component/DemoContent.zip)
- - `ExplicitPlugins` liste des dll de plugins à utiliser
- - `ResetOnItemLoading` réinitialise au chargement d'une déclinaison
- - `ExtraButtons` boutons à afficher dans le sous menu "plus". Par défaut : GoBack, Reset, Quit, Help, ContactUs
- - `KioskMode` passe en mode kiosque si est à true : désactive tous les extrabuttons (sauf GoBack si il y a plusieurs déclinaisons)
- - `AutoResetInterval` en mode kiosque seulement : intervalle en minutes entre la dernière action utilisateur détectée et la réinitialisation automatique
- - `FavoritesDestinationPath` chemin du dossier où enregistrer les favoris
- - `DisablePrint` désactive l'impression si est à true
- - `DisableAnnotation` désactive l'annotation si est à true
+ - `HomePage` by default : Table 
+ - `DemoItems` adress of the demo content (by default http://www.compositeurdigital.com/demo/contents/config.json ) Can be the adress of an embedded resource (ex : /Compositeur Digital;component/DemoContent.zip)
+ - `ExplicitPlugins` list of dll plugins to use
+ - `ResetOnItemLoading` reset the environment on universe loading
+ - `KioskMode` set the kiosk mode. Hides all menus and the quit button (except if there is several universes)
+ - `AutoResetInterval` in kiosk mode only : delay in minutes between the last user action detected an the automatic reset
+ - `FavoritesDestinationPath` folder path where favorites will be saved
+ - `DisablePrint` disable print
+ - `DisableAnnotation` disable annotations
+ 
+ -----
+ 
  - `UseLegacyTouchEvents` force l'utilisation des évènements tactiles Windows 7 si est à "true"
  - `DisplayOnSecondaryScreen` quand vaut "true" : si deux écrans sont détéctés, ouvre le compositeur digital sur l'écran secondaire
  - `DisableBlankSheet` si est à "true", masque le bouton de partage rapide sur les documents
