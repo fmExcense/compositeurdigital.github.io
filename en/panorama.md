@@ -1,4 +1,4 @@
-# 3D panorama
+d# 3D panorama
 
 Use this type of document to display a 360° view of a scene such as a landscape or the interior of a building.
 
@@ -28,4 +28,4 @@ Place a single image or video with the spherical projection of the scene in the 
 Place the 6 images corresponding to the cubic projection of the scene in the folder. 
 
 
-By efault the field of view is set to 110°. You may change this value with the meta `panorama.FieldOfView`. See [Advanced configuration](config.md) for instruction on how to set meta values.
+By default the field of view is set to 110°. You may change this value with the meta `panorama.FieldOfView`. See [Advanced configuration](config.md) for instruction on how to set meta values.
