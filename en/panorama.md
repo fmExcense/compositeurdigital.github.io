@@ -1,23 +1,31 @@
-# Panorama 3D
+# 3D panorama
 
-Utilisez ce type de contenu pour afficher un point de vue panoramique d'un paysage ou de l'intérieur d'un bâtiment.
+Use this type of document to display a 360° view of a scene such as a landscape or the interior of a building.
 
-## Utilisation
+## Use in Compositeur Digital
 
-Vous pouvez :
-- Appuyer sur le bouton central pour activer la navigation<br/>
+With a 3D panorama you can:
+
+- Press the central button to start looking around<br/>
 ![panorama activation](img/panorama_activation.jpg)
 
-- Orienter la vue en glissant votre doigt sur le document
-- Déplacer/Zoomer le document sans désactiver la navigation en utilisant 2 doigts
-- Désactiver la navigation à l'aide du bouton présent dans le menu, afin de revenir à la manipulation "classique" des documents
+- Move your finger on the screen to look around
+- Move and scale the view using two fingers
+- Deactivate the view manipulation using the dedicated button on the bottom right (next to the document menu)</br>
 ![panorama deactivation](img/panorama_desactivation.jpg)
 
-## Administration
+## Content management
 
-- Extension de dossier : `panorama`
-- Extension de fichier dans le dossier : `jpg`, `png`
-- Une seule image est supportée à l'intérieur du dossier. Elle doit être issue d'une projection sphérique de la scène. 
-- L'angle de vue par défaut est de 110. Pour le modifier vous devez renseigner la valeur de la meta "panorama.FieldOfView" : le fonctionnement des meta est décrit dans la section [Configuration avancée](config.md).
+- Folder extension: `panorama`
+- Supported extensions in the folder: `jpg`, `png`, `wmv`, `mp4`, `avi`, `mpg`, `mov`, `mpeg`, `ts`, `flv`.
 
-[Revenir au différents Types de contenus](content_types.md)
+### Spherical projection
+
+Place a single image or video with the spherical projection of the scene in the folder.
+
+### Cubic projection
+
+Place the 6 images corresponding to the cubic projection of the scene in the folder. 
+
+
+By efault the field of view is set to 110°. You may change this value with the meta `panorama.FieldOfView`. See [Advanced configuration](config.md) for instruction on how to set meta values.
