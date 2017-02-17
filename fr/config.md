@@ -14,7 +14,7 @@ Une meta s'écrit sous la forme `nomDeLaMeta = valeur`
 
 Une meta binaire (à valeur vrai ou faux) s'écrit donc : `nomDeLaMeta = true`. Par défaut, elle a pour valeur `false`. Les valeurs `1` (pour true) et `0` (pour false) peuvent également être utilisées.
 
-Pour appliquer un comportement à plusieurs documents en même temps il est possible de spécifier dans un fichier meta à la racine de l'ensemble des documents concernés et d'utiliser le suffixe `*.` pour chaque ligne.
+Pour appliquer un comportement à plusieurs documents en même temps, écrire le suffixe `*.` pour chaque ligne et placer le fichier dans le dossier contenant tous les documents concernés.
 
 Exemple : `*.table.hideCommands = true`
 
