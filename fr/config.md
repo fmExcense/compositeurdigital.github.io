@@ -81,10 +81,10 @@ Chaque paramètre s'écrit sous la forme `<param name="nomDuParamètre" value="v
  - `DisableAnnotation` désactive l'annotation si est à true
  - `UseLegacyTouchEvents` force l'utilisation des évènements tactiles Windows 7 si est à "true"
  - `DisplayOnSecondaryScreen` quand vaut "true" : si deux écrans sont détéctés, ouvre le compositeur digital sur l'écran secondaire
- - `DisableBlankSheet` si est à "true", masque le bouton de partage rapide sur les documents
- - `DisablePostIt` si est à "true", désactive le mécanisme de favoris/panier : masque le bouton d'ouverture des favoris dans la barre de menu et les boutons d'ajout/suppression des documents
- - `DisableFastShare` si est à "true", masque le bouton de création d'une nouvelle feuille blanche
- - `DisableFavorites` si est à "true", masque le bouton de création d'un nouveau post-it
+ - `DisableFastShare` si est à "true", masque le bouton de partage rapide sur les documents
+ - `DisableFavorites` si est à "true", désactive le mécanisme de favoris/panier : masque le bouton d'ouverture des favoris dans la barre de menu et les boutons d'ajout/suppression des documents
+ - `DisableBlankSheet` si est à "true", masque le bouton de création d'une nouvelle feuille blanche
+ - `DisablePostIt` si est à "true", masque le bouton de création d'une nouvelle note
 
 *Favorites.xml*
  - `FolderName` par défaut : panier
@@ -109,7 +109,7 @@ Chaque paramètre s'écrit sous la forme `<param name="nomDuParamètre" value="v
 
  ## <a name="valueKeys"></a>Données partagées entre les documents
  Certains types de documents permettent de partager des données avec d'autres documents (c'est à dire de récupérer les valeurs précédemment renseignées et de les modifier).
- Un mot clé commun renseigné pour un champ "valueKey" permettra de créer ce lien. Les clés par défaut sont modifiables dans l'onglet Profil du menu.
+ Un mot clé commun renseigné pour un champ "valueKey" permettra de créer ce lien. La valeur des clés par défaut sont modifiables dans l'onglet Profil du menu.
  Les clés déjà existantes sont :
   - `firstName`
   - `lastName`
