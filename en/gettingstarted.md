@@ -19,7 +19,7 @@ _Minimum System requirements: Intel Core i5 3rd generation_
 
 The Compositeur Digital will start automatically after the installation procedure is completed.
 
-1. When started, the application will suggest to download our demo content. Click on `download` 
+1. When started, the application will suggest to download some demo content. Click on `download` 
 2. When completed, the application will display three demo environments. Click on any of it to enter   
 
 You can now move to the [Usage overview](use.md) section.
