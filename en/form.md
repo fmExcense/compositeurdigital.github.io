@@ -1,46 +1,44 @@
-# Formulaire
+# Fill-in forms
 
-Utilisez ce type de contenu pour proposer un questionnaire simple à vos clients et garder la trace de toutes les réponses.
+Use fill-in forms to gather information from users with a simple survey form. All answers will be stored on the computer. 
 
-## Utilisation
+## Use in Compositeur Digital
 
-Vous pouvez :
-- remplir les champs de texte à l'aide d'un clavier physique ou du clavier virtuel
-- cocher/décocher les cases des questions à choix multiple
-- appuyer sur le bouton `Enregistrer` pour enregistrer les informations renseignées et vider le formulaire
+With fill-in forms, you can:
+- type in text fields with a physical or virtual keyboard
+- toggle checkboxes to answer multiple-choice questions or select from a set of options
+- press the `Save` button on the bottom right to save the form data on disk and clear the form
 
 ![Aperçu du formulaire](img/form_preview.jpg)
 
-## Administration
+## Content management
 
-- Extension de dossier : `form`
-- Fichier image optionnel '_background' permettant de personnaliser le fond du questionnaire
-- Fichier de paramétrage à l'intérieur du dossier : `_questions.csv`
+- Folder extension : `form`
+- optional '_background' image file for customizing the form appearance
+- form description file in the folder: `_questions.csv`
 
-Ce dernier document est au format CSV (avec séparateur `;`) : vous pouvez utiliser un tableur comme Microsoft Excel pour l'éditer.
-Il contient les questions qui seront affichées dans le formulaire. Chaque ligne correspond à une question.
+The form description file in a CSV file (*comma-separated values* with `;` as delimiter): it is editable with a sreadsheet application such as Microsoft Excel.
+This file contains the list of questions that will appear in the form, each line representing one question.
 
-Voici le fichier qui permet d'obtenir le formulaire de l'aperçu précédent :
+Here is a sample file the produces the form above:
 
 ![Aperçu du fichier _questions.csv](img/form_csv.jpg)
 
-### Format des lignes du tableau :
+### Line format:
 
-- 1ère case : type de question
-- 2ème case : intitulé de la question
-- les cases suivantes : réponses possibles pour les questions à choix multiple
+- 1st cell: question type
+- 2nd cell: question text
+- following celles: available answers for multiple choice question
 
-### Types de questions
+### Question types
 
-- `text` : une réponse libre est attendue (dans le champ de texte associé)
-- `single` : un seul choix possible parmi les réponses
-- `multiple` : plusieurs choix possibles parmi les réponses
+- `text`: text entry with the physical or virtual keyboard
+- `single`: select only one choice from the possible answers
+- `multiple`: select multiple answers from the list
 
-### Résultats
-Vous pouvez consulter les résultats du formulaire dans le dossier `Mes Documents \ Compositeur Digital Formulaire`.	
-Les fichiers de résultats sont nommés selon leur origine (nom de la déclinaison, arborescence éventuelle, puis nom du formulaire). 
-Lorsque vous modifiez le fichier `_questionss.csv` et si les questions ont changé, les enregistrements de résultats se feront dans un nouveau fichier (ajout d'un numéro au nom du fichier) afin de ne pas écraser les anciens résultats.
-Une nouvelle ligne de résultat est enregistrée à chaque fois que l'on appuie sur le bouton `Enregistrer`.
+### Results
 
-<br />
-[Revenir au différents Types de contenus](content_types.md)
+Results are savec on disk in the `Documents \ Compositeur Digital Form` folder.	
+In this file a line with all the selected answer is added each time the `Save` button in pressed on the form.
+
+[RBack to supported types](content_types.md)
