@@ -103,8 +103,8 @@ Every parameter is written in the form `<param name="parameterName" value="param
  - `AdditionalRootItemsFolderPaths` list of addional directories where to search universes
  - `CacheDirectory` sets a folder permet de spécifier un répertoire particulier où enregistrer les fichiers de cache 
  
-
  ## <a name="valueKeys"></a>Shared data between documents
+ 
  Some document types allow to share data with other documents (ie get a value previously saved and modify it)
  A common keyword is used to create this link. The values of the default keys can be modified in the Profile panel of the menu.
  The existing keys are :
