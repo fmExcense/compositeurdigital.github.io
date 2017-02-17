@@ -1,146 +1,109 @@
 # Quiz
 
-Utilisez ce type de contenu pour proposer un questionnaire simple à vos clients et garder la trace de toutes les réponses.
+Use this type of content to guide users through a series of questions and store the resulting information.
 
-## Utilisation
-Vous pouvez naviguer entre les différentes pages du quiz à l'aide des flèches `<` et `>`
-En fonction des différentes pages sur lesquels vous êtes, vous pouvez également :
- - sélectionner ou désélectionner une réponse
- - déplacer un curseur
- - remplir des champs texte
- - ouvrir un document associé
+## Use in Compositeur Digital
 
-## Administration
+You can navigate to the previous and next page using the `<` and `>` arrows on the sides.
+Depending on the type of page you can:
+ - select an deselect an answer
+ - move a slider
+ - type in some text
+ - open a linked document
 
-- Extension de dossier : `quiz` ou `quizz`
-- Fichier image optionnel `_background` permettant de personnaliser le fond du quiz
-- Les éventuels documents que l'on souhaitera ouvrir depuis le quiz
-- Un dossier `_meta` contenants les images utilisées dans le quiz
-- Fichier de paramétrage  : `_questions.xml`
+## Content management
 
-Ce dernier document est au format XML : vous pouvez par exemple utiliser le Bloc-notes de windows pour l'ouvrir. Il contient le détail des pages du quiz.
+- Folder extension: `quiz`
 
-### Le format XML
+The quiz folder contains:
 
-Ce format permet de présenter des éléments sous forme hiérarchisée : un élément peut contenir d'autres éléments qui eux même peuvent en contenir d'autres.
-Chaque élément s'écrit avec des `balises` :
- - soit avec une balise unique : 
-   ```xml
-   <nomDeMonElement />
-   ```
- - soit avec une balise ouvrante puis une balise fermante : 
-   ```xml
-   <nomDeMonElement> </nomDeMonElement>
-   ```
+- Optional `_background` image file to customize the quiz appearance
+- Optional documents linked in the quiz
+- A `_meta` containing all images used in the different pages
+- The configuration file: `_questions.xml`
 
- La deuxième écriture permet de renseigner le contenu de l'élément, en le plaçant entre la balise ouvrante et la balise fermante. Ce contenu peut être : 
-  - un simple texte :
-    ```xml
-    <element>contenu de mon élément</element>
-    ```
-  - ou une liste d'autres éléments :
-  	```xml
-	<elementPère>
-	    <elementFils1 />
-	    <elementFils2 />
-	    <elementFils3 />
-	</elementPère>
-	```
+The configuration file describes the quiz itself, page by page. It is formatted in XML: edit it with Notepad or another text editor.
 
-Chaque élément peut contenir des `attributs` permettant de modifier ses paramètres. On les écrit comme ceci : `nomDeMonAttribut="maValeur"` et on les place à l'intérieur de la balise ouvrante (ou de la balise unique), après le nom de l'élément :
-```xml
-<element nomDeMonAttribut="maValeur" />
-```
-```xml
-<element nomDeMonAttribut="maValeur" > </element>
-```
 
-### Organisation du fichier de paramétrage
+### Configuration file structure
 
-Tout le contenu du document se trouve à l'intérieur d'une balise `quizz`. Celle-ci contient deux éléments : `sections` et `pages`, contenant respectivement la liste des sections et la liste des pages.
+The Quiz file consists of two parts:  `sections` and `pages`.
 Organisation générale du fichier :
 ```xml
 <quizz>
     <sections>
-        liste des sections
+        list of sections
     </sections>
     <pages>
-        liste des pages
+        list of pages
     </pages>
 </quizz>
 ```
 
-Les pages correspondent aux écrans qui pourront s'afficher dans le quiz. Les sections permettent de regrouper des pages sous un même nom. 
+Pages represent each a question. Sections let you group pagesLes sections permettent de regrouper des pages sous un même nom. 
 
-### Les Sections
+### Sections
+Set the section display name in a `section` tag and use the attribute `id` to set the reference name for the section.
 
-Le nom d'une section doit être placé en tant que contenu, entre la balise ouvrante et la fermante. C'est cette valeur qui sera affichée dans le quiz sur la page de cette section.
-Une section possède un attribut nommé `id` qui permettra de faire une référence à cette section. C'est sont identifiant. Cette valeur ne sera jamais affichée mais juste utilisée pour lier des pages à cette section.
-
-exemple :
 ```xml
 <section id="intro">1. INTRODUCTION</section>
 ```
 
-### Les Pages
-Ils existe différents types de pages que vous pourrez afficher dans le quiz en fonctions de vos besoins, mais elles possèdent des propriétés communes :
- - un attribut `sectionId` : cet attribut permet d'associer la page à une section, en utilisant la même valeur que celle renseignée dans l'attribut id de la section. Il est fortement conseillé de spécifier la section sur chaque page afin de garantir un comportement cohérent de la barre de progression.
- - un attribut `id` : tout comme les sections, on peut donner un identifiant à une page pour pouvoir y faire référence. Si vous n'avez pas besoin de faire référence à une page, il n'est donc pas nécessaire de renseigner cet attribut pour cette page.
- - un attribut `nextPageId` : il permet d'indiquer quelle page devra suivre celle-ci, en utilisant la même valeur que celle renseignée dans l'attribut id de la page. Cet attribut est facultatif : par défaut le quiz suivra l'ordre dans lequel sont écrites les pages dans le fichier.
+### Pages
+You can add different page types to a quiz. All pages have the following in common:
+ - a `sectionId` attribute: assign a page to a section. The section name will appear on top of the quiz page.
+ - an `id` attribute: optional identifier for referencing the page.
+ - a `nextPageId` attribute: optional reference to the page that shoud be displayed next. If not set, the next page in the file will nbe used. 
 
-### Début et fin
-La première page qui sera affichée dans le quiz sera la première de la liste des pages.
-Par défaut, la dernière page de la liste sera également la dernière à pouvoir être affichée, cependant il est possible d'avoir plusieurs pages de fin en fonction des réponses choisies aux questions.
-Pour indiquer qu'une page termine le quiz il suffit de renseigner son attribut `nextPageId` avec la valeur spécifique `@end`.
+### 
+The first page in the list will always be the first displayed.
+The last page will by default be the last displayed page.
+To indicate that a page should end the quiz, set the `nextPageId` attribute to the specific value `@end`.
 
-### Les différents types de page
-#### Le Type `questionPage`
-Ce type permet d'afficher une question (un texte ou une image) et une liste de réponses possibles (textes ou images). Ce n'est qu'une fois une réponse sélectionnée que l'on pourra passer à la page suivante.
-Il possède 3 attributs possibles :
- - `label` : la question textuelle à afficher. Si cet attribut est renseigné l'attribut visual ne sera pas utilisé.
- - `visual` : le nom de l'image à afficher en tant que question (sans son extension). Celle-ci doit être placée dans le dossier `_meta` du quiz
- - `allowMultiple` : cet attribut facultatif permet d'autoriser la sélection de plusieurs réponses quand il a pour valeur `true`. La valeur est `false` par défaut.
+### Page types
+#### `questionPage`
+This page type lets you create a question with a list of possible answers that must be selected befor being able to go to the next page.
 
-Une `questionPage` prend en contenu la liste de réponses possible. Ces réponses peuvent être de deux types :
- - des `answer`, des réponses textuelles qui prennent en contenu le texte de la réponse :
+Here are the attributes for `questionPage`:
+ - `label`: text of the question. Takes precedence over `visual`.
+ - `visual`: name of the question image file (without extension). The file must exist in the `_meta` folder.
+ - `allowMultiple`: set to `true` to allow the selection of multiple answer.
+
+The content of the `questionPage` is the list of answer, which can be of to types:
+ - text answers, with the tag `answer`:
  ```xml
- <answer>ma réponse</answer>
+ <answer>my answer</answer>
  ```
- - des `imageAnswer`, des réponses images. On spécifie le nom de l'image à utiliser (celle-ci devra être dans le dossier `_meta` du quiz) dans l'attribut `visual` :
+ - visual answers, with the tag `imageAnswer`. Set attribute `visual` to the name of the image (without extension) in the `_meta` folder:
    ```xml
    <imageAnswer visual="image 2"/>
    ```
-   Si besoin, on pourra afficher un texte en bas de l'image en plaçant ce texte en tant que contenu de l'élément :
+   optionally you can set a caption:
    ```xml
-   <imageAnswer visual="image 2">ma légende</imageAnswer>
+   <imageAnswer visual="image 2">my caption</imageAnswer>
    ```
+It is not possible to mix text answers with visual answers.
 
-Il n'est pas possible de mélanger des réponses de type texte à des réponses de type image dans une même question.
+Set the `nextPageId` attribute on an answer to jump to a specific page if the user selects that answer and create branches to your quiz:
 
-Afin de pouvoir adapter le quiz à l'utilisateur, il est possible de spécifier des parcours différents en fonction de la réponse sélectionnée. Il faut pour cela spécifier l'attribut `nextPageId` sur la réponse, en l'utilisant de la même manière que l'attribut `nextPageId` d'une page : en mettant en valeur l' `id` de la page qui doit suivre.
-
-exemples :
 ```xml
-<questionPage sectionId="section 2" label="A quelle question voulez-vous répondre ensuite ?">
-	<answer>la question suivante</answer>
-	<answer nextPageId="question A">la question A</answer>
-	<answer nextPageId="question B">la question B</answer>
+<questionPage id="Q1" sectionId="section 2" label="To which aquestion do you wish to answer ?" >
+	<answer>The next question</answer>
+	<answer nextPageId="Q1">This one again</answer>
+	<answer nextPageId="Q3">Skip one please</answer>
 </questionPage>
-![questionPage textAnswer](img/questionpage_answer.jpg)
 
-
-<questionPage id="B1" sectionId="section 3" label="Nature du bien">
-	<imageAnswer visual="maison">  
-	<imageAnswer visual="appartement" />
-	<imageAnswer visual="terrain seul">Terrain seul</imageAnswer>
-	<imageAnswer visual="construction seule">Construction seule</imageAnswer>
-	<imageAnswer visual="terrain et construction">Terrain et construction</imageAnswer>
-
+<questionPage id="Q2" sectionId="section 3" label="The next question">
+	...
+</questionPage>	
+	
+<questionPage id="Q3" sectionId="section 3" label="The last question">
+	...
 </questionPage>
 ```
 ![questionPage imageAnswer](img/questionpage_imageanswer.jpg)
 
-#### Le Type `page`
+#### `page`
 Ce type de page très simple permet d'afficher un titre ou une image. Pour cela remplissez l'un des 2 attributs suivants :
  - `label` : le titre à afficher
  - `visual` : le nom de l'image à afficher (sans son extension). Celle-ci doit être placée dans le dossier `_meta` du quiz
