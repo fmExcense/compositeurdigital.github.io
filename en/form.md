@@ -41,4 +41,4 @@ Here is a sample file the produces the form above:
 Results are savec on disk in the `Documents \ Compositeur Digital Form` folder.	
 In this file a line with all the selected answer is added each time the `Save` button in pressed on the form.
 
-[RBack to supported types](content_types.md)
+[Back to supported types](content_types.md)
