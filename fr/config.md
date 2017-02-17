@@ -89,10 +89,10 @@ Chaque paramètre s'écrit sous la forme `<param name="nomDuParamètre" value="v
 *Favorites.xml*
  - `FolderName` par défaut : panier
  - `ContactInfos` contient la liste des champs à afficher lors de la sauvegarde des favoris. Par défaut : <br />
-    `<contactInfos><br />
-      <contactInfo key="true" label="nom" /><br />
-      <contactInfo label="email" /><br />
-    </contactInfos><br />`
+    `<contactInfos>
+      <contactInfo key="true" label="nom" />
+      <contactInfo label="email" />
+    </contactInfos>`
  - `FavoritesDestinationPath` chemin du dossier où enregistrer les favoris
  - `DisableFastShare` désactive le bouton de partage rapide si est à true
  - `DisableFavorites` désactive le mécanisme de favoris/panier si est à true : masque le bouton d'ouverture des favoris dans la barre de menu et les boutons d'ajout/suppression des documents
