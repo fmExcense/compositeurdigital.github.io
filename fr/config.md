@@ -21,10 +21,9 @@ Exemple : `*.table.hideCommands = true`
 
 ### Configuration d'un document :
 *Boutons :*
- - `table.hideCommands = true` permet de masquer les boutons de contrôle d'un document. Sur un slideshow les boutons précédents, suivant et diapositives disparaissent. Sur une vidéo, les boutons lecture/pause/muet et la barre de progression disparaissent.
+ - `table.hideCommands = true` permet de masquer les boutons de contrôle d'un document. Sur un slideshow les boutons précédents, suivant et diapositives disparaissent. Sur une vidéo, les boutons lecture/pause, muet et la barre de progression disparaissent.
  - `disablePrint = true` masque le bouton d'impression
  - `disableAnnotation = true` masque le bouton d'annotation
- - `enableMeasure = true` affiche le bouton de mesure parmi les annotations possibles
  - `disableDuplicate = true` masque le bouton de duplication
  - `disableSendBehind = true` masque le bouton d'envoi à l'arrière plan 
 
@@ -34,10 +33,8 @@ Exemple : `*.table.hideCommands = true`
  - `table.noMove = true` empêche l'élément d'être déplacé (dans ce cas, il sera positionné au milieu de l'écran)
 
 *Apparence :*
- - `Height = 400` fixe la hauteur du document
- - `Width = 400` fixe la largeur du document
- - `desiredHeight = 400` fixe la hauteur souhaitée du document
- - `desiredWidth = 400` fixe la largeur souhaitée du document
+ - `desiredHeight = 400` fixe la hauteur à l'ouverture du document
+ - `desiredWidth = 400` fixe la largeur à l'ouverture du document
  - `minHeight = 400` fixe la hauteur minimale du document
  - `minWidth = 400` fixe la largeur minimale du document
  - `maxHeight = 400` fixe la hauteur maximale du document
@@ -48,11 +45,11 @@ Exemple : `*.table.hideCommands = true`
  - `hideLinkLabel = true` masque le nom partout où il doit être affiché
  - `orientation = 90` fait pivoter le document de l'angle spécifié. `-90`  pour pivoter à gauche, `90` pour pivoter à droite ou `180` pour retourner
  
-### Paramètres de déclinaison
+### Paramètres des univers
 *Apparence*
  - `themeColor = 9c211f` force la couleur du thème, qui est par défaut calculée en moyennant la couleur de l'image d'arrière-plan
 
-*Boutons de la barre de menu :*
+*Boutons :*
  - `disableGoBack = true` masque le bouton de retour
  - `disableReset = true` masque le bouton de réinitialisation
  - `disableQuit = true` masque le bouton quitter
@@ -65,7 +62,7 @@ Exemple : `*.table.hideCommands = true`
 
 *Outils Papiers :*
  - `paper.disableBlankSheet = true` masque le bouton de création d'une nouvelle feuille blanche
- - `paper.disablePostIt = true` masque le bouton de création d'un nouveau post-it
+ - `paper.disablePostIt = true` masque le bouton de création d'une nouvelle note
 
 
 ## <a name="configFiles"></a>Fichiers de configuration
@@ -76,9 +73,8 @@ Chaque paramètre s'écrit sous la forme `<param name="nomDuParamètre" value="v
  - `HomePage` par défaut : Table 
  - `DemoItems` adresse vers les fichiers de démonstration à télécharger (par défaut http://www.compositeurdigital.com/demo/contents/config.json ) Peut être une adresse vers une resource embarquée (ex : /Compositeur Digital;component/DemoContent.zip)
  - `ExplicitPlugins` liste des dll de plugins à utiliser
- - `ResetOnItemLoading` réinitialise au chargement d'une déclinaison
- - `ExtraButtons` boutons à afficher dans le sous menu "plus". Par défaut : GoBack, Reset, Quit, Help, ContactUs
- - `KioskMode` passe en mode kiosque si est à true : désactive tous les extrabuttons (sauf GoBack si il y a plusieurs déclinaisons)
+ - `ResetOnItemLoading` réinitialise au chargement d'un univers
+ - `KioskMode` passe en mode kiosque si est à true : désactive tous les menus et le bouton "quitter" (sauf si il y a plusieurs univers)
  - `AutoResetInterval` en mode kiosque seulement : intervalle en minutes entre la dernière action utilisateur détectée et la réinitialisation automatique
  - `FavoritesDestinationPath` chemin du dossier où enregistrer les favoris
  - `DisablePrint` désactive l'impression si est à true
@@ -112,7 +108,7 @@ Chaque paramètre s'écrit sous la forme `<param name="nomDuParamètre" value="v
  
 
  ## <a name="valueKeys"></a>Données partagées entre les documents
- Certains types de documents permettent dans leur configuration de partager une donnée avec d'autres documents (c'est à dire de récupérer la valeur précédemment renseignée et de la modifier).
+ Certains types de documents permettent de partager des données avec d'autres documents (c'est à dire de récupérer les valeurs précédemment renseignées et de les modifier).
  Un mot clé commun renseigné pour un champ "valueKey" permettra de créer ce lien. Les clés par défaut sont modifiables dans l'onglet Profil du menu.
  Les clés déjà existantes sont :
   - `firstName`
