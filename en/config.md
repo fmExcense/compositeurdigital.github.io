@@ -63,7 +63,7 @@ Example : `*.table.hideCommands = true`
  - `paper.disablePostIt = true` hides the note creation button
 
 
-## <a name="configFiles"></a>Configuration files
+## Configuration files
 Every parameter is written in the form `<param name="parameterName" value="parameterValue, secondOptionalValue, third, etc" />`
 
 *App.xml*
@@ -87,10 +87,10 @@ Every parameter is written in the form `<param name="parameterName" value="param
 *Favorites.xml*
  - `FolderName` displayed name. By default : basket
  - `ContactInfos` contains the list of field to display during saving. By default : <br />
-    `<contactInfos><br />
-      <contactInfo key="true" label="name" /><br />
-      <contactInfo label="email" /><br />
-    </contactInfos><br />`
+    `<contactInfos>
+      <contactInfo key="true" label="name" />
+      <contactInfo label="email" />
+    </contactInfos>`
  - `FavoritesDestinationPath` folder path where favorites document are saved
  - `DisableFastShare` hides the fast share button on all documents
  - `DisableFavorites` disable the document basket/favorites mecanism.
