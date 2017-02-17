@@ -104,11 +104,10 @@ Set the `nextPageId` attribute on an answer to jump to a specific page if the us
 ![questionPage imageAnswer](img/questionpage_imageanswer.jpg)
 
 #### `page`
-Ce type de page très simple permet d'afficher un titre ou une image. Pour cela remplissez l'un des 2 attributs suivants :
- - `label` : le titre à afficher
- - `visual` : le nom de l'image à afficher (sans son extension). Celle-ci doit être placée dans le dossier `_meta` du quiz
+A simple page to display either text or an image:
+ - `label`: text to display
+ - `visual`: name of the image file to display (no extension, file present in `_meta` folder
 
- exemple :
 ```xml
 <page sectionId="intro" label="Ceci est un test"/>
 ```
@@ -116,22 +115,18 @@ Ce type de page très simple permet d'afficher un titre ou une image. Pour cela 
 ![page image](img/page_image.jpg)
 
 
+#### `infoPage`
+Display a simple form in which the user can type in some information. Add `info` tags with the `label` attribute.
 
-#### Le Type `infoPage`
-Ce type de page permet d'afficher un petit formulaire pour récupérer quelques informations simples sur la personne répondant au quiz.
-Il est possède d'un attribut facultatif `label` qui permet d'afficher un texte ou une question au-dessus du formulaire.
-Pour chaque champ texte que vous souhaitez afficher vous devez ajouter dans le contenu de cette page un élément `info`, en précisant son attribut `label` pour indiquer le nom du champ.
-
-exemple :
 ```xml
-<infoPage sectionId="intro" label="Veuillez renseigner les informations suivantes">
-	<info label="Nom"/>
-	<info label="Prénom"/>
+<infoPage sectionId="intro" label="Please fill out your identity">
+	<info label="Name"/>
+	<info label="Surname"/>
 </infoPage>
 ```
 ![infoPage](img/infopage.jpg)
 
-Afin de partager une donnée avec d'autres documents, vous pouvez utiliser l'attribut `valueKey` pour chaque élément `info` (voir [données partagées](config#valueKeys)).
+To share this information with other documents and the profile info, use the `valueKey` attribute on an `info` tag (see [shared data](config#valueKeys)).
 
 
 #### Le Type `numericSliderPage`
