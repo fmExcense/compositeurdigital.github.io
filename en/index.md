@@ -1,10 +1,10 @@
 # Documentation
 
 ### [Getting started](gettingstarted.md)
-Installing and running the *Compositeur Digital*.
+Installing and running *Compositeur Digital*.
 
 ### [Features overview](use.md)
-Discover how to interact with the content in the *Compositeur Digital*.  
+Discover how to interact with the content in *Compositeur Digital*.  
 
 ### [Content management](manage_contents.md)
 Adding and organizing content.
@@ -13,7 +13,7 @@ Adding and organizing content.
 List of supported content types and related actions.
 
 ### [Release notes](version_history.md)
-Description of new features and bug fixes for all versions of the *Compositeur Digital*  
+Description of new features and bug fixes for all versions of *Compositeur Digital*  
 
 ### Other
 
@@ -21,7 +21,7 @@ Description of new features and bug fixes for all versions of the *Compositeur D
 Advanced features description for powerusers.
 
 #### [Kiosk mode](kiosk_mode.md)
-Configuring the *Compositeur Digital* in self-service mode.
+Configuring *Compositeur Digital* in self-service mode.
 
 #### [cdigital://](cdigital_uri)
-Trigger actions in the *Compositeur Digital* from external applications or events such as web pages or NFC tags 
+Trigger actions in *Compositeur Digital* from external applications or events such as web pages or NFC tags 
