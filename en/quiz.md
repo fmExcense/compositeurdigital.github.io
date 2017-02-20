@@ -106,7 +106,7 @@ Set the `nextPageId` attribute on an answer to jump to a specific page if the us
 #### `page`
 A simple page to display either text or an image:
  - `label`: text to display
- - `visual`: name of the image file to display (no extension, file present in `_meta` folder
+ - `visual`: name of the image file to display (no extension, file present in `_meta` folder)
 
 ```xml
 <page sectionId="intro" label="Ceci est un test"/>
@@ -129,36 +129,34 @@ Display a simple form in which the user can type in some information. Add `info`
 To share this information with other documents and the profile info, use the `valueKey` attribute on an `info` tag (see [shared data](config#valueKeys)).
 
 
-#### Le Type `numericSliderPage`
-Ce type de page permet d'afficher un curseur à valeur numérique. Vous pouvez le paramétrer à l'aide des attributs suivants :
- - `label` : le titre ou la question à afficher.
- - `visual` : le nom de l'image à afficher en tant que question (sans son extension). Celle-ci doit être placée dans le dossier `_meta` du quiz
- - `min` : la valeur minimale sélectionnable
- - `max` : la valeur maximale sélectionnable
- - `minLabel` : (optionnel) : valeur affichée pour la valeur minimale
- - `maxLabel` : (optionnel) : valeur affichée pour la valeur maximale
- - `default` : (optionnel) la valeur sélectionnée par défaut au chargement de la page
- - `stepSize` : le "pas" de sélection (différence minimale entre deux valeurs du curseur)
- - `format` : permet de changer la manière d'afficher la valeur.
+#### `numericSliderPage`
+Displays a page with a single slider that lats users choose a bound numerical value:
+ - `label`: question text. Takes precedence over `visual`.
+ - `visual`: name of the image file to display (no extension, file present in `_meta` folder).
+ - `min`: minimum selectable value
+ - `max`: maximum selectable value
+ - `minLabel`: (optional) : specific display value for the minimum value
+ - `maxLabel`: (optional) : specific display value for the maximum value
+ - `default`: (optional) preselected value
+ - `stepSize`: difference between two steps of the cursor
+ - `format`: changes the way the valuye is displayed
 
- différentes valeurs possible pour format :
- - `N0` : un entier
- - `C0` : une valeur monétaire entière (sera suivi du symbole € sur un ordinateur français, précédé par un £ sur un ordinateur anglais, etc.)
+ Some possible formats are:
+ - `N0`: rounded value
+ - `C0`: rounded monetary value following the current locale (i.e. uses €, £, $, etc. where relevant)
 
-exemple :
 ```xml
-<numericSliderPage id="apport" sectionId="section 3" label="Votre budget " min="0" max="1000000" stepSize="5000" format="C0" valueKey="finance.budget" />
+<numericSliderPage id="funds" sectionId="section 3" label="Your available funds" min="0" max="5000000" stepSize="5000" format="C0" valueKey="finance.budget" />
 ```
 ![numericSliderPage](img/quiz_numericsliderpage.jpg)
 
-Afin de partager la valeur du curseur avec d'autres documents, vous pouvez ajouter un attribut `valueKey` à cette page (voir [données partagées](config#valueKeys)).
+To share this information with other documents and the profile info, use the `valueKey` attribute on an `info` tag (see [shared data](config#valueKeys)).
 
-  #### Le Type `labelSliderPage`
-Ce type de page permet d'afficher un curseur avec du texte. Vous pouvez le paramétrer à l'aide des attributs suivants :
+#### `labelSliderPage`
+This displays a page with a scale selector in the form of a slider with a few fixed values.
 - `label` : le titre ou la question à afficher.
 
-Possibilité de gérer les étapes disponibles en rajoutant des `answer`. La première va définir le minimum et la dernière le maximum.
-Les réponses proposées doivent donc être classés en ordre croissant (lorsque c'est possible).
+Add `answer` tags to add scale values, the fisrt being the minimum and the last the maximum.
 
 exemple :
 ```xml
@@ -172,73 +170,56 @@ exemple :
 ![labelSliderPage](img/quiz_labelsliderpage.jpg)
 
 
-#### Le Type `imageSliderPage`
-Ce type de page permet d'afficher un curseur à valeur relative entre deux images : la valeur n'est pas affichée; l'utilisateur choisi juste si il est plus en accord avec l'image de droite ou l'image de gauche en déplaçant le curseur.
-Vous pouvez le paramétrer à l'aide des attributs suivants :
- - `label` : le titre ou la question à afficher.
- - `visual` : le nom de l'image à afficher en tant que question (sans son extension). Celle-ci doit être placée dans le dossier `_meta` du quiz
- - `leftVisual` : l'image qui sera affichée à gauche du curseur
- - `rightVisual` : l'image qui sera affichée à droite du curseur
- - `stepQuantity` : le nombre de valeur sélectionnables sur le curseur (une valeur de 10 est conseillée pour meilleur rendu visuel)
+#### `imageSliderPage`
+This page type offers the same functionality as the previous `labelSliderPage` but with the scale representing a cursor between to pictures rather than fixed values.
+ - `label`: question text. Takes precedence over `visual`.
+ - `visual`: name of the image file to display (no extension, file present in `_meta` folder).
+ - `leftVisual`: picture to the left of the cursor.
+ - `rightVisual`: picture to the right of the cursor.
+ - `stepQuantity`: the nomber of selectable steps (recommended value: 10)
 
-exemple :
 ```xml
-<imageSliderPage sectionId="partie 1" label="Vous êtes plutôt :" leftVisual="image1" rightVisual="image2" stepQuantity="10"/>
+<imageSliderPage sectionId="part 1" label="What characterizes you most:" leftVisual="image1" rightVisual="image2" stepQuantity="10"/>
 ```
 ![imageSliderPage label](img/imagesliderlabel.jpg)
 ![imageSliderPage image](img/imagesliderimage.jpg)
 
 
-#### Le Type `documentPage`
-Cette page permet de lancer l'ouverture d'un document dans le Compositeur Digital.
-Vous pouvez le paramétrer avec les attributs :
-- `label` : le titre ou la question à afficher.
-- `document` : le nom du document à ouvrir. Il faut que le document soit dans le dossier du quiz.
+#### `documentPage`
+Displays a link to open a document in Compositeur Digital.
+- `label`: Title or question text.
+- `document`: name of the document, which must exist in the quiz folder.
 
-exemple :
 ```xml
-<documentPage label="Vos documents :" document="Documents A"/>
+<documentPage label="Your documents:" document="Documents A"/>
 ```
 ![documentPage](img/documentpage.jpg)
 
 
-#### Le Type `orderPage`
-Cette page permet de définir un nombre de réponse minimum dans un questionnaire et de récupérer celles qui sont cochées.
-Vous pouvez le paramétrer avec les attributs :
-- `label` : le titre ou la question à afficher.
-- `answerNumber` : le nombre de réponse minimum à cocher.
-- `imageAnswer` : ajoute une image comme réponse.
-- `visual` : ajoute une visuel comme réponse.
-- `visualChecked` : image remplaçant le visuel lorsqu'il est sélectionné.
+#### `orderPage`
+Displays a choice lists and lets the user order a minimum number of those choices.
+- `label`: titel or question text.
+- `answerNumber`: minimum number of answers to select.
 
-exemple :
+Add a list of `answer` or `imageAnswer` for the available choices. The twoo types can not be mixed.
 ```xml
-<orderPage sectionId="section 1" label="Votre projet ordonnancé" answerNumber="3">
-	<answer >Travaux</answer>
-    <answer >Première acquisition</answer>
-	<answer nextPageId="tousLesBiens">Achat ou revente</answer>
-    <answer nextPageId="maisonAppart">Travaux</answer>
-    <answer nextPageId="tousLesBiens">Acquisition retraite</answer>
+<orderPage sectionId="section 1" label="Prioritize your projects" answerNumber="3">
+    <answer>Renovating</answer>
+    <answer>Buy a house</answer>
+    <answer nextPageId="tousLesBiens">Buy a car</answer>
+    <answer nextPageId="tousLesBiens">Prepare retirement</answer>
 </orderPage>
 ```
 ![orderPage empty](img/orderpage_empty.jpg)
 
-ou
-
-
 ```xml
-<orderPage sectionId="section 1" label="Votre projet ordonnancé" answerNumber="3">
-	<visualAnswer visual="maison" visualChecked="test1">Maison</visualAnswer>
-    <visualAnswer visual="appartement" visualChecked="test2">Appartement</visualAnswer>
+<orderPage sectionId="section 1" label="I would rather live in a" answerNumber="2">
+    <visualAnswer visual="house" visualChecked="test1">House</visualAnswer>
+    <visualAnswer visual="flat" visualChecked="test2">Flat</visualAnswer>
   </orderPage>
 ```
 ![orderPageImage empty](img/orderpageimage_empty.jpg)
 
-### Résultats
-Vous pouvez consulter les résultats du quiz dans le dossier `Mes Documents \ Compositeur Digital Quiz`.	
-Les fichiers de résultats sont nommés selon leur origine (nom de la déclinaison, arborescence éventuelle, puis nom du quiz). 
-Lorsque vous modifiez le fichier `_questions.xml` et si les questions/titres de page ont changé, les enregistrements de résultats se feront dans un nouveau fichier (ajout d'un numéro au nom du fichier) afin de ne pas écraser les anciens résultats.
-Une nouvelle ligne de résultat est enregistrée à chaque fois que l'on atteint une page de fin du quiz.
-
-
-[Revenir au différents Types de contenus](content_types.md)
+### Results
+Results can be found in the `Documents\Compositeur Digital Quiz` folder.	
+A new line is added to the results file ecah time a user reaches the last page of a quiz.
