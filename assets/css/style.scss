@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+html { font-size:80% }
+
 .page-header { background-color:#f3385b; background-image:none; padding:1rem; }
 
 /*@media screen and (min-width:64em)*/
