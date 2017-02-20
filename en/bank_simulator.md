@@ -1,18 +1,15 @@
-# Simulateur de prêt bancaire
+# Mortgage simulator
 
-Utilisez ce type de contenu pour afficher un simulateur de prêt simple.
+Simulate a mortgage with varying parameters.
 
-## Utilisation
+## Use in Compositeur Digital
 
-Vous pouvez modifier :
+Find the mortgage tha suits you by varying the following parameters:
+- loan amount (changes monthly payments)
+- duration (changes monthly payments)
+- loan rate (changes monthly payments)
+- monthly payments (changes the loan amount)
 
-- le montant du crédit (impact le montant des mensualités)
-- sa durée (impact le montant des mensualités)
-- le taux (impact le montant des mensualités)
-- le montant des mensualités (impact le montant du crédit)
+## Content management
 
-## Administration
-
-- Extension de dossier : `simupret`.
-
-[Revenir au différents Types de contenus](content_types.md)
+- floder extension: `simupret`.
