@@ -1,45 +1,41 @@
-# Collection de biens immobiliers
+# Real estate selector
 
-Utiliser ce type de contenu pour proposer une recherche par critères dans une collection de biens immobilier (appartements, etc.)
+Use this type of content to display a search interface to look up real estate offers (e.g. apartments).
 
-## Utilisation
+## Use in Compositeur Digital
 
-Vous pouvez :
-
-- Sélectionner vos critères de recherche : surface, prix, nombre de pièces, etc.
-- Lancer une recherche
-- Ouvrir un résultat de recherche (ex : plan d'appartement)
+With a real estate selector you can:
+- choose your search criteria: surface, pric, room count, etc.
+- Start a search with your criteria
+- Open a result in Compositeur Digital (e.g. floor plan)
 
 ![Aperçu du module de recherche](img/immo_preview.jpg)
 
-## Administration
+## Content Management
 
-- Extension de dossier : `apartments`
-- Extension de fichier dans le dossier : `csv` 
+- Folder extension: `apartments`
+- Expected file in the folder: `_list.csv` 
 
-Le dossier contient :
-- L'ensemble des contenus correspondant aux biens immobilier (généralement les plans). Si besoin, ils peuvent être organisés dans des sous-dossiers.
-- Un tableau contenant la liste des biens immobilier et leurs caractéristiques. Le document est au format CSV (avec séparateur `;`) : vous pouvez utiliser un tableur comme Microsoft Excel pour l'éditer.
+The folder contains:
+- All content relative to the offers (typically floor plans of apartments).
+- A spreadsheet table containing a set of descriptions that will serve as search criteria. This document is a CSV file (using `;` as delimiter) editable with spreadsheet software such as Microsoft Excel.
 
-Voici le tableau qui permet d'obtenir l'aperçu précédent :
+Here is the table tha produces the sample above:
 
 ![Aperçu du fichier _questions.csv](img/immo_csv.jpg)
 
-### Format du tableau :
+### Table format
 
-- 1ère ligne : type de la colonne
-- 2ème ligne : nom de la colonne
-- lignes suivantes : biens immobiliers
+- 1st line: criteria type
+- 2nd line: criteria name
+- following lines: one per offer
 
-### Types de colonnes
+### Criteria types
 
-- `id` : nom du fichier associé au bien immobilier (sans l'extension). Une colonne unique de ce type est obligatoire.
-- `floor` : niveau (étage).
-- `type` : typologie (T1, T2, etc.)
-- `surface` : surface du bien ou d'une partie spécifique du bien (balcon, parking, etc.). Valeur en m², sans unité dans la cellule.
-- `price` : prix du bien immobilier. Plusieurs colonnes de ce type peuvent être présentes (TVA différente, libre/aidé, etc.).
-- `multiple` : autre critère de filtre avec possibilité de sélectionner plusieurs valeurs à la fois.
-- `single` : autre critère de filtre, une seule valeur sélectionnée à la fois.
-
-
-[Revenir au différents Types de contenus](content_types.md)
+- `id`: This column is mandatory and must match a document name in the folder. It will not display as a criteria but will be used to open a result.
+- `floor`: floor level.
+- `type`: room count
+- `surface`: surface of the residence, or of a part of it (balcony, parking space, etc.). Type in the value in m² without unit.
+- `price`: Price. Multiple price columns can be defined.
+- `multiple`: free criteria where multiple selection is possible.
+- `single`: free criteria for which a single choice must be selected.
