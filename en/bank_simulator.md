@@ -12,4 +12,4 @@ Find the mortgage tha suits you by varying the following parameters:
 
 ## Content management
 
-- floder extension: `simupret`.
+- folder extension: `simupret`.
