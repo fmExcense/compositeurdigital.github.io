@@ -4,7 +4,7 @@ The Compositeur Digital reads documents stored on your computer. Those documents
 
 ## Required skills and resources
 
-The preparation of an environnement is done using the Windows built-in file explorer.
+The preparation of an environnement is done using the Windows built-in file explorer application
 
 You should be confortable with : 
 
@@ -14,7 +14,7 @@ You should be confortable with :
 
 ### File extensions
 
-The Compositeur Digital uses the file extension to setup the various elements of an environment.  The * file extension*, is usually consisting of 3 or 4 characters after the dot in the file name indicating the type of document:
+The Compositeur Digital processes the file extension to setup the various elements of an environment.  The `file extension` indicating the type of document is usually 3 to 4 characters following the dot in the file name :
 
 - Images : photo1.jpg, photo2.png
 - Presentation : pres1.pptx, pres2.pdf
