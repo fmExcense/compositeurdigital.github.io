@@ -52,7 +52,7 @@ You can customize your environment by changing the background image. To do so, s
 
 In an environment, you can organize your documents in folders and sub-folders.
 
-The first level of folder-view is displayed in the Compositeur Digital in the dock located at the bottom of the screen : 
+The first level of folder-view is displayed in the Compositeur Digital in the dock located at the bottom of environment view : 
 
 ![explorer root folders](img/explorer_root_folders.jpg)
 
@@ -71,23 +71,23 @@ Check [Supported content](content_types.md) for an exhaustive list of supported 
 
 ## Display order
 
-Compositeur Digital will display all items in folders using an alphabetical order. You can however force a specific order for documents and folders by prefixing the names with a number. The Compositeur Digital will not display the numbers but will arrange the items accordingly.
+The Compositeur Digital will display folders and documents using an alphabetical order. You can however force a specific order for documents and folders by prefixing the names with a number. The Compositeur Digital will not display the numbers but will arrange the items accordingly.
 
->If you need to display a file with a name starting with a number (e.g. `3D render`), see the [Advanced configuration](config#configuration_dun_document) section.
+>Note : If you ever need to display a file with a name starting with a number (e.g. `3D render`) please refer to the [Advanced configuration](config#configuration_dun_document) section.
 
 ## Thumbnails 
 
-Compositeur Digital will generate thumbnails for all documents. You can also customize the thumbnail for any document or folder for cases.
+The Compositeur Digital will automatically create thumbnails for all documents. You can customize thumbnails for all documents or folders of your environment.
 
 ### Folder thumbnails
 
-With no specified thumbnail for a folder, Compositeur Digital will use the thumbnail of the first item in ths folder:
+If a thumbnail image has not been defined for a folder or document the Compositeur Digital will auto-create thumbnail image based on the first document located the folder:
 
 ![explorer no preview folder](img/explorer_nopreview_folder.jpg)
 
 ![no preview folder](img/nopreview_folder.jpg) 
 
-Add an image file named `_preview` (png or jpg) directly in the folder:
+To create a thumbnail for a folder simply drop an image file named `_preview` (.png or .jpg) directly in the folder:
 
 ![explorer no preview folder](img/explorer_preview_folder.jpg)
 
@@ -95,7 +95,7 @@ Add an image file named `_preview` (png or jpg) directly in the folder:
 
 ### Document thumbnail
 
-To customize the thumbnail for a document, place an image file with the same name suffixed with `_preview` in the same folder:
+To customize the thumbnail image of a document, drag and drop an image file using the same name but suffixed with `_preview` in the same folder:
 
 ![explorer preview file](img/explorer_preview_file.jpg)
 
