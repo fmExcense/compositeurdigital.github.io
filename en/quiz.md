@@ -1,15 +1,15 @@
 # Quiz
 
-Use this type of content to guide users through a series of questions and store the resulting information.
+Use this type of content to guide the discussion through a series of questions and save the answers.
 
-## Use in Compositeur Digital
+## Interaction in the Compositeur Digital
 
-You can navigate to the previous and next page using the `<` and `>` arrows on the sides.
+You can navigate to the previous and next page using the `<` and `>` arrows.
 Depending on the type of page you can:
- - select an deselect an answer
- - move a slider
- - type in some text
- - open a linked document
+ - check or uncheck a value
+ - select a numeric value using a slider
+ - fill in text boxes
+ - open a specific document
 
 ## Content management
 
@@ -17,18 +17,18 @@ Depending on the type of page you can:
 
 The quiz folder contains:
 
-- Optional `_background` image file to customize the quiz appearance
-- Optional documents linked in the quiz
-- A `_meta` containing all images used in the different pages
-- The configuration file: `_questions.xml`
+- Optional `_background` image file to customize the quiz 
+- Optional documents required for the quiz
+- A `_meta` folder containing all images required for the quiz
+- a configuration file: `_questions.xml`
 
-The configuration file describes the quiz itself, page by page. It is formatted in XML: edit it with Notepad or another text editor.
+The configuration file specifies the quiz page by page. It is formatted in XML and can be edited using Notepad or another text editing application.
 
 
 ### Configuration file structure
 
-The Quiz file consists of two parts:  `sections` and `pages`.
-Organisation générale du fichier :
+The Quiz file contains two parts:  `sections` and `pages`.
+Generic file structure:
 ```xml
 <quizz>
     <sections>
@@ -40,37 +40,37 @@ Organisation générale du fichier :
 </quizz>
 ```
 
-Pages represent each a question. Sections let you group pagesLes sections permettent de regrouper des pages sous un même nom. 
+Each pages will represent a question. Sections let you group pages that have the same section name. 
 
 ### Sections
-Set the section display name in a `section` tag and use the attribute `id` to set the reference name for the section.
+Set the section display name in a `section` tag and optionnaly use the attribute `id` to use it as a reference.
 
 ```xml
 <section id="intro">1. INTRODUCTION</section>
 ```
 
 ### Pages
-You can add different page types to a quiz. All pages have the following in common:
- - a `sectionId` attribute: assign a page to a section. The section name will appear on top of the quiz page.
- - an `id` attribute: optional identifier for referencing the page.
- - a `nextPageId` attribute: optional reference to the page that shoud be displayed next. If not set, the next page in the file will nbe used. 
+You can add different page types to a quiz but all pages should have the following items in common:
+ - a `sectionId` attribute that assigns a page to a section. The section name will appear on top of the page.
+ - an optional `id` attribute to be used as an identifier if a reference to that page is needed. 
+ - a `nextPageId` attribute: optional reference to the page that shoud be displayed next. If not set, the following page described in the file will be used. 
 
 ### 
-The first page in the list will always be the first displayed.
-The last page will by default be the last displayed page.
-To indicate that a page should end the quiz, set the `nextPageId` attribute to the specific value `@end`.
+The first page described in the list will always be the first page displayed.
+The last page described will be by default the last displayed page.
+To force a page to finish the quiz, set the `nextPageId` attribute value to `@end`.
 
 ### Page types
 #### `questionPage`
-This page type lets you create a question with a list of possible answers that must be selected befor being able to go to the next page.
+This page type lets you create a question with a list of possible answers. Please note that an answer must be selected before going to the next page.
 
 Here are the attributes for `questionPage`:
- - `label`: text of the question. Takes precedence over `visual`.
+ - `label`: Question type. Superseeds the `visual` attribute.
  - `visual`: name of the question image file (without extension). The file must exist in the `_meta` folder.
  - `allowMultiple`: set to `true` to allow the selection of multiple answer.
 
-The content of the `questionPage` is the list of answer, which can be of to types:
- - text answers, with the tag `answer`:
+The content of the `questionPage` is the list of answers, which can be of various types:
+ - texted answers, with the tag `answer`:
  ```xml
  <answer>my answer</answer>
  ```
