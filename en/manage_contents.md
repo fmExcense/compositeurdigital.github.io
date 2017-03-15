@@ -52,26 +52,26 @@ You can customize your environment by changing the background image. To do so, s
 
 You can organize your documents in folders and sub-folders in an environment
 
-The first level of folder is displayed in the Compositeur Digital in the dock located at the bottom of the environment view : 
+The first level of folders is displayed in the Compositeur Digital in the dock located at the bottom of the environment view : 
 
 ![explorer root folders](img/explorer_root_folders.jpg)
 
 ![root folders](img/root_folders.jpg)
 
->### <a name="contentFolder"></a> Hidden folders
+>### <a name="contentFolder"></a> Hidden folders feature
 >
->Folders using a '.content' extension will not be seen in Compositeur Digital. 
+>Folders using '.content' in their name will not be displayed in the Compositeur Digital. 
 >See [interactive slideshow](slideshow#interactive) to see the common use of this feature.
 
 ## Documents
 
 Simply drag and drop your documents in the folders and sub-folders to populate your environment.
 
-Check [Supported content](content_types.md) for an exhaustive list of supported file types.
+Check the [Supported content](content_types.md) for an exhaustive list of supported file types.
 
-## Display order
+## Displaying sequence 
 
-The Compositeur Digital will display folders and documents using an alphabetical order. You can however force a specific order for documents and folders by prefixing the names with a number. The Compositeur Digital will not display the numbers but will arrange the items accordingly.
+The Compositeur Digital will display folders and documents in alphabetical order. You can however force a specific displaying sequence for documents and folders by prefixing the file or folder names with a number. The Compositeur Digital will not display the numbers but will arrange the items accordingly.
 
 >Note : If you ever need to display a file with a name starting with a number (e.g. `3D render`) please refer to the [Advanced configuration](config#configuration_dun_document) section.
 
