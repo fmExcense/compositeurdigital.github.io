@@ -12,8 +12,8 @@ The user interface contains three main areas:
 
 ## Opening a document
 
-1. On the dock, tap on the section of your choice;
-2. In the folder view, tap on document to display
+1. On the dock, tap on the folder of your choice;
+2. In the folder view, tap on any document to display it 
 
 ![open item step 1](img/open_item_1.jpg)
 ![open item step 2](img/open_item_2.jpg)
@@ -28,7 +28,7 @@ Resize ![zoom item](img/pinch.png)
 
 Rotate ![rotate item](img/rotate.png)
 
-To close a document, tap the top right cross:
+To close a document, tap on the cross at the top right :
 
 ![close item](img/item_close.jpg)
 
