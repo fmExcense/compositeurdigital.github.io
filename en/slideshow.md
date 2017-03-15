@@ -22,18 +22,18 @@ The slideshow offers the following interactions :
 
 >*Note 3:* You can open any other content from a specific slide using the "link" feature. Please refer to the [Interactivity]  (interactive) section for further details.
 
-### Image set folder
+### Content Management
 
-- Folder extension : `slideshow`, `ppt`, `pptx`, `pdf`
-- Supported extensions in the folder : `jpg`, `png`
+- Folder extension : `slideshow`
+- Supported extensions in the folder : `jpg`, `png`, `ppt`, `pptx`, `pdf`
 
-Sample slideshow file hierarchy:
+Example of folder organization of a slideshow :
 
 ![explorer slideshow img](img/explorer_slideshow_img.jpg)
 
 ### Document set folder
 
-You can create a single slideshw with a combination of Powerpoint, PDF and image files. Place all files the same folder with the extension `slideshow`.
+You can create a single slideshow with a combination of Powerpoint, PDF and image files. Place all files the same folder with the extension `slideshow`.
 
 Sample slideshow file hierarchy:
 
