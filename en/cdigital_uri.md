@@ -1,10 +1,10 @@
 # Protocole cdigital://
-## Usages
-Le protocole cdigital:// déclenche l'ouverture ou une action dans le Compositeur Digital depuis un lien web ou un tag NFC :
-- `cdigital://launch` : démarrage du Compositeur Digital depuis un navigateur web
-- `cdigital://launch?rootItem=Ma%20Banque` : démarre le Compositeur Digital dans la déclinaison Ma Banque
-- `cdigital://launch?firstName=Jean&lastName=Dupont` : positionne des [données de contexte](config.md#valueKeys) dans la déclinaison courante.
-- `cdigital://launch?action=showmenu_recents` : affiche le menu projet dans le panneau des documents récents. Valeurs possibles :
+## Purpose 
+The cdigital:// protocol opens a specific environment or action in the Compositeur Digital from an URL or a NFC tag event:
+- `cdigital://launch` : Opens the Compositeur Digital application from a web browser
+- `cdigital://launch?rootItem=Ma%20Banque` : Opens the "Ma Banque" environment in the Compositeur Digital 
+- `cdigital://launch?firstName=Jean&lastName=Dupont` : positions context data [données de contexte](config.md#valueKeys) in the current environment.
+- `cdigital://launch?action=showmenu_recents` : opens the environment's recent documents. Other possible values are :
 	- showmenu_home,
 	- showmenu_search,
 	- showmenu_recents,
