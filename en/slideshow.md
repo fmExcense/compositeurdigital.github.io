@@ -8,7 +8,7 @@ The slideshow offers the following interactions :
 
 - Navigation to the previous or followin slide using the `<` and `>` arrows
 - "Go-to" a specific slide using the `Slides` action in the document menu
-- Opening of an attached content
+- Opening of a linked content
 - Annotations
 - Printing
 
@@ -27,18 +27,13 @@ The slideshow offers the following interactions :
 
 >*Note 3:* You can open any other content from a specific slide using the "link" feature. Please refer to the [Interactivity]  (interactive) section for further details.
 
-### Folder organization - single document type, alphabeticial order
+### Folder organization 
 
-- Folder extension : `slideshow`
-- Supported extensions in the folder : `jpg`, `png`, `ppt`, `pptx`, `pdf`
-
-Example of folder organization :
+Example of folder organization for similar document types
 
 ![explorer slideshow img](img/explorer_slideshow_img.jpg)
 
-### Folder organization - multiple document type, forced sequence
-
-You can create a single slideshow with a combination of Powerpoint, PDF and image files. Place all files in a folder using the `slideshow` extension.
+You can also create a single slideshow with a combination of Powerpoint, PDF and image files. Place all files in a folder using the `slideshow` extension.
 
 Example of folder organization :
 
