@@ -50,7 +50,7 @@ You can create a "hot spot" on a document to open another document when touched 
 	Warning : If the area is the text box. Select the text BOX. Do not not select the TEXT 
 3. Select the shape, and go to INSERT 
 4. Go to HyperLink and define the location of the target document.
-	Warning : The target document must be somewhere the folder used for your environment. You can use the hidden folder feature if you do not wish to display the target folder in your environment. (`content` extension) (see [dossiers cachés](manage_contents#contentFolder) for more details) 
+	Warning : The target document must be somewhere the folder used for your environment. You can use the hidden folder feature if you do not wish to display the target folder in your environment. (see [dossiers cachés](manage_contents#contentFolder) for more details) 
 	Note : You can also right-click on the shape and go to the HyperLink menu
 	
 6. Save your Powerpoint presentation at the desired location in your environment folder.
