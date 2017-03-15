@@ -84,13 +84,13 @@ To remove a document from the basket, tap the `Remove from basket` button in the
 ## Profile
 ![menu profile](img/menu_profile.jpg)
 
-The Profile tab displays the default data relating to your customer. Once entered here it will be used accordingly in relevant activities in the current project. e.g. when you fill out the `e-mail` field, it will be used as the recipient address when sharing a document by e-mail, and the `budget` information will be used by the [mortgage simulator](bank_simulator.md).
+The Profile tab displays the default data relating to your customer. These data will can be used as default values for actions triggred within the application.  e.g. the `e-mail` field, will be used as the recipient address when sharing a document over e-mail, and the `budget` information will be used by the [mortgage simulator](bank_simulator.md).
 
 ## Information
 ![menu infos](img/menu_infos.jpg)
 
-This last tab gives out general information on the software.
-You will also find there a link to this documentation, and a way of sharing with us your impressions about Compositeur Digital with a rating.
-Tap the `Support` button to send a mail to the excense tech support should you encounter a problem while using the software.
+This last tab displays general information on the software.
+You will also find in this section a shortcut to this documentation and an application rating bar to share your feedback
+Use the `Support` button to send a email our support if you need assistance or to report a bug.
 
 You can now move to [Content management](manage_contents.md).
