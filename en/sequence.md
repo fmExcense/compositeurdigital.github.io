@@ -1,6 +1,6 @@
 # 360° sequence
 
-Use this content type to display a 360° view of objects from as a sequence of pre-rendered images (e.g buildings)
+Use this content type to display a 360° view of objects from a sequence of pre-rendered images (e.g buildings)
 
 ## Interaction in the Compositeur Digital
 
