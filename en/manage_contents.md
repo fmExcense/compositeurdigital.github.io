@@ -36,11 +36,11 @@ Banking services
 
 ![univers 2](img/univers2.jpg)
 
-Technically  an environment is a specific folder on your computer. By default the Compositeur Digital will look for folders located in   `Documents\Compositeur Digital`
+Technically an environment is materialized as folder on your computer. By default the Compositeur Digital will look for folders located in `Documents\Compositeur Digital`
 
 ![Environement view using the built-in Window file explorer](img/explorer_univers.jpg)
 
-To create your own environment , you can start by dublicating an exisiting one in the default location :  `Documents\Compositeur Digital`.
+To create your own environment, you can start by dublicating an exisiting one in the default location: `Documents\Compositeur Digital`.
 
 ## Background
 
@@ -52,7 +52,7 @@ You can customize your environment by changing the background image. To do so, s
 
 In an environment, you can organize your documents in folders and sub-folders.
 
-The first level of folder-view is displayed in the Compositeur Digital in the dock located at the bottom of environment view : 
+The first level view is displayed in the Compositeur Digital in the dock located at the bottom of environment view : 
 
 ![explorer root folders](img/explorer_root_folders.jpg)
 
