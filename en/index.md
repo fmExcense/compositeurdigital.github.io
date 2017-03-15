@@ -1,7 +1,7 @@
 # Documentation
 
 ### [Getting started](gettingstarted.md)
-Installing and running *Compositeur Digital*.
+Installing and running the *Compositeur Digital*.
 
 ### [Features overview](use.md)
 Discover how to interact with the content in *Compositeur Digital*.  
