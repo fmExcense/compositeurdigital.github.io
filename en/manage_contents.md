@@ -101,10 +101,10 @@ To customize the thumbnail image of a document, drag and drop an image file usin
 
 ## Standby video
 
-When in Kiosk mode Compositeur Digital can play a fullscreen video after a period of inactivity. The video will then loop until the screen is touched.
+When the Kiosk mode of the Compositeur Digital is activated, a fullscreen video can be automatically stard after a specified period of inactivity. The video will loop until the touch screen is activated.
 
-Place a supported video file named `_standby` in the universe folder:
+Place a supported video file named `_standby` in the environment folder:
 
 ![standby](img/explorer_standby.jpg) 
 
-All [supported video types](video.md) are suitable for use as a standby video.
+All [supported video types](video.md) are supported.
