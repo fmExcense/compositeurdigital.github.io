@@ -12,7 +12,7 @@ The user interface contains three main areas:
 
 ## Opening a document
 
-1. On the dock, tap on the folder of your choice;
+1. On the dock, tap on the folder to open it 
 2. In the folder view, tap on any document to display it 
 
 ![open item step 1](img/open_item_1.jpg)
@@ -39,52 +39,52 @@ To close a document, tap on the cross at the top right :
 
 ## Creating projects
 
-All your interactions with the content of an environnement are automaticaly saved (opened documents, annotations, user data). You can then assign a name your current projet to access it later.
+All your interactions with the document in an environnement are automaticaly saved (opened documents, annotations, user data). You can  assign a name to save the current projet to access it later.
 
 ![menu manage project](img/menu_manage.jpg)
 
 1. Open the main menu.
-2. The name of the current project is displayed at the top of the panel. Tap on the name to assign a new name. 
+2. Enter a project name on the top of the panel.  
 
 ![menu rename project](img/menu_create.jpg)
 
-3. The `Open` and `New` buttons allows you to load a previously saved project or create a new project in the current environment.
-4. The `Quit` button will close the current environment to take you to the home page.
+3. The `Open` and `New` buttons allows you to load a previously saved project or create a new project from the current environment.
+4. The `Quit` button will close the current environment to take you to back the home page of the application
 
 ## Search feature
 
 ![menu search](img/menu_search.jpg)
 
-1. In the main menu, type in your keywords in the designated area.
-2. Documents with file names matching your criteria will appear as you type. Tap on the selected document to open it.
+1. In the main menu, type in your keywords in the search text box.
+2. Documents with file names matching your criteria will appear as you type. Tap on the document view to open it.
 
 ## Recent and frequetly used documents
 ![menu recents](img/menu_recents.jpg)
 
-This tab gives you quick access to all the documents that wwere opened. You can either sort them by most recent use with the `Recent` filter, or by total uses by tapping the `Most frequently used` filter.
+This tab gives allows you to quickly access to all the documents that were opened at least once in the current environment. You can either sort them by most recent use with the `Recent` filter, or by number of use by tapping the `Most frequently used` filter.
 
 ## Notes and blank sheets
 ![menu notes and blanksheets](img/menu_notes.jpg)
 
-This tab lets you find all sticky notes and blank sheets that were created.
+This tab lets you recall all sticky notes and blank sheets that were created in the current environment 
 
 ## Basket
 ![menu basket](img/menu_basket.jpg)
 
-Your basket is where you can store documents of interest. 
-The `share` button will the let you share all the documents in the basket at the same time on a usb key, or by e-mail.
+The basket feature allows you to gather documents to be shared all at one. (folder file)  
+The `share` button will let you share the basket over a usb key or via e-mail. The basket can also be stored locally for further use. 
 
-To add a document to the basket, tap the `Add to basket` button in the document menu.
+To add a document to the basket simply tap the `Add to basket` button located in the document menu.
 
 ![add to basket](img/item_menu_basket_add.jpg)
 ![add to basket](img/item_menu_basket_rm.jpg)
 
-To remove a document from your basket, tap the `Remove from basket` button in the same menu, or tap the close button on the top right of the document icon in the basket menu tab.
+To remove a document from the basket, tap the `Remove from basket` button in the same menu. You can also remove the document from basket view located in the Main menu by hitting the close button on the top right of the document icon view. 
 
 ## Profile
 ![menu profile](img/menu_profile.jpg)
 
-The Profile tab is where you can find data relating to your interlocutor. Once entered here it will be used accordingly in relevant activities in the current project. e.g. when you fill out the `e-mail` field, it will be used as the recipient address when sharing a document by e-mail, and the `budget` information will be used by the [mortgage simulator](bank_simulator.md).
+The Profile tab displays the default data relating to your customer. Once entered here it will be used accordingly in relevant activities in the current project. e.g. when you fill out the `e-mail` field, it will be used as the recipient address when sharing a document by e-mail, and the `budget` information will be used by the [mortgage simulator](bank_simulator.md).
 
 ## Information
 ![menu infos](img/menu_infos.jpg)
