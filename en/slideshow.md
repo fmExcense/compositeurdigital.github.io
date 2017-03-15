@@ -1,28 +1,30 @@
 # Slideshow
 
-Use this type of content to display a slideshow of images, or a presentation in PDF or Powerpoint.
+Use this feature to concatenate a set of images, PPT presentations or PDF documents.
 
-## Use in Compositeur Digital
+## Interactions in the Compositeur Digital
 
-With a slideshow you can :
+The slideshow has the following interactions available :
 
-- Navigate to the previous and next slide with the `<` and `>` arrows
-- Navigate to a specific slide with the `Slides` action in the document menu
-- Open attached content
-- Annotate
-- Print
+- Navigation to the previous or followin slide using the `<` and `>` arrows
+- "Go-to" a specific slide using the `Slides` action in the document menu
+- Opening of an attached content
+- Annotations
+- Printing
 
 ## Content management
 
-A slideshow is created from a single PDF or Powerpoint file, or from a set of images or a combination of those documents.
+A slideshow can be created from a set of images, PPT presentations or PDF documents regardless of the numbers of pages.
 
 ### Powerpoint & PDF documents
 
 - Supported extensions : `ppt`, `pptx`, `pdf`
 
->*Note 1:* som complex documents may no display properly. You may change the document format (e.g. save a Powerpoint presentation as a PDF) to try and circumvent the problem.
+>*Note 1:* If you are using a specific version of Powerpoint that is not supported by the Compositeur Digital, you can still export your presentation in PDF.
 
->*Note 2:* Compositeur Digital will not play transition effects and animations: each slide is a fixed image. You can however add touch "buttons" to open other documents (see [Interactivity](interactive)).
+>*Note 2:* The Compositeur Digital does not support transition effects or animations contained in the presentation. 
+
+>*Note 3:* You can open any other content from a specific slide using the "link" feature. Please refer to the [Interactivity]section (interactive)) for further details.
 
 ### Image set folder
 
