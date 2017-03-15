@@ -1,6 +1,6 @@
 # Supported content
 
-The Compositeur Digital support the following types of content:
+The Compositeur Digital supports the following types of content:
 
 - [Images](image.md)
 - [Presentations: PDF, Powerpoint, diaporama](slideshow.md)
