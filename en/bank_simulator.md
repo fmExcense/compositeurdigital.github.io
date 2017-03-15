@@ -1,10 +1,10 @@
 # Mortgage simulator
 
-Simulate a mortgage with varying parameters.
+Simulates a mortgage with editable parameters.
 
-## Use in Compositeur Digital
+## Interaction in the Compositeur Digital
 
-Find the mortgage tha suits you by varying the following parameters:
+Create the simulation that matches the customer's need by modifying the following parameters:
 - loan amount (changes monthly payments)
 - duration (changes monthly payments)
 - loan rate (changes monthly payments)
