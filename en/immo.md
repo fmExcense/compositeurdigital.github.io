@@ -1,13 +1,13 @@
-# Real estate selector
+# Real estate - Apartment seach panel
 
-Use this type of content to display a search interface to look up real estate offers (e.g. apartments).
+This feature displays a search interface to look up for real estate products (e.g. apartments).
 
-## Use in Compositeur Digital
+## Interaction in the Compositeur Digital
 
-With a real estate selector you can:
-- choose your search criteria: surface, pric, room count, etc.
+On this seach panel you can:
+- Choose your search criteria: surface, pric, room count, etc.
 - Start a search with your criteria
-- Open a result in Compositeur Digital (e.g. floor plan)
+- Open the result in Compositeur Digital (e.g. floor plan)
 
 ![Aperçu du module de recherche](img/immo_preview.jpg)
 
@@ -17,10 +17,10 @@ With a real estate selector you can:
 - Expected file in the folder: `_list.csv` 
 
 The folder contains:
-- All content relative to the offers (typically floor plans of apartments).
-- A spreadsheet table containing a set of descriptions that will serve as search criteria. This document is a CSV file (using `;` as delimiter) editable with spreadsheet software such as Microsoft Excel.
+- All content refering to the offers (typically floor plans of the apartments).
+- A spreadsheet containing the set of date that will be used for search criteria. This document is a CSV file (using `;` as delimiter) editable with spreadsheet software such as Microsoft Excel.
 
-Here is the table tha produces the sample above:
+Here is the table that gives the output displayed above:
 
 ![Aperçu du fichier _questions.csv](img/immo_csv.jpg)
 
@@ -32,10 +32,10 @@ Here is the table tha produces the sample above:
 
 ### Criteria types
 
-- `id`: This column is mandatory and must match a document name in the folder. It will not display as a criteria but will be used to open a result.
+- `id`: This column is mandatory and must match with a document name in the folder. It will not be displayed as a criteria but will be used to open a result.
 - `floor`: floor level.
-- `type`: room count
-- `surface`: surface of the residence, or of a part of it (balcony, parking space, etc.). Type in the value in m² without unit.
-- `price`: Price. Multiple price columns can be defined.
-- `multiple`: free criteria where multiple selection is possible.
-- `single`: free criteria for which a single choice must be selected.
+- `type`: number of rooms
+- `surface`: surface of the product. Type in the value in sq.m (do no specifiy unit).
+- `price`: Price. Multiple prices columns can be defined.
+- `multiple`: criteria for multiple selection 
+- `single`:  criteria to force a single choice .
