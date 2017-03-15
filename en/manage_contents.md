@@ -50,9 +50,9 @@ You can customize your environment by changing the background image. To do so, s
 
 ## Folders
 
-In an environment, you can organize your documents in folders and sub-folders.
+You can organize your documents in folders and sub-folders in an environment
 
-The first level view is displayed in the Compositeur Digital in the dock located at the bottom of environment view : 
+The first level of folder is displayed in the Compositeur Digital in the dock located at the bottom of the environment view : 
 
 ![explorer root folders](img/explorer_root_folders.jpg)
 
