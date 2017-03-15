@@ -41,20 +41,18 @@ Example of folder organization :
 
 In this case, the resulting slideshow will display slides in the following sequence : the first image file, the slides from the 2 PDF files and then the last image file.
 
-### <a name="interactive"></a> Interactivity
+### <a name="interactive"></a> Interaction between documents
 
-You can create a touch area on a slide of a Powerpoint presentation to opend content in Compositeur Digital.
+You can create a "hot spot" on a document to open another document when touched . This interaction is created using Powerpoint.
 
-1. Ouvrez votre présentation avec Microsoft PowerPoint.
-2. Sélectionnez l'image ou l'objet sur lequel vous souhaitez créer un lien. Il est conseillé de choisir un élément qui invite l'utilisateur à le toucher pour déclencher l'ouverture du contenu.
-	Attention : l'opération ne fonctionnera pas si vous sélectionnez le texte contenu dans une forme, c'est la forme elle-même qu'il faut sélectionner.
-3. Allez dans l'onglet `INSERTION` de PowerPoint.
-4. Cliquez sur le bouton `Lien hypertexte` du menu correspondant.
-5. Dans la fenêtre qui apparaît, parcourez vos fichiers pour choisir le contenu que le lien devra ouvrir.
-	Attention : vous devez obligatoirement choisir un contenu présent quelque part dans votre univers.
-	Vous pouvez utiliser des [dossiers cachés](manage_contents#contentFolder) (extension de dossier `content`) s'ils ne doivent apparaître que dans le diaporama interactif.
+1. If the source document is a PPT file open if using Microsoft PowerPoint. If it's an Image, copy paste is in a blank Powerpoint presentation
+2. Create a transparent shape on top of the selected hot spot. The shape should cover entire hot spot area.
+	Warning : If the area is the text box. Select the text BOX. Do not not select the TEXT 
+3. After selecting you shape, right-click and go to Hypertext link  
+4. In the pop-up window define the location of the target document.
+	Warning : The target document must be somewhere the folder used for your environment. You can use the hideen folders feature [dossiers cachés](manage_contents#contentFolder) (`content` extension) if you do not with to display the target folder in your environment.
 	
-6. Cliquez sur `Ouvrir`, puis sauvegardez votre présentation PowerPoint.
+6. Save your Powerpoint presentation at the desired location in your environment folder.
 
 ![powerpoint slideshow liens](img/powerpoint_slideshow_liens.jpg)
 
