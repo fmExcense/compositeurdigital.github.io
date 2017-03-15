@@ -1,6 +1,6 @@
 # Image
 
-Use this type of content to display a picture, a non-interactive map, single page document, etc.
+This type is used to to display pictures, non-interactive maps, single page documents, etc.
 
 ## Interaction within the Compositeur Digital
 
