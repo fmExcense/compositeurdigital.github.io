@@ -5,7 +5,7 @@ The Compositeur Digital supports the following types of content:
 - [Images](image.md)
 - [Presentations: PDF, Powerpoint, Slideshow](slideshow.md)
 - [Videos](video.md)
-- [3D objects (real time rendered)](3d.md)
+- [3D objects (real time rendering)](3d.md)
 - [360° objects (pre-rendered)](sequence.md)
 - [3D panoramas (image or video)](panorama.md)
 - [Fill-in forms](form.md)
