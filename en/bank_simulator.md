@@ -1,6 +1,6 @@
 # Mortgage simulator
 
-Simulates a mortgage with editable parameters.
+Simulation of a mortgage with editable parameters.
 
 ## Interaction in the Compositeur Digital
 
