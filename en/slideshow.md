@@ -4,7 +4,7 @@ Use this feature to concatenate a set of images, PPT presentations or PDF docume
 
 ## Interactions in the Compositeur Digital
 
-The slideshow has the following interactions available :
+The slideshow offers the following interactions :
 
 - Navigation to the previous or followin slide using the `<` and `>` arrows
 - "Go-to" a specific slide using the `Slides` action in the document menu
