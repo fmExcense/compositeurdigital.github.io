@@ -4,7 +4,7 @@
 Installing and running the *Compositeur Digital*.
 
 ### [Features overview](use.md)
-Discover how to interact with the content in *Compositeur Digital*.  
+Discover how to interact with the content in the *Compositeur Digital*.  
 
 ### [Content management](manage_contents.md)
 Adding and organizing content.
