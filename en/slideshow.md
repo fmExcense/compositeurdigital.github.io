@@ -12,10 +12,6 @@ The slideshow offers the following interactions :
 - Annotations
 - Printing
 
-## Content management
-
-A slideshow can be created from a set of images, PPT presentations or PDF documents regardless of the numbers of pages.
-
 ### Powerpoint & PDF documents
 
 - Supported extensions : `ppt`, `pptx`, `pdf`
