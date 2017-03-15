@@ -45,10 +45,10 @@ In this case, the resulting slideshow will display slides in the following seque
 
 You can create a "hot spot" on a document to open another document when touched . This interaction is created using Powerpoint.
 
-1. If the source document is a PPT file open if using Microsoft PowerPoint. If it's an Image, copy paste is in a blank Powerpoint presentation
-2. Create a transparent shape on top of the selected hot spot. The shape should cover entire hot spot area.
+1. If the source document is a PPT file, open it using Microsoft PowerPoint. If it's an Image, copy paste it in a blank Powerpoint presentation
+2. Create a transparent shape on top of the selected hot spot area. The shape should cover entire hot spot area.
 	Warning : If the area is the text box. Select the text BOX. Do not not select the TEXT 
-3. After selecting you shape, right-click and go to Hypertext link  
+3. Select the shape, and go to INSERT (or right-click and go to Hypertext link)
 4. In the pop-up window define the location of the target document.
 	Warning : The target document must be somewhere the folder used for your environment. You can use the hideen folders feature [dossiers cachés](manage_contents#contentFolder) (`content` extension) if you do not with to display the target folder in your environment.
 	
