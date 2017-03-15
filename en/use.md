@@ -32,7 +32,7 @@ To close a document, tap on the cross at the top right :
 
 ![close item](img/item_close.jpg)
 
- Additionnal actions (annotate, print, share, *etc.*) are available in the `document action menu` available at the bottom right of any content:
+ Additionnal actions (annotate, print, share, *etc.*) are available in the `document action menu`  at the bottom right of content:
 
 ![open item menu](img/item_menu_button.jpg)
 ![opened item menu](img/item_menu_open.jpg)
