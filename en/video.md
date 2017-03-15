@@ -16,8 +16,8 @@ You can :
 
 ### A/V Codecs
 
-A given video file format can contain different coding/decoding standard. Those are called "codecs" and are installed on a computer. This means that some video file may not playback by default, installing the right codec can be necessary. K-Lite Codec Pack include a wide variety of codecs. Some codecs may cause the instability of Compositeur Digital.
+A video file format can embed different coding/decoding standards. Those standards called "codecs" should be installed on your computer. K-Lite Codec Pack includes a wide variety of codecs. Please note that some uncommon codecs may note be supported within the Compositeur Digital.
 
-As a rule, consider WMV et MP4(H264) as the safest, most stable codecs.
+Our recommendation is to use WMV and MP4(H264) format for a safe use.
 
 [Back to supported content](content_types.md)
