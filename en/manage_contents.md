@@ -71,7 +71,7 @@ Check the [Supported content](content_types.md) for an exhaustive list of suppor
 
 ## Displaying sequence 
 
-The Compositeur Digital will display folders and documents in alphabetical order. You can however force a specific displaying sequence for documents and folders by prefixing the file or folder names with a number. The Compositeur Digital will not display the numbers but will arrange the items accordingly.
+The Compositeur Digital will display folders and documents in alphabetical order. You can however force a specific displaying sequence for documents and folders by prefixing the file or folder name with a number. The Compositeur Digital will not display the numbers but will arrange the items accordingly.
 
 >Note : If you ever need to display a file with a name starting with a number (e.g. `3D render`) please refer to the [Advanced configuration](config#configuration_dun_document) section.
 
@@ -79,15 +79,15 @@ The Compositeur Digital will display folders and documents in alphabetical order
 
 The Compositeur Digital will automatically create thumbnails for all documents. You can customize thumbnails for all documents or folders of your environment.
 
-### Folder thumbnails
+### Folder thumbnail
 
-If a thumbnail image has not been defined for a folder or document the Compositeur Digital will auto-create thumbnail image based on the first document located the folder:
+If a thumbnail image has not been defined for a folder or document the Compositeur Digital will auto-create a thumbnail image based on the first document of the folder:
 
 ![explorer no preview folder](img/explorer_nopreview_folder.jpg)
 
 ![no preview folder](img/nopreview_folder.jpg) 
 
-To create a thumbnail for a folder simply drop an image file named `_preview` (.png or .jpg) directly in the folder:
+To create a thumbnail for a folder simply drag and drop an image file named `_preview` (.png or .jpg) directly in the folder:
 
 ![explorer no preview folder](img/explorer_preview_folder.jpg)
 
@@ -99,12 +99,12 @@ To customize the thumbnail image of a document, drag and drop an image file usin
 
 ![explorer preview file](img/explorer_preview_file.jpg)
 
-## Standby video
+## Stand by video
 
-When the Kiosk mode of the Compositeur Digital is activated, a fullscreen video can be automatically stard after a specified period of inactivity. The video will loop until the touch screen is activated.
+When the Kiosk mode of the Compositeur Digital is activated a fullscreen video can be automatically started after a specified period of inactivity. The video will loop until the touch screen is activated.
 
 Place a supported video file named `_standby` in the environment folder:
 
 ![standby](img/explorer_standby.jpg) 
 
-All [supported video types](video.md) are supported.
+Check the [supported video types](video.md) section for further details.
