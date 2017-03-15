@@ -24,10 +24,10 @@ Here is a file example for the form displayed above:
 
 ![Aperçu du fichier _questions.csv](img/form_csv.jpg)
 
-### Line format:
+### Line formatting:
 
 - 1st cell: question type
-- 2nd cell: question text
+- 2nd cell: question 
 - following cells: possible answers for multiple-choice question
 
 ### Question types
