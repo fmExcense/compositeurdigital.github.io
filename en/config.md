@@ -101,13 +101,13 @@ Each parameter is written using the following structure : `<param name="paramete
 
 *Common.xml*
  - `AdditionalRootItemsFolderPaths` list of addional directories in which the application will look for new environments 
- - `CacheDirectory` sets a folder permet de spécifier un répertoire particulier où enregistrer les fichiers de cache 
+ - `CacheDirectory` sets a specific folder to store cached files 
  
- ## <a name="valueKeys"></a>Shared data between documents
+ ## <a name="valueKeys"></a> Data exchanged between documents
  
- Some document types allow to share data with other documents (ie get a value previously saved and modify it)
+ Some document types allow to share data between an other  (e.g get a value previously saved and modify it)
  A common keyword is used to create this link. The values of the default keys can be modified in the Profile panel of the menu.
- The existing keys are :
+ Available keys are :
   - `firstName`
   - `lastName`
   - `email`
