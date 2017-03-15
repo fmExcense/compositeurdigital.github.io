@@ -1,6 +1,6 @@
 # Fill-in forms
 
-Use fill-in forms to collect data from users. Answers are stored on the computer. 
+Use fill-in forms to collect data during your presentation. Answers are stored on the computer. 
 
 ## Interactions in the Compositeur Digital
 
