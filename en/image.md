@@ -4,7 +4,7 @@ This type is used to to display pictures, non-interactive maps, single page docu
 
 ## Interaction within the Compositeur Digital
 
-The image format allow the following interactions :
+The image format allows the following interactions :
 
 - Annotation
 - Printing
