@@ -1,18 +1,18 @@
 # Image
 
-Use this type of content to display a picture, a non-interactive map, a document consisting of a single page, etc.
+Use this type of content to display a picture, a non-interactive map, single page document, etc.
 
-## Use in Compositeur Digital
+## Interaction within the Compositeur Digital
 
-With an image you can:
+The image format allow the following interactions :
 
-- Annotate
-- Print
+- Annotation
+- Printing
 
 ## Content management
 
-- Supported file extensions : `jpg`, `png`, `tif`.
+- Supported image file extensions : `jpg`, `png`, `tif`.
 
->You can display a folder of images as a slideshow. See the [Slideshow](slideshow.md) section.
+> You can display "in a row" in the form of a slideshow using our[Slideshow](slideshow.md) feature.
 
 [Back to supported content](content_types.md)
