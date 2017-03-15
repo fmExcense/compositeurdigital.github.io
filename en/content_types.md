@@ -1,6 +1,6 @@
 # Supported content
 
-Compositeur Digital can use the following types of content:
+The Compositeur Digital support the following types of content:
 
 - [Images](image.md)
 - [Presentations: PDF, Powerpoint, diaporama](slideshow.md)
@@ -11,7 +11,7 @@ Compositeur Digital can use the following types of content:
 - [Fill-in forms](form.md)
 - [Quiz](quiz.md)
 
-Additionally Compositeur Digital handles some interactive content for specific use cases:
+In addition, the Compositeur Digital can handle interactive content for specific use cases:
 
 - [Real estate selector](immo.md)
 - [Mortgage simulator](bank_simulator.md)
