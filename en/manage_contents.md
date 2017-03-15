@@ -1,6 +1,6 @@
 # Content management
 
-Compositeur Digital reads documents stored on your computer. Those documents can to be organized in folders to facilite the presentation
+The Compositeur Digital reads documents stored on your computer. Those documents can to be organized in folders to facilite the presentation
 
 ## Required skills and resources
 
