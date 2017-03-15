@@ -13,6 +13,6 @@ The image format allows the following interactions :
 
 - Supported image file extensions : `jpg`, `png`, `tif`.
 
-> You can display a set of images "in a row" using our [Slideshow](slideshow.md) feature.
+> You can display a set of images using our [Slideshow](slideshow.md) feature.
 
 [Back to supported content](content_types.md)
