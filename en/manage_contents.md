@@ -1,31 +1,32 @@
 # Content management
 
-Compositeur Digital uses a set of documents that you prepared in advance. Those documents are files on your computer that you can organize with folders for use in Compositeur Digital.
+Compositeur Digital reads documents stored on your computer. Those documents can to be organized in folders to facilite the presentation
 
-## Required skills
+## Required skills and resources
 
-The preparation of a Compositeur Digital universe is done in Windows file explorer.
+The preparation of an environnement is done using the Windows built-in file explorer.
 
-You should be confortable with:
+You should be confortable with : 
 
-- Navigate a files and folders hierarchy in Windows file explorer.
-- Handle file operations : move, rename, delete, copy and paste.
+- Organizing folders 
+- Renaming files and folder
+- That's all :)
 
 ### File extensions
 
-Using Microsoft Windows, files are represented by a name an an *extension*, usually consisting of 3 or 4 letters after a point. The extension indicates the type of document stored in the file:
+The Compositeur Digital uses the file extension to setup the various elements of an environment.  The * file extension*, is usually consisting of 3 or 4 characters after the dot in the file name indicating the type of document:
 
 - Images : photo1.jpg, photo2.png
 - Presentation : pres1.pptx, pres2.pdf
 - Text file : table of content.txt
 
-File explorer hides file extensions by default, we strongly recommend to change this setting:
+By default the Windows File explorer application hides file extensions. We strongly recommend to change this setting:
 
 ![show extensions](img/show_extensions.jpg)
 
-## Universe
+## Environment
 
-You can create multiple universes: group all documents relevant for your presentation (meeting, rsales pitch, etc.) in an universe:
+The Compositeur Digital can be use for multiple purposes
 
 Real estate
 
@@ -35,23 +36,23 @@ Banking services
 
 ![univers 2](img/univers2.jpg)
 
-Each univers is a folder on your computer. Compositeur Digital will look fol univers folders in `Documents\Compositeur Digital` by default:
+Technically  an environment is a specific folder on your computer. By default the Compositeur Digital will look for folders located in   `Documents\Compositeur Digital`
 
-![universes in explorer](img/explorer_univers.jpg)
+![Environement view using the built-in Window file explorer](img/explorer_univers.jpg)
 
-To create an univers, you can start from an existing univers by dublicating its folder, or simply create a folder in `Documents\Compositeur Digital`.
+To create your own environment , you can start by dublicating an exisiting one in the default location :  `Documents\Compositeur Digital`.
 
 ## Background
 
-You might want to customize your univers by changing its background image. To do so, add an image file named `_background` directly in the universe folder:
+You can customize your environment by changing the background image. To do so, simply add an image file named `_background` with the environment folder as described below:
 
 ![universe background](img/explorer_background.jpg)
 
 ## Folders
 
-In an universe, you can organize your documents in folders and sub-folders.
+In an environment, you can organize your documents in folders and sub-folders.
 
-The first level of folders will correspond to the sections available int the menu bar in Compositeur Digital:
+The first level of folder-view is displayed in the Compositeur Digital in the dock located at the bottom of the screen : 
 
 ![explorer root folders](img/explorer_root_folders.jpg)
 
@@ -59,18 +60,18 @@ The first level of folders will correspond to the sections available int the men
 
 >### <a name="contentFolder"></a> Hidden folders
 >
->Folders with extension '.content' will not be visible in Compositeur Digital. 
->See [interactive slideshow](slideshow#interactive) for a common use of this feature.
+>Folders using a '.content' extension will not be seen in Compositeur Digital. 
+>See [interactive slideshow](slideshow#interactive) to see the common use of this feature.
 
 ## Documents
 
-Directly add documents in the folders and sub-folders of an univers.
+Simply drag and drop your documents in the folders and sub-folders to populate your environment.
 
-See [Supported content](content_types.md) an exhaustive list of the supported file types.
+Check [Supported content](content_types.md) for an exhaustive list of supported file types.
 
 ## Display order
 
-Compositeur Digital will display items in folders in alphabetical order. You can however force a specific order by prefixing file and folder names with a number, Compositeur Digital will not display the numbers but will arrange the displayed element in the specified order.
+Compositeur Digital will display all items in folders using an alphabetical order. You can however force a specific order for documents and folders by prefixing the names with a number. The Compositeur Digital will not display the numbers but will arrange the items accordingly.
 
 >If you need to display a file with a name starting with a number (e.g. `3D render`), see the [Advanced configuration](config#configuration_dun_document) section.
 
