@@ -17,7 +17,7 @@ The slideshow offers the following interactions :
 - Folder extension : `slideshow`
 - Supported extensions in the folder : `jpg`, `png`, `ppt`, `pptx`, `pdf`
 
-### Note Powerpoint & PDF documents
+### Powerpoint presentations
 
 - Supported extensions : `ppt`, `pptx`, `pdf`
 
@@ -38,7 +38,7 @@ Example of folder organization :
 
 ### Folder organization - multiple document type, forced sequence
 
-You can create a single slideshow with a combination of Powerpoint, PDF and image files. Place all files in folder using the `slideshow` extension.
+You can create a single slideshow with a combination of Powerpoint, PDF and image files. Place all files in a folder using the `slideshow` extension.
 
 Example of folder organization :
 
