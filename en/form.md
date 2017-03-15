@@ -32,9 +32,9 @@ Here is a file example for the form displayed above:
 
 ### Question types
 
-- `text`: text field for entries using the physical or virtual keyboard
-- `single`: for single choice only  
-- `multiple`: for multiple answers 
+- `text`: for questions requiring text entries using the physical or virtual keyboard
+- `single`: for questions allowing one answer at a time   
+- `multiple`: for questions allowing multiple answers 
 
 ### Results
 
