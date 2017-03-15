@@ -1,14 +1,14 @@
 # Video
 
-Play back video content in Compositeur Digital.
+Video player for the Compositeur Digital.
 
-## Use in Compositeur Digital
+## Interaction in the Compositeur Digital
 
 You can :
 
 - Play, pause playback
 - Mute/unmute sound
-- Skip playback to any time in the video
+- Jump to a specific position in the video
 
 ## Content management
 
