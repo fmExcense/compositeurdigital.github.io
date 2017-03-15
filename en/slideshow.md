@@ -12,7 +12,12 @@ The slideshow offers the following interactions :
 - Annotations
 - Printing
 
-### Powerpoint & PDF documents
+### Content Management
+
+- Folder extension : `slideshow`
+- Supported extensions in the folder : `jpg`, `png`, `ppt`, `pptx`, `pdf`
+
+### Note Powerpoint & PDF documents
 
 - Supported extensions : `ppt`, `pptx`, `pdf`
 
@@ -22,24 +27,24 @@ The slideshow offers the following interactions :
 
 >*Note 3:* You can open any other content from a specific slide using the "link" feature. Please refer to the [Interactivity]  (interactive) section for further details.
 
-### Content Management
+### Folder organization - single document type, alphabeticial order
 
 - Folder extension : `slideshow`
 - Supported extensions in the folder : `jpg`, `png`, `ppt`, `pptx`, `pdf`
 
-Example of folder organization of a slideshow :
+Example of folder organization :
 
 ![explorer slideshow img](img/explorer_slideshow_img.jpg)
 
-### Document set folder
+### Folder organization - multiple document type, forced sequence
 
-You can create a single slideshow with a combination of Powerpoint, PDF and image files. Place all files the same folder with the extension `slideshow`.
+You can create a single slideshow with a combination of Powerpoint, PDF and image files. Place all files in folder using the `slideshow` extension.
 
-Sample slideshow file hierarchy:
+Example of folder organization :
 
 ![explorer slideshow docs](img/explorer_slideshow_docs.jpg)
 
-In this case, the resulting slideshow will display slides in this order: the fisrt image, the slides from the 2 PDF files and then the last image.
+In this case, the resulting slideshow will display slides in the following sequence : the first image file, the slides from the 2 PDF files and then the last image file.
 
 ### <a name="interactive"></a> Interactivity
 
