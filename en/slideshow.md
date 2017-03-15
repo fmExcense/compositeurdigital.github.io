@@ -20,7 +20,7 @@ The slideshow offers the following interactions :
 
 >*Note 2:* The Compositeur Digital does not support transition effects or animations contained in the presentation. 
 
->*Note 3:* You can open any other content from a specific slide using the "link" feature. Please refer to the ![Interactivity]  (interactive) section for further details.
+>*Note 3:* You can open any other content from a specific slide using the "link" feature. Please refer to the [Interactivity]  (interactive) section for further details.
 
 ### Image set folder
 
