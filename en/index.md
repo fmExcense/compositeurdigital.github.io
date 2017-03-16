@@ -13,7 +13,7 @@ Adding and organizing content.
 List of supported content types and related actions.
 
 ### [Release notes](version_history.md)
-Description of new features and bug fixes for all versions of *Compositeur Digital*  
+Description of new features and bug fixes for releases of the *Compositeur Digital*  
 
 ### Other
 
@@ -21,7 +21,7 @@ Description of new features and bug fixes for all versions of *Compositeur Digit
 Advanced features description for powerusers.
 
 #### [Kiosk mode](kiosk_mode.md)
-Configuring *Compositeur Digital* in self-service mode.
+Configuring the *Compositeur Digital* in self-service mode.
 
 #### [cdigital://](cdigital_uri)
-Trigger actions in *Compositeur Digital* from external applications or events such as web pages or NFC tags 
+Trigger actions in the *Compositeur Digital* from external applications or events such as web pages or NFC tags 
