@@ -1,18 +1,18 @@
 # Advanced configuration
 ## Metadata
-To modify a document's behavior or functionalities, it is possible to position specific parameters in a file named `_meta.txt`.
+You can modify a document's behavior or associated actions using specific parameters described in a file named `_meta.txt`.
 
-To modify the behavior of a folder in the application, the meta file must be placed inside the folder.
+To modify the behavior of a folder in the application, the meta file must be placed inside the targeted folder.
 
-To modify the behavior of a document in the application, the meta file must be named after the document file name followed by the suffix `_meta` and the `txt` extension, and positioned at the same location as the document itself 
+To modify the behavior of a document in the application, the meta file must be named after the document's file name followed by the suffix `_meta` and the `txt` extension. It must be saved at the same location as the target document. 
 
-For example, for a file `1 - image.jpg`, the corresponding meta file should to be named as follows : `1 - image_meta.txt`.
+For example, for a file named `1 - image.jpg`, the corresponding meta file should to be named as follows : `1 - image_meta.txt`.
 
 In the meta file, each line (called `meta`) shall describe a parameter using the following structure: `metaName = value`
 
 A binary meta (true or false) is described as follows:  `metaName = true`. It's default value is `false`. The values `1` (true) and `0` (false) can also be used.
 
-To specify the same behavior for a set of documents, use the `*.` prefix on the description of the meta and place the meta file in the folder containing the set of targeted documents
+To apply a specific behavior to a set of documents, use the `*.` prefix on the description of the meta and save the meta file in the folder containing the set of targeted documents
 
 Example : `*.table.hideCommands = true`
 
@@ -30,7 +30,7 @@ Example : `*.table.hideCommands = true`
  - `table.noScale = true` inhibits resizing for the document 
  - `table.noMove = true` inhibits all movements for the document (it will be opened in the middle of the screen)
 
-*Size and displayed elements :*
+*Size and displayed tags :*
  - `desiredHeight = 400` sets the default height of the document
  - `desiredWidth = 400` sets the default width of the document
  - `minHeight = 400` sets the minimum height
@@ -105,8 +105,8 @@ Each parameter must be written using the following structure : `<param name="par
  
  ## <a name="valueKeys"></a> Data exchanged between documents
  
- Some document types allow you  to exchange data between documents  (e.g getting a value previously saved and modifying it)
- A keyword is used to create this link. The following keys target the attributes of the customer in the Profile view in the menu.
+ Some types of documents allow you to exchange data between documents  (e.g getting a value previously saved and modifying it)
+ A keyword is used to operate this exchange of values. The following keys target attributes of the customer in the Profile view in the menu.
  Available keys are :
   - `firstName`
   - `lastName`
