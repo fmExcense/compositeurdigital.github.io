@@ -17,10 +17,10 @@ On fill-in forms, you can:
 - optional '_background' image file for customizing the form 
 - form specification file in the folder: `_questions.csv`
 
-The form specification file is a CSV file (*comma-separated values* with `;` as delimiter): it is editable with any spreadsheet applications such as Microsoft Excel.
-This file will store the list of questions that will appear in the form. Each line will describe a question.
+The form specification file is a CSV file (*comma-separated values* with `;` as delimiter): it is editable with any spreadsheet application such as Microsoft Excel.
+This file will describe the list of questions that will appear in the form. One line describes one question at a time
 
-Here is a file example for the form displayed above:
+Here is a example of file for the form displayed above:
 
 ![Aperçu du fichier _questions.csv](img/form_csv.jpg)
 
@@ -28,9 +28,9 @@ Here is a file example for the form displayed above:
 
 - 1st cell: question type
 - 2nd cell: question 
-- following cells: possible answers for multiple-choice question
+- following cells: possible answers for multiple-choice questions
 
-### Question types
+### Answer types
 
 - `text`: for questions requiring text entries using the physical or virtual keyboard
 - `single`: for questions allowing one answer at a time   
@@ -39,6 +39,6 @@ Here is a file example for the form displayed above:
 ### Results
 
 Results are saved on disk in the `Documents \ Compositeur Digital Form` folder.	
-In this file a line with all the answers is added each time the `Save` button in pressed in the form.
+In this file a line with all answers is added each time the `Save` button in pressed in the form.
 
 [Back to supported types](content_types.md)
