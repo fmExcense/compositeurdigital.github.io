@@ -1,10 +1,10 @@
 # Documentation
 
 ### [Getting started](gettingstarted.md)
-Installing and running the *Compositeur Digital*.
+Installing and launching the *Compositeur Digital*.
 
 ### [Features overview](use.md)
-Discover how to interact with the content in the *Compositeur Digital*.  
+Discovering how to interact with the content in the *Compositeur Digital*.  
 
 ### [Content management](manage_contents.md)
 Adding and organizing content.
@@ -13,7 +13,7 @@ Adding and organizing content.
 List of supported content types and related actions.
 
 ### [Release notes](version_history.md)
-Description of new features and bug fixes for releases of the *Compositeur Digital*  
+Description of new features and bug fixes in releases of the *Compositeur Digital*  
 
 ### Other
 
