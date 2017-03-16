@@ -2,17 +2,17 @@
 ## Metadata
 To modify a document's behavior or functionalities, it is possible to position specific parameters in a file named `_meta.txt`.
 
-To modify the behavior of a folder, the file must be place inside the folder.
+To modify the behavior of a folder in the application, the meta file must be placed inside the folder.
 
-To modify the behavior of a file, it must be named after the file name followed by the suffix `_meta` and the `txt` extension, and positioned at the same location as the file.
+To modify the behavior of a document in the application, the meta file must be named after the document file name followed by the suffix `_meta` and the `txt` extension, and positioned at the same location as the document itself 
 
 For example, for a file `1 - image.jpg`, the corresponding meta file should to be named as follows : `1 - image_meta.txt`.
 
-In the meta file, each line (named `meta`) shall describe a parameter using the following structure: `metaName = value`
+In the meta file, each line (called `meta`) shall describe a parameter using the following structure: `metaName = value`
 
-A binary meta (true or false) is then written `metaName = true`. It's default value is `false`. The values `1` (true) and `0` (false) can also be used.
+A binary meta (true or false) is described as follows:  `metaName = true`. It's default value is `false`. The values `1` (true) and `0` (false) can also be used.
 
-To specify a behavior for a set of documents, use the `*.` prefix on the line and place the file in the documents' folder
+To specify the same behavior for a set of documents, use the `*.` prefix on the description of the meta and place the meta file in the folder containing the set of targeted documents
 
 Example : `*.table.hideCommands = true`
 
@@ -25,12 +25,12 @@ Example : `*.table.hideCommands = true`
  - `disableDuplicate = true` hides the duplicate button
  - `disableSendBehind = true` hides the "send to background" button
 
-*Manipulation :*
+*Gestures :*
  - `table.noRotate = true` inhibits rotation for the document
  - `table.noScale = true` inhibits resizing for the document 
  - `table.noMove = true` inhibits all movements for the document (it will be opened in the middle of the screen)
 
-*Appearence :*
+*Size and displayed elements :*
  - `desiredHeight = 400` sets the default height of the document
  - `desiredWidth = 400` sets the default width of the document
  - `minHeight = 400` sets the minimum height
@@ -44,7 +44,7 @@ Example : `*.table.hideCommands = true`
  - `orientation = 90` rotates the document using a specified value : `-90` to turn left, `90` to turn right or `180` to flip the document
  
 ### Environment parameters
-*Appearence*
+*Theme color*
  - `themeColor = 9c211f` sets a specified value for the theme color. By default, the value is set the mean value of the color of the background
 
 *Buttons :*
@@ -58,13 +58,13 @@ Example : `*.table.hideCommands = true`
  - `favorites.disableFastShare = true` hides the quick share button on all documents
  - `favorites.disableFavorites = true` disables the document basket/favorites feature.
 
-*Paper tools :*
+*Paper notes:*
  - `paper.disableBlankSheet = true` hides the blanksheet creation button
  - `paper.disablePostIt = true` hides the note creation button
 
 
 ## Configuration files
-Each parameter is written using the following structure : `<param name="parameterName" value="parameterValue, secondOptionalValue, third, etc" />`
+Each parameter must be written using the following structure : `<param name="parameterName" value="parameterValue, secondOptionalValue, third, etc" />`
 
 *App.xml*
 
@@ -105,8 +105,8 @@ Each parameter is written using the following structure : `<param name="paramete
  
  ## <a name="valueKeys"></a> Data exchanged between documents
  
- Some document types allow to share data between an other  (e.g get a value previously saved and modify it)
- A common keyword is used to create this link. The values of the default keys can be modified in the Profile panel of the menu.
+ Some document types allow you  to exchange data between documents  (e.g getting a value previously saved and modifying it)
+ A keyword is used to create this link. The following keys target the attributes of the customer in the Profile view in the menu.
  Available keys are :
   - `firstName`
   - `lastName`
