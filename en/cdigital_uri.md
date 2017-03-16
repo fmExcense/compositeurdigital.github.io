@@ -1,4 +1,4 @@
-# Protocole cdigital://
+# cdigital:// protocol
 ## Purpose 
 The cdigital:// protocol opens a specific environment or triggers a specific action in the Compositeur Digital from an URL or a NFC tag event:
 - `cdigital://launch` : Opens the Compositeur Digital application from a web browser
