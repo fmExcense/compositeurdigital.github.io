@@ -1,6 +1,6 @@
 # 3D panorama
 
-Use this type of content to display a 360° view of a scene such as landscape or indoor view.
+Use this type of content to display a 360° view of a scene such as landscapes or interior views.
 
 ## Interaction in the Compositeur Digital
 
@@ -9,9 +9,9 @@ On a 3D panorama you can:
 - Press the central button to activate the panoramic view<br/>
 ![panorama activation](img/panorama_activation.jpg)
 
-- Slide your finger on the screen to look at different directions
+- Slide your finger to look at different directions
 - Shrink and zoom-in using two fingers
-- Deactivate the panoramic view using the dedicated button on the bottom right (next to the document menu)</br>
+- Deactivate the panoramic view using the dedicated button at the bottom right (next to the document menu)</br>
 ![panorama deactivation](img/panorama_desactivation.jpg)
 
 ## Content management
