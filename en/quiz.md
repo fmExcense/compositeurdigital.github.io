@@ -17,52 +17,53 @@ Depending on the type of page you can:
 
 The quiz folder contains:
 
-- Optional `_background` image file to customize the quiz 
+- Optional `_background` image file to customize the layout of the quiz
 - Optional documents required for the quiz
 - A `_meta` folder containing all images required for the quiz
 - a configuration file: `_questions.xml`
 
-The configuration file specifies the quiz page by page. It is formatted in XML and can be edited using Notepad or another text editing application.
+The configuration file specifies each page of the quiz. It is formatted in XML and can be edited using Notepad or any other text editing application.
 
 
 ### Configuration file structure
 
-The Quiz file contains two parts:  `sections` and `pages`.
+The Quiz file must contains two parts:  `sections` and `pages`.
 Generic file structure:
 ```xml
 <quizz>
     <sections>
         list of sections
-    </sections>
+    </sections>ˋ
     <pages>
         list of pages
     </pages>
 </quizz>
 ```
 
-Each pages will represent a question. Sections let you group pages that have the same section name. 
+Each pages will describe a question. Sections will let you group pages that have the same section name. 
 
 ### Sections
-Set the section display name in a `section` tag and optionnaly use the attribute `id` to use it as a reference.
+Set the section display name in a `section` tag and optionnaly define the `id` attribute if you need to create a
+reference to this section.
 
 ```xml
 <section id="intro">1. INTRODUCTION</section>
 ```
 
 ### Pages
-You can add different page types to a quiz but all pages should have the following items in common:
+You can create a quiz with different page types but all pages should have the following items in common:
  - a `sectionId` attribute that assigns a page to a section. The section name will appear on top of the page.
  - an optional `id` attribute to be used as an identifier if a reference to that page is needed. 
  - a `nextPageId` attribute: optional reference to the page that shoud be displayed next. If not set, the following page described in the file will be used. 
 
-### 
+### Page order 
 The first page described in the list will always be the first page displayed.
-The last page described will be by default the last displayed page.
+The last page described will be by default the last page displayed,
 To force a page to finish the quiz, set the `nextPageId` attribute value to `@end`.
 
 ### Page types
 #### `questionPage`
-This page type lets you create a question with a list of possible answers. Please note that an answer must be selected before going to the next page.
+This type lets you create a question with multiple answers. Please note that an answer must be selected before going to the next page.
 
 Here are the attributes for `questionPage`:
  - `label`: Question type. Superseeds the `visual` attribute.
@@ -74,7 +75,7 @@ The content of the `questionPage` is the list of answers, which can be of variou
  ```xml
  <answer>my answer</answer>
  ```
- - visual answers, with the tag `imageAnswer`. Set attribute `visual` to the name of the image (without extension) in the `_meta` folder:
+ - visual answers, with the tag `imageAnswer`. Set the `visual` attribute to the name of the targeted image (without extension) in the `_meta` folder:
    ```xml
    <imageAnswer visual="image 2"/>
    ```
@@ -82,9 +83,9 @@ The content of the `questionPage` is the list of answers, which can be of variou
    ```xml
    <imageAnswer visual="image 2">my caption</imageAnswer>
    ```
-It is not possible to mix text answers with visual answers.
+It is not possible to mix text answers with visual answers in the same question.
 
-Set the `nextPageId` attribute on an answer to jump to a specific page if the user selects that answer and create branches to your quiz:
+You can define conditional questions based on answers provided by the user. To do so, use the `nextPageId` attribute to jump to a specific page for a given answer : 
 
 ```xml
 <questionPage id="Q1" sectionId="section 2" label="To which aquestion do you wish to answer ?" >
@@ -104,7 +105,7 @@ Set the `nextPageId` attribute on an answer to jump to a specific page if the us
 ![questionPage imageAnswer](img/questionpage_imageanswer.jpg)
 
 #### `page`
-A simple page to display either text or an image:
+Describes a simple page to display with either text or image:
  - `label`: text to display
  - `visual`: name of the image file to display (no extension, file present in `_meta` folder)
 
@@ -116,7 +117,7 @@ A simple page to display either text or an image:
 
 
 #### `infoPage`
-Display a simple form in which the user can type in some information. Add `info` tags with the `label` attribute.
+Displays a simple form in which the user can type in texted answers. Set the `label` attribute of the `info` tags to define a name for the text box.
 
 ```xml
 <infoPage sectionId="intro" label="Please fill out your identity">
@@ -126,11 +127,11 @@ Display a simple form in which the user can type in some information. Add `info`
 ```
 ![infoPage](img/infopage.jpg)
 
-To share this information with other documents and the profile info, use the `valueKey` attribute on an `info` tag (see [shared data](config#valueKeys)).
+To use this information as an input for other documents or populate the profile info, use the `valueKey` attribute of the `info` tag (see [shared data](config#valueKeys)).
 
 
 #### `numericSliderPage`
-Displays a page with a single slider that lats users choose a bound numerical value:
+Displays a page with a single slider that lets the user choose a (rounded) numerical value:
  - `label`: question text. Takes precedence over `visual`.
  - `visual`: name of the image file to display (no extension, file present in `_meta` folder).
  - `min`: minimum selectable value
@@ -139,26 +140,26 @@ Displays a page with a single slider that lats users choose a bound numerical va
  - `maxLabel`: (optional) : specific display value for the maximum value
  - `default`: (optional) preselected value
  - `stepSize`: difference between two steps of the cursor
- - `format`: changes the way the valuye is displayed
+ - `format`: changes the way the value is displayed
 
  Some possible formats are:
  - `N0`: rounded value
- - `C0`: rounded monetary value following the current locale (i.e. uses €, £, $, etc. where relevant)
+ - `C0`: rounded monetary value according to the current regional setting (i.e. uses €, £, $, etc. where relevant)
 
 ```xml
 <numericSliderPage id="funds" sectionId="section 3" label="Your available funds" min="0" max="5000000" stepSize="5000" format="C0" valueKey="finance.budget" />
 ```
 ![numericSliderPage](img/quiz_numericsliderpage.jpg)
 
-To share this information with other documents and the profile info, use the `valueKey` attribute on an `info` tag (see [shared data](config#valueKeys)).
+To share this information with other documents or the profile info, use the `valueKey` attribute of the `info` tag (see [shared data](config#valueKeys)).
 
 #### `labelSliderPage`
-This displays a page with a scale selector in the form of a slider with a few fixed values.
+This displays a page with a slider with predefined values.
 - `label` : le titre ou la question à afficher.
 
-Add `answer` tags to add scale values, the fisrt being the minimum and the last the maximum.
+Add `answer` tags to add predefined values, the fisrt being the minimum and the last being the maximum.
 
-exemple :
+example :
 ```xml
 <labelSliderPage sectionId="section1" label="Faites vous souvent des achats en ligne ?">
 	<answer>Jamais</answer>
@@ -171,7 +172,7 @@ exemple :
 
 
 #### `imageSliderPage`
-This page type offers the same functionality as the previous `labelSliderPage` but with the scale representing a cursor between to pictures rather than fixed values.
+This type offers the same functionality as the previous `labelSliderPage` but using images for predefined values.
  - `label`: question text. Takes precedence over `visual`.
  - `visual`: name of the image file to display (no extension, file present in `_meta` folder).
  - `leftVisual`: picture to the left of the cursor.
@@ -186,9 +187,9 @@ This page type offers the same functionality as the previous `labelSliderPage` b
 
 
 #### `documentPage`
-Displays a link to open a document in Compositeur Digital.
+Displays a link to open a document in the Compositeur Digital.
 - `label`: Title or question text.
-- `document`: name of the document, which must exist in the quiz folder.
+- `document`: name of the document, which must be available in the same folder as the quiz.
 
 ```xml
 <documentPage label="Your documents:" document="Documents A"/>
@@ -197,11 +198,11 @@ Displays a link to open a document in Compositeur Digital.
 
 
 #### `orderPage`
-Displays a choice lists and lets the user order a minimum number of those choices.
+Displays a lists of values to be ordered by the user.
 - `label`: titel or question text.
 - `answerNumber`: minimum number of answers to select.
 
-Add a list of `answer` or `imageAnswer` for the available choices. The twoo types can not be mixed.
+Add a list of `answer` or `imageAnswer` for available choices. The two types cannot be mixed.
 ```xml
 <orderPage sectionId="section 1" label="Prioritize your projects" answerNumber="3">
     <answer>Renovating</answer>
@@ -222,4 +223,4 @@ Add a list of `answer` or `imageAnswer` for the available choices. The twoo type
 
 ### Results
 Results can be found in the `Documents\Compositeur Digital Quiz` folder.	
-A new line is added to the results file ecah time a user reaches the last page of a quiz.
+A new line is added in the result file each time the user reaches the last page of a quiz.
