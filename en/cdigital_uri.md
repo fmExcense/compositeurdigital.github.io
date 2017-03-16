@@ -1,6 +1,6 @@
 # cdigital:// protocol
 ## Purpose 
-The cdigital:// protocol allows to open the application on a specific environment or to triggers specific actions from an URL or a NFC tag event:
+The cdigital:// protocol allows to launch the application and open a specific environment or event trigger specific actions in a given environment. These actions can be triggered from a webpage or an NFC tag event:
 - `cdigital://launch` : Opens the Compositeur Digital application from a web browser
 - `cdigital://launch?rootItem=Ma%20Banque` : Opens the "Ma Banque" environment in the Compositeur Digital 
 - `cdigital://launch?firstName=Jean&lastName=Dupont` : positions context data [données de contexte](config.md#valueKeys) in the current environment.
