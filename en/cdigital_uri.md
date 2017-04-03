@@ -1,4 +1,4 @@
-# cdigital:// protocol
+ # cdigital:// protocol
 
 ## launch
 The cdigital:// protocol allows to launch the application and open a specific environment or event trigger specific actions in a given environment. These actions can be triggered from a webpage or an NFC tag event:
@@ -16,7 +16,7 @@ The cdigital:// protocol allows to launch the application and open a specific en
 	- showmenu_about
 	
 ## goback
-Set `cdigital://goback` as a hypertext link in an interactive Powerpoint to leave the current universe. Optionally add the `ignoreSave` parameter to avoid the dialog message asking to save your project: `cdigital://goback?ignoreSave=true`.
+Set `cdigital://goback` as a hypertext link in an interactive Powerpoint to leave the current universe and come back to the universe selection page. Optionally add the `ignoreSave` parameter to avoid the dialog message asking to save your project: `cdigital://goback?ignoreSave=true`.
 
 ## exit
 Set `cdigital://goback` as a hypertext link in an interactive Powerpoint instantly leav Compositeur Digital.
