@@ -1,4 +1,4 @@
-# Kaufman & Broad : Procédure de déploiement du Compositeur Digital
+p# Kaufman & Broad : procédure de déploiement du Compositeur Digital
 
 Cette procédure est valable pour la phase pilote, le système final de synchronisation des contenus - actuellement basé sur Onedrive - reste à déterminer.
 
