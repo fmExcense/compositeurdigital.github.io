@@ -8,7 +8,7 @@
 - Sauvegarde des projets sur le l’origine de la déclinaison (local, USB, cloud)
 - Les projets sont associés à un compte
 - Accès rapide à l’activation/désactivation de l’annotation et à la palette
-- 5 couleurs de postit
+- Notes : 5 couleurs de note
 - Création rapide de postit à partir d’un postit
 - Bouton plein écran sur les documents
 - Meta de rotation des documents
