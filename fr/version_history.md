@@ -5,7 +5,7 @@
 
 - Mode grand écran 
 - Export panier sous forme de page web de synthèse
-- Sauvegarde des projets sur le l’origine de la déclinaison (local, USB, cloud)
+- Sauvegarde des projets sur le support d’origine de la déclinaison (local, USB, cloud)
 - Les projets sont associés à un compte
 - Accès rapide à l’activation/désactivation de l’annotation et à la palette
 - Notes : 5 couleurs de note
