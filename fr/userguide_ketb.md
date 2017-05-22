@@ -1,6 +1,6 @@
 # Kaufman & Broad : guide d'utilisation du Compositeur Digital
 
-Ce guide décrit comment utiliser le Compositeur Digital sur les tables, tablettes ou écran tactiles pour présenter les programmme Kaufman & Broad.
+Ce guide décrit comment utiliser le Compositeur Digital sur les tables, tablettes ou écran tactiles pour présenter les programmmes Kaufman & Broad.
 
 
 ## Lancer et utiliser le Compositeur Digital
@@ -13,34 +13,34 @@ Ce guide décrit comment utiliser le Compositeur Digital sur les tables, tablett
 
 ## Dépannage
 
-### Lorsque je charge un programme, le Compositeur Digital indique "Préparation des contenus" pendant plusieurs minutes.
+### Lorsque j'accède à un programme, le Compositeur Digital indique "Préparation des contenus" pendant plusieurs minutes.
 
-Les contenus sont préparés lors de la première ouverture du programme pour être ensuite disponible instantanément. C'est pourquoi il est conseillé de charger un programme en avance de toute présentation à un client.
+Pour offrir la meilleure réactivité en rendez-vous, l'application Compositeur Digital précharge les contenus du programme immobilier. Cette opération qui peut prendre plusieurs minutes n'a lieu que la première fois que votre dispositif accède au programme immobilier. Par la suite, l'acces est quasi-instantané. Il est conseillé de charger le programme préalablement au premier rendez-vous client.
 
-### Il manque un ou plusieurs programme, ou le programme n'est pas complet.
+### Il manque un ou plusieurs programmes, ou le programme n'est pas complet.
 
-Les contenus ne sont pas synchronisés ou ne le sont que partiellement. Veuillez suivre les étapes suivantes pour tenter de résoudre les problème.
+Si les contenus ne sont pas synchronisés ou ne le sont que partiellement. Veuillez suivre les étapes suivantes pour tenter de résoudre les problèmes.
 
 1. Quitter le Compositeur Digital s'il est en cours d'éxecution.
 2. Verifier la connexion à internet dans la barre de tâches :
 
 ![connexion ok](img/ketb_net_ok.jpg)
 
-- Si la tablette ou l'écran n'est pas connecté :
+- Si la tablette ou l'écran n'est pas connecté comme indiqué ci-dessous:
 
 ![connexion ko](img/ketb_net_ko.jpg)
 
-- Appuyez l'icône Wi-Fi et choisissez le réseau
+- Appuyez l'icône Wi-Fi et sélectionez le réseau WiFi de votre point de vente. (exemple ci-dessous) 
 
 ![connect](img/ketb_net_connect.jpg)
 
 3. Vérifiez la synchronisation OneDrive :
-- Si l'icône indique une synchronisation en cours 
+- Lorsque une synchronisation est en cours l'icône suivant apprait :  
 
 ![synchro](img/ketb_onedrive_sync.jpg)
 
-- patientez jusquà ce que l'icône passe en état synchronisé :
+- Patientez jusqu'à ce que la synchronisation soit terminée. Lorsque celle-ci est terminée l'icône passe à l'état suivant :
 
 ![onedrive ok](img/ketb_onedrive_ok.jpg)
 
-- Redémarrez le Compositeur Digital et les programmes devraient apparaître au complet.
+- Redémarrez le Compositeur Digital. Tous les programmes doivent alors apparaître au complet.
