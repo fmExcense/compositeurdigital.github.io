@@ -5,7 +5,7 @@ Ce guide décrit comment utiliser le Compositeur Digital sur les tables, tablett
 
 ## Lancer et utiliser le Compositeur Digital
 
-- Si le Compositeur digital n'est pas déjà lancé, une icône Compositeur Digital doit se trouver sur le bureau :
+- Si le Compositeur digital n'est pas déjà lancé, une icône Compositeur Digital doit se trouve sur le bureau :
 
 ![Icône de lancement](img/ketb_launch_icon.jpg)
 
