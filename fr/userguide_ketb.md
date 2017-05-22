@@ -20,12 +20,15 @@ Les contenus sont préparés lors de la première ouverture du programme pour ê
 Les contenus ne sont pas synchronisés ou ne le sont que partiellement. Veuillez suivre les étapes suivantes pour tenter de résoudre les problème.
 
 1. Quitter le Compositeur Digital s'il est en cours d'éxecution.
-2. Verifier la connexion à internet.
+2. Verifier la connexion à internet dans la barre de tâches :
 ![connexion ok](img/ketb_net_ok.jpg)
-Si la tablette ou l'écran n'est pas connecté 
+
+Si la tablette ou l'écran n'est pas connecté :
 ![connexion ko](img/ketb_net_ko.jpg)
+
 Appuyez l'icône Wi-Fi et choisissez le réseau
 ![connect](img/ketb_net_connect.jpg)
+
 3. Vérifiez la synchronisation OneDrive :
 Si l'icône indique une synchronisation en cours ![synchro](img/ketb_onedrive_sync.jpg), patientez jusquà ce que l'icône passe en état synchronisé ![onedrive ok](img/ketb_onedrive_ok.jpg).
 
