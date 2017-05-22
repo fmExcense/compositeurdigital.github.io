@@ -41,4 +41,4 @@ Les contenus ne sont pas synchronisés ou ne le sont que partiellement. Veuillez
 
 ![onedrive ok](img/ketb_onedrive_ok.jpg)
 
-- Redémarrez le Compositeur Digital et les programmes devraient apparaitre au complet.
+- Redémarrez le Compositeur Digital et les programmes devraient apparaître au complet.
