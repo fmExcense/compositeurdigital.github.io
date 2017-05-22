@@ -36,7 +36,7 @@ Ce problème apparait si les contenus ne sont pas synchronisés ou ne le sont qu
 ![connect](img/ketb_net_connect.jpg)
 
 3. Vérifiez la synchronisation OneDrive :
-- Lorsque une synchronisation est en cours l'icône suivant apprait :  
+- Lorsque une synchronisation est en cours, l'icône suivant apparait :  
 
 ![synchro](img/ketb_onedrive_sync.jpg)
 
