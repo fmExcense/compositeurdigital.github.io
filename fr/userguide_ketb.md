@@ -31,7 +31,7 @@ Ce problème apparait si les contenus ne sont pas synchronisés ou ne le sont qu
 
 ![connexion ko](img/ketb_net_ko.jpg)
 
-- Appuyez sur l'icône Wi-Fi et sélectionez le réseau Wi-Fi de votre point de vente. (exemple ci-dessous avec le réseau Excense) 
+- Appuyez sur cet icône et sélectionez le réseau Wi-Fi de votre point de vente. (exemple ci-dessous avec le réseau Excense) 
 
 ![connect](img/ketb_net_connect.jpg)
 
