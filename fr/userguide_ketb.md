@@ -40,7 +40,7 @@ Ce problème apparait si les contenus ne sont pas synchronisés ou ne le sont qu
 
 ![synchro](img/ketb_onedrive_sync.jpg)
 
-- Patientez jusqu'à ce que la synchronisation soit terminée. Lorsque celle-ci est terminée l'icône passe à l'état suivant :
+- Patientez jusqu'à ce que la synchronisation soit terminée. Lorsque celle-ci est terminée l'icône passe alors à l'état suivant :
 
 ![onedrive ok](img/ketb_onedrive_ok.jpg)
 
