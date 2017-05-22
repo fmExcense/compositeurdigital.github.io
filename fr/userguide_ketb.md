@@ -25,9 +25,11 @@ Les contenus ne sont pas synchronisés ou ne le sont que partiellement. Veuillez
 ![connexion ok](img/ketb_net_ok.jpg)
 
 - Si la tablette ou l'écran n'est pas connecté :
+
 ![connexion ko](img/ketb_net_ko.jpg)
 
 - Appuyez l'icône Wi-Fi et choisissez le réseau
+
 ![connect](img/ketb_net_connect.jpg)
 
 3. Vérifiez la synchronisation OneDrive :
