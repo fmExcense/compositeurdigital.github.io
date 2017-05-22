@@ -23,6 +23,7 @@ Ce problème apparait si les contenus ne sont pas synchronisés ou ne le sont qu
 
 1. Quitter le Compositeur Digital s'il est en cours d'éxecution.
 2. Verifier la connexion à internet dans la barre de tâches :
+
 - Si la tablette ou l'écran est bien connecté(e), l'icône Wi-Fi apparait ainsi :
 ![connexion ok](img/ketb_net_ok.jpg)
 
