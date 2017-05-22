@@ -19,7 +19,7 @@ Pour offrir la meilleure réactivité en rendez-vous, l'application Compositeur 
 
 ### Il manque un ou plusieurs programmes, ou le programme n'est pas complet.
 
-Si les contenus ne sont pas synchronisés ou ne le sont que partiellement, suivez les étapes suivantes pour tenter de résoudre les problèmes.
+Ce problème apparait si les contenus ne sont pas synchronisés ou ne le sont que partiellement. Dans ce cas, suivez les étapes suivantes pour résoudre le problème.
 
 1. Quitter le Compositeur Digital s'il est en cours d'éxecution.
 2. Verifier la connexion à internet dans la barre de tâches :
