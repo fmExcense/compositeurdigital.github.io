@@ -9,7 +9,7 @@ Ce guide décrit comment utiliser le Compositeur Digital sur les tables, tablett
 
 ![Icône de lancement](img/ketb_launch_icon.jpg)
 
-- Pour utiliser le Compositeur Digital, référez-vous à la [documentation en ligne](use.md).
+- Pour l'utilisation du Compositeur Digital, référez-vous à la [documentation en ligne](use.md).
 
 ## Dépannage
 
