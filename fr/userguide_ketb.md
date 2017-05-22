@@ -23,14 +23,14 @@ Ce problème apparait si les contenus ne sont pas synchronisés ou ne le sont qu
 
 1. Quitter le Compositeur Digital s'il est en cours d'éxecution.
 2. Verifier la connexion à internet dans la barre de tâches :
-
+- Si la tablette ou l'écran est bien connecté, l'icône Wi-Fi apparait ainsi :
 ![connexion ok](img/ketb_net_ok.jpg)
 
-- Si la tablette ou l'écran n'est pas connecté comme indiqué ci-dessous:
+- Si la tablette ou l'écran n'est pas connecté, l'icône Wi-Fi apparait ainsi :
 
 ![connexion ko](img/ketb_net_ko.jpg)
 
-- Appuyez l'icône Wi-Fi et sélectionez le réseau WiFi de votre point de vente. (exemple ci-dessous) 
+- Appuyez sur l'icône Wi-Fi et sélectionez le réseau Wi-Fi de votre point de vente. (exemple ci-dessous avec le réseau Excense) 
 
 ![connect](img/ketb_net_connect.jpg)
 
