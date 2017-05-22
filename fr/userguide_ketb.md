@@ -15,7 +15,7 @@ Ce guide décrit comment utiliser le Compositeur Digital sur les tables, tablett
 
 ### Lorsque j'accède à un programme, le Compositeur Digital indique "Préparation des contenus" pendant plusieurs minutes.
 
-Pour offrir la meilleure réactivité en rendez-vous, l'application Compositeur Digital précharge les contenus de vos programmes immobiliers. Cette opération peut prendre plusieurs minutes uniquement lors du premier accès au programme immobilier . Par la suite, l'accès est quasi-instantané. Il est conseillé de charger le programme préalablement au premier rendez-vous client.
+Pour offrir la meilleure réactivité en rendez-vous, l'application Compositeur Digital précharge les contenus de vos programmes immobiliers. Cette opération peut prendre plusieurs minutes uniquement lors du premier accès au programme immobilier. Par la suite, l'accès est quasi-instantané. Il est conseillé de charger le programme préalablement au premier rendez-vous client.
 
 ### Il manque un ou plusieurs programmes, ou le programme n'est pas complet.
 
@@ -25,6 +25,7 @@ Ce problème apparait si les contenus ne sont pas synchronisés ou ne le sont qu
 2. Verifier la connexion à internet dans la barre de tâches :
 
 - Si la tablette ou l'écran est bien connecté(e), l'icône Wi-Fi apparait ainsi :
+
 ![connexion ok](img/ketb_net_ok.jpg)
 
 - Si la tablette ou l'écran n'est pas connecté(e), l'icône Wi-Fi apparait ainsi :
