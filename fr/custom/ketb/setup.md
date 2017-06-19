@@ -1,4 +1,5 @@
- # Kaufman & Broad : procédure de déploiement du Compositeur Digital
+
+# Kaufman & Broad : procédure de déploiement du Compositeur Digital
 
 *Cette procédure est valable pour la phase de production à partir de S2 2017*
 
@@ -26,6 +27,7 @@ En ligne à partir de l'adresse [http://www.compositeurdigital.com/deploy/ketb](
 Démarrage automatique du Compositeur Digital et/ou du watchdog à l'ouverture de session du PC.
 
 **_Remarque 1 : il est important que le Compositeur Digital démarre 1 fois par jour, généralement lors de l'ouverture de session._**
+
 **_Remarque 2 : le chemin vers l'exécutable principal peut changer lors d'une mise à jour._**
 
 - Processus à surveiller : Compositeur Digital KetB.exe
