@@ -49,7 +49,7 @@ Sur la page d'accueil en bas à droite.
 ### Répertoire d'installation
 Modèle du chemin vers le répertoire, celui-ci peut varier d'une installation à l'autre et lors d'une mise à jour :
 
-C:\Users\[USER]\AppData\Local\Apps\2.0\[F1]\[F2]\comp..tion_[ID]
+C:\Users\\[USER]\AppData\Local\Apps\2.0\\[F1]\\[F2]\comp..tion_[ID]
 
 ### Traces
 %appdata%\Compositeur Digital\log app
