@@ -12,7 +12,7 @@
 - verouillage de l'environnement shell Windows (exemple de logiciel : Frontface Lockdown).
 - logiciel de type watchdog pour surveiller et relancer le Compositeur Digital en cas d'arrêt non prévu (exemple de logiciel : restartoncrash).
 - Arrêt/démarrage automatique matin et soir (*heures à déterminer avec K&B*).
-
+- Pas de mise en veille en journée (l'économiseur d'écran est intégré au Compositeur Digital).
 
 ## Installation
 ### 1. Configurer OneDrive
@@ -24,9 +24,9 @@ Compte `ketb@compositeurdigital.com` (mot de passe fourni par votre contact exce
 En ligne à partir de l'adresse [http://www.compositeurdigital.com/deploy/ketb](http://www.compositeurdigital.com/deploy/ketb).
 
 ### 3. Configurer démarrage/watchdog
-Démarrage automatique du Compositeur Digital et/ou du watchdog à l'ouverture de session du PC.
+Démarrage automatique du Compositeur Digital et/ou du watchdog à l'ouverture quotidienne de session du PC.
 
-**_Remarque 1 : il est important que le Compositeur Digital démarre 1 fois par jour, généralement lors de l'ouverture de session._**
+**_Remarque 1 : il est important que le Compositeur Digital démarre 1 fois par jour._**
 
 **_Remarque 2 : le chemin vers l'exécutable principal peut changer lors d'une mise à jour._**
 
