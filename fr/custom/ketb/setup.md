@@ -1,4 +1,3 @@
-
 # Kaufman & Broad : procédure de déploiement du Compositeur Digital
 
 *Cette procédure est valable pour la phase de production à partir de S2 2017*
@@ -38,16 +37,16 @@ Démarrage automatique du Compositeur Digital et/ou du watchdog à l'ouverture q
 Utiliser au besoin .bat si le watchdog ne peut démarrer un fichier de type .appref-ms. (nécessaire pour restartoncrash).
 
 ## Exploitation
-### Arrêt du Compositeur Digital
+### Arrêt
 ALT+F4 ou à travers le gestionnaire des tâches.
 
-### Mise à jour manuelle Compositeur Digital
+### Mise à jour manuelle
 Procédure identique à l'installation.
 
-### Version du Compositeur Digital
+### Version
 Sur la page d'accueil en bas à droite.
 
-### Répertoire d'installation du Compositeur Digital
+### Répertoire d'installation
 Modèle du chemin vers le répertoire, celui-ci peut varier d'une installation à l'autre et lors d'une mise à jour :
 
 C:\Users\[USER]\AppData\Local\Apps\2.0\[F1]\[F2]\comp..tion_[ID]
