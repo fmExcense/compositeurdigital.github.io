@@ -9,8 +9,8 @@
 - Connexion internet, lors de l'installation, mais aussi lors de l'utilisation pour la mise à jour des contenus.
 
 ## Prérequis mode "kiosque"
-- verouillage de l'environnement shell Windows (exemple de logiciel : Frontface Lockdown).
-- logiciel de type watchdog pour surveiller et relancer le Compositeur Digital en cas d'arrêt non prévu (exemple de logiciel : restartoncrash).
+- Verouillage de l'environnement shell Windows (exemple de logiciel : Frontface Lockdown).
+- Logiciel de type watchdog pour surveiller et relancer le Compositeur Digital en cas d'arrêt non prévu (exemple de logiciel : restartoncrash).
 - Arrêt/démarrage automatique matin et soir (*heures à déterminer avec K&B*).
 - Pas de mise en veille en journée (l'économiseur d'écran est intégré au Compositeur Digital).
 
