@@ -1,5 +1,4 @@
-
-# Kaufman & Broad : procédure de déploiement du Compositeur Digital
+ # Kaufman & Broad : procédure de déploiement du Compositeur Digital
 
 *Cette procédure est valable pour la phase de production à partir de S2 2017*
 
@@ -16,7 +15,7 @@
 
 ## Installation
 ### 1. Configurer OneDrive
-Compte `ketb@compositeurdigital.com`. Utiliser la configuration par défaut.
+Compte `ketb@compositeurdigital.com` (mot de passe fourni par votre contact excense). Utiliser la configuration par défaut.
 
 **_Remarque : la synchronisation initiale provoque le téléchargement de plusieurs dizaines de Go de données : elle ne doit pas être faite sur site K&B. Seules les mises à jour différentielles sont faites sur site K&B._**
 
