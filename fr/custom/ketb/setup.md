@@ -1,15 +1,24 @@
 # Kaufman & Broad : procédure de déploiement du Compositeur Digital
 
-Cette procédure est valable pour la phase de production à partir de S2 2017
+*Cette procédure est valable pour la phase de production à partir de S2 2017*
 
-## Prérequis
-- Ordinateur / tablette tactile sous Windows 10.
+## Prérequis matériel et réseau
+- Ordinateur / tablette tactile sous Windows 10 (Anniversary update ou supérieur).
 - Connexion internet, lors de l'installation, mais aussi lors de l'utilisation pour la mise à jour des contenus.
 
-## Installation du Compositeur Digital
-- Se rendre sur [www.compositeurdigital.com/Setup](http://www.compositeurdigital.com/Setup) et selectionner `Installer Compositeur Digital`.
-- Une fois installé, le Compositeur Digital démarre et demande les identifiants : utiliser le compte `cdigital-ketb@outlook.fr`.
-- S'il est demandé de télécharger des contenus de démo, répondre `non`.
+## Prérequis mode "kiosque"
+- verouillage de l'environnement shell Windows (exemple de logiciel : Frontface Lockdown).
+- logiciel de type watchdog pour surveiller et relancer le Compositeur Digital (exemple de loficiel : restartoncrash.exe).
+- Arrêt/démarrage automatique matin et soir (*heures à déterminer avec K&B*).
 
-## Configuration OneDrive
-Configurer OneDrive avec le compte `cdigital-ketb@outlook.fr`. Utiliser la configuration par défaut pour synchroniser les contenus de tous les programmes.
+*Remarque : il est important que le Compositeur Digital redémarre 1 fois par jour.*
+
+## Installation
+1. Configurer OneDrive avec le compte `ketb@compositeurdigital.com`. Utiliser la configuration par défaut.
+2. Installation en ligne à partir de l'adresse [http://www.compositeurdigital.com/deploy/ketb](http://www.compositeurdigital.com/deploy/ketb).
+3. Configurer le démarrage automatique du Compositeur Digital et/ou du watchdog au démarrage du PC.
+4. Après la synchronisation initiale des contenus OneDrive, redémarrer le PC et vérifier le bon fonctionnement du Compositeur Digital.
+
+*Remarque : la synchronisation initiale comprend plusieurs dizaines de Go de données : elle ne doit pas être faite sur site K&B. Seules les mises à jour différentielles sont faites sur site K&B.*
+
+
