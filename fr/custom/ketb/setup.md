@@ -26,11 +26,8 @@ En ligne à partir de l'adresse [http://www.compositeurdigital.com/deploy/ketb](
 ### 3. Configurer démarrage/watchdog
 Démarrage automatique du Compositeur Digital et/ou du watchdog à l'ouverture de session du PC.
 
-**_Remarque il est important que le Compositeur Digital redémarre 1 fois par jour._**
-
-#### Configuration Watchdog/démarrage
-
-**_Remarque : le chemin vers l'exécutable principal peut changer lors d'une mise à jour._**
+**_Remarque 1 : il est important que le Compositeur Digital démarre 1 fois par jour, généralement lors de l'ouverture de session._**
+**_Remarque 2 : le chemin vers l'exécutable principal peut changer lors d'une mise à jour._**
 
 - Processus à surveiller : Compositeur Digital KetB.exe
 - Démarrage : utiliser le lien généré lors de l'installation (raccourci dynamique) situé à l'adresse ci-dessous :
