@@ -16,4 +16,4 @@ Auxquels viennent s'ajouter des contenus métiers :
 - [Collection de biens immobiliers](immo.md)
 - [Simulateur de prêt bancaire](bank_simulator.md)
 
-[Revenir à l'accueil de la documentation](home.md)
+[Revenir à l'accueil de la documentation](index.md)
