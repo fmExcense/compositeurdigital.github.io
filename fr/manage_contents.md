@@ -45,7 +45,7 @@ Pour créer un nouvel univers, dupliquez un dossier d'univers existant ou créez
 
 Pour personnaliser le fond d'écran par défaut du Compositeur Digital, ajoutez un fichier image nommé `_background` dans le dossier de l'univers :
 
-![univers in explorer](img/explorer_background.jpg)
+![univers in explorer](img/explorer_background.JPG)
 
 ## Dossiers
 
@@ -81,13 +81,13 @@ Par défaut, le Compositeur Digital tente d'afficher une vignette correspondant 
 
 Exemple de dossier sans vignette, le Compositeur Digital utilise la première page du premier document dans le dossier :
 
-![explorer no preview folder](img/explorer_nopreview_folder.jpg)
+![explorer no preview folder](img/explorer_nopreview_folder.JPG)
 
 ![no preview folder](img/nopreview_folder.jpg) 
 
 Ajoutez un fichier image nommé `_preview` (format png ou jpg) dans le dossier :
 
-![explorer no preview folder](img/explorer_preview_folder.jpg)
+![explorer no preview folder](img/explorer_preview_folder.JPG)
 
 ![no preview folder](img/preview_folder.jpg) 
 
