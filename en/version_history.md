@@ -1,4 +1,22 @@
-# Notes de version
+# Release Notes
+
+
+### 4.0
+
+- Mode grand écran 
+- Export panier sous forme de page web de synthèse
+- Sauvegarde des projets sur le support d’origine de la déclinaison (local, USB, cloud)
+- Les projets sont associés à un compte
+- Accès rapide à l’activation/désactivation de l’annotation et à la palette
+- Notes : 5 couleurs de note
+- Création rapide de postit à partir d’un postit
+- Bouton plein écran sur les documents
+- Meta de rotation des documents
+- Performance de l’annotation améliorée
+- Choix de la déclinaison de démarrage en paramètre avancé
+- Sauvegarde désactivable en paramètre avancé 
+- Quizz : classement et slider
+- Synthèse de quizz
 
 ### 3.2
 
