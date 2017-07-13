@@ -1,4 +1,4 @@
-# Kaufman & Broad : procédure de déploiement du Compositeur Digital
+(# Kaufman & Broad : procédure de déploiement du Compositeur Digital
 
 *Cette procédure est valable pour la phase de production à partir de S2 2017*
 
@@ -15,7 +15,7 @@
 
 ## Installation
 ### 1. Configurer OneDrive
-Suivre [odopen://sync?siteId=81e54911-7a51-4381-9a78-ebac847930e0&webId=79131da9-a1ae-47be-ad30-4811761797a9&webTitle=Kaufman%20%26%20Broad&listId=53da5f90-032a-4f3a-a9ce-cbaef89af6db&listTitle=Documents&userEmail=ketb@compositeurdigital.com&webUrl=https://insideso.sharepoint.com/sites/KetB&webLogoUrl=/sites/KetB/_api/GroupService/GetGroupImage%3Fid%3D'b640569c-b521-498d-824c-a5431de92270'%26hash%3D636354440941239942&webTemplate=GROUP&folderUrl=/&scope=OPENLIST](ce lien) et appliquer la configuration par défaut.
+Suivre [ce lien](odopen://sync?siteId=81e54911-7a51-4381-9a78-ebac847930e0&webId=79131da9-a1ae-47be-ad30-4811761797a9&webTitle=Kaufman%20%26%20Broad&listId=53da5f90-032a-4f3a-a9ce-cbaef89af6db&listTitle=Documents&userEmail=ketb@compositeurdigital.com&webUrl=https://insideso.sharepoint.com/sites/KetB&webLogoUrl=/sites/KetB/_api/GroupService/GetGroupImage%3Fid%3D'b640569c-b521-498d-824c-a5431de92270'%26hash%3D636354440941239942&webTemplate=GROUP&folderUrl=/&scope=OPENLIST) et appliquer la configuration par défaut.
 
 **_Remarque : la synchronisation initiale provoque le téléchargement de plusieurs dizaines de Go de données : elle ne doit pas être faite sur site K&B. Seules les mises à jour différentielles sont faites sur site K&B._**
 
