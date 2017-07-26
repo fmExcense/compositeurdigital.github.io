@@ -1,11 +1,10 @@
-
 # Release Notes
 
 ### 4.1
 
 - Simplified the export file structure
 - New partner mode appearance
-- Quizz: video Page
+- Quizz: video page
 - Quizz: display a visual with question text on the side
 - Quizz: answer scoring system
 - [FIX] sticky notes appearing on the wrong page in an export 
