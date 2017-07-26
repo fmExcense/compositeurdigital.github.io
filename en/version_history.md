@@ -16,4 +16,4 @@
 
 ### Older versions
 
-Release notes on the [french page](../en/version_history.md).
+Release notes on the [french page](../fr/version_history.md).
