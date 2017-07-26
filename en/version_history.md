@@ -3,7 +3,7 @@
 
 ### 4.1
 
-- Simplified the zipped exports structure
+- Simplified the export file structure
 - New partner mode appearance
 - Quizz: video Page
 - Quizz: display a visual with question text on the side
