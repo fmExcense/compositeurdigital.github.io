@@ -1,5 +1,8 @@
 # Notes de version
 
+### 4.1 et plus récentes
+
+Voir les notes de version [en anglais](../en/version_history.md).
 
 ### 4.0
 
