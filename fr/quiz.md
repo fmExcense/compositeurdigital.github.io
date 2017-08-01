@@ -126,8 +126,6 @@ exemples :
 	<answer nextPageId="question A">la question A</answer>
 	<answer nextPageId="question B">la question B</answer>
 </questionPage>
-![questionPage textAnswer](img/questionpage_answer.jpg)
-
 
 <questionPage id="B1" sectionId="section 3" label="Nature du bien">
 	<imageAnswer visual="maison">  
