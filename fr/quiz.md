@@ -39,13 +39,13 @@ Chaque élément s'écrit avec des `balises` :
     <element>contenu de mon élément</element>
     ```
   - ou une liste d'autres éléments :
-  	```xml
-	<elementPère>
+    ```xml
+	<elementPere>
 	    <elementFils1 />
 	    <elementFils2 />
 	    <elementFils3 />
-	</elementPère>
-	```
+	</elementPere>
+    ```
 
 Chaque élément peut contenir des `attributs` permettant de modifier ses paramètres. On les écrit comme ceci : `nomDeMonAttribut="maValeur"` et on les place à l'intérieur de la balise ouvrante (ou de la balise unique), après le nom de l'élément :
 ```xml
@@ -103,9 +103,9 @@ Il possède 3 attributs possibles :
 
 Une `questionPage` prend en contenu la liste de réponses possible. Ces réponses peuvent être de deux types :
  - des `answer`, des réponses textuelles qui prennent en contenu le texte de la réponse :
- ```xml
- <answer>ma réponse</answer>
- ```
+   ```xml
+   <answer>ma réponse</answer>
+   ```
  - des `imageAnswer`, des réponses images. On spécifie le nom de l'image à utiliser (celle-ci devra être dans le dossier `_meta` du quiz) dans l'attribut `visual` :
    ```xml
    <imageAnswer visual="image 2"/>
@@ -195,7 +195,7 @@ exemple :
 
 Afin de partager la valeur du curseur avec d'autres documents, vous pouvez ajouter un attribut `valueKey` à cette page (voir [données partagées](config#valueKeys)).
 
-  #### Le Type `labelSliderPage`
+#### Le Type `labelSliderPage`
 Ce type de page permet d'afficher un curseur avec du texte. Vous pouvez le paramétrer à l'aide des attributs suivants :
 - `label` : le titre ou la question à afficher.
 
