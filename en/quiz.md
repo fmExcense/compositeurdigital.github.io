@@ -102,7 +102,7 @@ You can define conditional questions based on answers provided by the user. To d
 	...
 </questionPage>
 ```
-![questionPage imageAnswer](img/questionpage_imageanswer.jpg)
+<!--![questionPage imageAnswer](img/questionpage_imageanswer.jpg)-->
 
  
 It is also possible to illustrate a question by adding a photo using: `sideVisual` :
@@ -123,8 +123,8 @@ Describes a simple page to display with either text or image:
 ```xml
 <page sectionId="intro" label="Ceci est un test"/>
 ```
-![page label](img/page_label.jpg)
-![page image](img/page_image.jpg)
+<!--![page label](img/page_label.jpg)
+![page image](img/page_image.jpg)-->
 
 
 #### `infoPage`
@@ -136,7 +136,7 @@ Displays a simple form in which the user can type in texted answers. Set the `la
 	<info label="Surname"/>
 </infoPage>
 ```
-![infoPage](img/infopage.jpg)
+![infoPage](img/quiz_infoPage.jpg)
 
 To use this information as an input for other documents or populate the profile info, use the `valueKey` attribute of the `info` tag (see [shared data](config#valueKeys)).
 
@@ -160,7 +160,7 @@ Displays a page with a single slider that lets the user choose a (rounded) numer
 ```xml
 <numericSliderPage id="funds" sectionId="section 3" label="Your available funds" min="0" max="5000000" stepSize="5000" format="C0" valueKey="finance.budget" />
 ```
-![numericSliderPage](img/quiz_numericsliderpage.jpg)
+![numericSliderPage](img/quiz_numericSliderPage.jpg)
 
 To share this information with other documents or the profile info, use the `valueKey` attribute of the `info` tag (see [shared data](config#valueKeys)).
 
@@ -193,8 +193,8 @@ This type offers the same functionality as the previous `labelSliderPage` but us
 ```xml
 <imageSliderPage sectionId="part 1" label="What characterizes you most:" leftVisual="image1" rightVisual="image2" stepQuantity="10"/>
 ```
-![imageSliderPage label](img/imagesliderlabel.jpg)
-![imageSliderPage image](img/imagesliderimage.jpg)
+![imageSliderPage label](img/quiz_labelsliderpage.jpg)
+![imageSliderPage image](img/quiz_imageSliderPage.jpg)
 
 #### `videoPage`
 To put a video, addthe tag <video> which is given the name of it in the attribute `content`.
@@ -240,7 +240,7 @@ Displays a link to open a document in the Compositeur Digital.
 ```xml
 <documentPage label="Your documents:" document="Documents A"/>
 ```
-![documentPage](img/documentpage.jpg)
+![documentPage](img/quiz_documentPage.jpg)
 
 
 #### `orderPage`
@@ -265,7 +265,7 @@ Add a list of `answer` or `imageAnswer` for available choices. The two types can
     <visualAnswer visual="flat" visualChecked="test2">Flat</visualAnswer>
   </orderPage>
 ```
-![orderPageImage empty](img/orderpageimage_empty.jpg)
+<!--![orderPageImage empty](img/orderpageimage_empty.jpg)-->
 
 ### Results
 Results can be found in the `Documents\Compositeur Digital Quiz` folder.	
