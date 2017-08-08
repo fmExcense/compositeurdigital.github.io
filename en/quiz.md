@@ -136,7 +136,7 @@ Displays a simple form in which the user can type in texted answers. Set the `la
 	<info label="Surname"/>
 </infoPage>
 ```
-![infoPage](img/quiz_infoPage.jpg)
+<!--![infoPage](img/quiz_infoPage.jpg)-->
 
 To use this information as an input for other documents or populate the profile info, use the `valueKey` attribute of the `info` tag (see [shared data](config#valueKeys)).
 
@@ -160,7 +160,7 @@ Displays a page with a single slider that lets the user choose a (rounded) numer
 ```xml
 <numericSliderPage id="funds" sectionId="section 3" label="Your available funds" min="0" max="5000000" stepSize="5000" format="C0" valueKey="finance.budget" />
 ```
-![numericSliderPage](img/quiz_numericSliderPage.jpg)
+<!--![numericSliderPage](img/quiz_numericSliderPage.jpg)-->
 
 To share this information with other documents or the profile info, use the `valueKey` attribute of the `info` tag (see [shared data](config#valueKeys)).
 
@@ -194,7 +194,7 @@ This type offers the same functionality as the previous `labelSliderPage` but us
 <imageSliderPage sectionId="part 1" label="What characterizes you most:" leftVisual="image1" rightVisual="image2" stepQuantity="10"/>
 ```
 ![imageSliderPage label](img/quiz_labelsliderpage.jpg)
-![imageSliderPage image](img/quiz_imageSliderPage.jpg)
+<!--![imageSliderPage image](img/quiz_imageSliderPage.jpg)-->
 
 #### `videoPage`
 To put a video, addthe tag <video> which is given the name of it in the attribute `content`.
@@ -229,7 +229,7 @@ For the result page, use the <scoresResultPage> and <scoreResult> tags and add t
       <scoreResult title="Beginner" scoreMax="2">Take notes for the next time</scoreResult>
       <scoreResult title="A robot" scoreMax="0">You have not read the questions</scoreResult>
 </scoresResultPage>
-```xml
+```
 
 
 #### `documentPage`
@@ -249,6 +249,7 @@ Displays a lists of values to be ordered by the user.
 - `answerNumber`: minimum number of answers to select.
 
 Add a list of `answer` or `imageAnswer` for available choices. The two types cannot be mixed.
+
 ```xml
 <orderPage sectionId="section 1" label="Prioritize your projects" answerNumber="3">
     <answer>Renovating</answer>
@@ -257,7 +258,7 @@ Add a list of `answer` or `imageAnswer` for available choices. The two types can
     <answer nextPageId="tousLesBiens">Prepare retirement</answer>
 </orderPage>
 ```
-![orderPage empty](img/orderpage_empty.jpg)
+<!--![orderPage empty](img/orderpage_empty.jpg)-->
 
 ```xml
 <orderPage sectionId="section 1" label="I would rather live in a" answerNumber="2">
