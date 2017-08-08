@@ -104,6 +104,17 @@ You can define conditional questions based on answers provided by the user. To d
 ```
 ![questionPage imageAnswer](img/questionpage_imageanswer.jpg)
 
+ 
+It is also possible to illustrate a question by adding a photo using: `sideVisual` :
+```xml
+<orderPage sectionId="section 1" sideVisual="House" label="Prioritize your projects" answerNumber="3">
+    <answer>Renovating</answer>
+    <answer>Buy a house</answer>
+    <answer nextPageId="tousLesBiens">Buy a car</answer>
+    <answer nextPageId="tousLesBiens">Prepare retirement</answer>
+</orderPage>
+```
+
 #### `page`
 Describes a simple page to display with either text or image:
  - `label`: text to display
@@ -185,6 +196,41 @@ This type offers the same functionality as the previous `labelSliderPage` but us
 ![imageSliderPage label](img/imagesliderlabel.jpg)
 ![imageSliderPage image](img/imagesliderimage.jpg)
 
+#### `videoPage`
+To put a video, addthe tag <video> which is given the name of it in the attribute `content`.
+This tag has 2 other attributes :
+ - `disableSkip` which will be `true` so as not to pass to the next or previous slides until the video is finished, otherwise it will be `false`
+ - `endAction` there are 3 action options at the end of a video:
+		`GoToNextPage`: Go to next slide
+		`FadeToNextPage`: Passes to the next slide, with a fade effect
+		`Nothing`: nothing happens at the end of the video
+ 
+```xml
+<videoPage content="presentation" disableSkip="true" endAction="FadeToNextPage">
+</videoPage>
+```
+#### `scoresResultPage`
+
+It is possible to add a score to the question and thus have a result page.
+To do this, add the attribute `score` to the answers and define a number.
+For the result page, use the <scoresResultPage> and <scoreResult> tags and add the `title` and `scoreMax` attributes as in the following example:
+
+```xml
+<questionPage sectionId="section 1" sideVisual="rebebechat" label="Question">
+      <answer score="10">answer 1</answer>
+      <answer score="2">answer 2</answer>
+      <answer score="8">answer 3</answer>
+      <answer score="0">answer 4</answer>
+    </questionPage> 
+    
+ <scoresResultPage sectionId="section 2" sideVisual="key" label="Vous êtes">
+      <scoreResult title="An expert" scoreMax="11">100% good answers !!! Congratulations !!!</scoreResult>
+      <scoreResult title="Almost an expert" scoreMax="8">Another little effort, you're almost there</scoreResult>
+      <scoreResult title="Beginner" scoreMax="2">Take notes for the next time</scoreResult>
+      <scoreResult title="A robot" scoreMax="0">You have not read the questions</scoreResult>
+</scoresResultPage>
+```xml
+
 
 #### `documentPage`
 Displays a link to open a document in the Compositeur Digital.
@@ -224,3 +270,5 @@ Add a list of `answer` or `imageAnswer` for available choices. The two types can
 ### Results
 Results can be found in the `Documents\Compositeur Digital Quiz` folder.	
 A new line is added in the result file each time the user reaches the last page of a quiz.
+
+
