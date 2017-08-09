@@ -114,6 +114,7 @@ It is also possible to illustrate a question by adding a photo using: `sideVisua
     <answer nextPageId="tousLesBiens">Prepare retirement</answer>
 </orderPage>
 ```
+![sideVisual](img/quiz_sideVisual.png)
 
 #### `page`
 Describes a simple page to display with either text or image:
@@ -193,7 +194,7 @@ This type offers the same functionality as the previous `labelSliderPage` but us
 ```xml
 <imageSliderPage sectionId="part 1" label="What characterizes you most:" leftVisual="image1" rightVisual="image2" stepQuantity="10"/>
 ```
-![imageSliderPage label](img/quiz_labelsliderpage.jpg)
+<!--![imageSliderPage label](img/quiz_labelsliderpage.jpg)-->
 <!--![imageSliderPage image](img/quiz_imageSliderPage.jpg)-->
 
 #### `videoPage`
@@ -231,6 +232,7 @@ For the result page, use the <scoresResultPage> and <scoreResult> tags and add t
 </scoresResultPage>
 ```
 
+![scoreResultPage](img/quiz_scoreResultPage.png)
 
 #### `documentPage`
 Displays a link to open a document in the Compositeur Digital.
