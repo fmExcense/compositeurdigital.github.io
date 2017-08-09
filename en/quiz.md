@@ -198,13 +198,13 @@ This type offers the same functionality as the previous `labelSliderPage` but us
 <!--![imageSliderPage image](img/quiz_imageSliderPage.jpg)-->
 
 #### `videoPage`
-To put a video, addthe tag <video> which is given the name of it in the attribute `content`.
+To put a video, add the tag `video` which is given the name of it in the attribute `content`.
 This tag has 2 other attributes :
  - `disableSkip` which will be `true` so as not to pass to the next or previous slides until the video is finished, otherwise it will be `false`
  - `endAction` there are 3 action options at the end of a video:
-		`GoToNextPage`: Go to next slide
-		`FadeToNextPage`: Passes to the next slide, with a fade effect
-		`Nothing`: nothing happens at the end of the video
+     - `GoToNextPage`: Go to next slide
+     - `FadeToNextPage`: Passes to the next slide, with a fade effect
+     - `Nothing`: nothing happens at the end of the video
  
 ```xml
 <videoPage content="presentation" disableSkip="true" endAction="FadeToNextPage">
@@ -242,7 +242,7 @@ Displays a link to open a document in the Compositeur Digital.
 ```xml
 <documentPage label="Your documents:" document="Documents A"/>
 ```
-![documentPage](img/quiz_documentPage.jpg)
+<!--![documentPage](img/quiz_documentPage.jpg)-->
 
 
 #### `orderPage`
