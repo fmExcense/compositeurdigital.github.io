@@ -19,6 +19,13 @@ Se rendre sur la page de la [bibliothèque Sharepoint](https://insideso.sharepoi
 
 **_Remarque : la synchronisation initiale provoque le téléchargement de plusieurs dizaines de Go de données : elle ne doit pas être faite sur site K&B. Seules les mises à jour différentielles sont faites sur site K&B._**
 
+```
+**Pour la synchronisation initiale, suivre l'une des deux méthodes suivantes :**
+- Faire la synchro initiale sur un réseau rapide avant de mettre en place le PC sur site.
+- Récupérer les contenus sur un PC déjà synchronisé, les copier sur la machine cible à l’aide d’une clef USB/disque externe dans le répertoire %userprofile%\excense\Excense\Kaufman & Broad - Documents\ avant de lancer la synchro avec OneDrive à partir du site SharePoint. OneDrive demande dans ce cas s’il faut bien réutiliser le dossier existant, répondre oui. 
+Attention à bien respecter la hiérarchie exacte lors de la copie avec cette méthode (le répertoire %userprofile%\excense\Excense\Kaufman & Broad - Documents\ doit contenir un répertoire "Compositeur Digital").
+```
+
 ### 2. Installer Compositeur Digital
 En ligne à partir de l'adresse [http://www.compositeurdigital.com/deploy/ketb](http://www.compositeurdigital.com/deploy/ketb).
 
