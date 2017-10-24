@@ -103,7 +103,7 @@ Each parameter must be written using the following structure : `<param name="par
  - `AdditionalRootItemsFolderPaths` list of addional directories in which the application will look for new environments 
  - `CacheDirectory` sets a specific folder to store cached files 
  
- ## <a name="valueKeys"></a> Data exchanged between documents
+ ## Data exchanged between documents
  
  Some types of documents allow you to exchange data between documents  (e.g getting a value previously saved and modifying it)
  A keyword is used to operate this exchange of values. The following keys target attributes of the customer in the Profile view in the menu.
@@ -115,4 +115,4 @@ Each parameter must be written using the following structure : `<param name="par
   - `organization`
   - `finance.budget`
 
-[Back to the menu](home.md)
+[Back to the menu](index.md)
