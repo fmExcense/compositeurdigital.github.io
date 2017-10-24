@@ -83,14 +83,29 @@ Each parameter must be written using the following structure : `<param name="par
  - `DisableFavorites` disables the basket/favorites feature.
  - `DisableBlankSheet` hides the blanksheet creation 
  - `DisablePostIt` hides the note creation button
+ - `CustomLogUIPath` path where UI logs (= analytics) will be stored. Copy previous logs saved in the default folder into this custom folder. Handle windows environment variables.
+ - `HelpEmailAdress` custom support email adress
+ - `AdditionalShareDestinations` adds new targets for share operations. Handles windows and Compositeur Digital environment variables.
+ 
+ eg :
+```xml
+<param name="AdditionalShareDestinations">
+ <shareDestinations>
+  <shareDestination name="Universe" path="%UNIVERSE%\Exported Documents\" />
+ </shareDestinations>
+</param>
+```
 
 *Favorites.xml*
  - `FolderName` displayed name for the basket feature. By default, set to "basket"
- - `ContactInfos` contains the list of fields to be stored. By default set to : <br />
-    `<contactInfos>
+ - `ContactInfos` contains the list of fields to be stored. By default set to :
+ 
+ ```xml
+    <contactInfos>
       <contactInfo key="true" label="name" />
       <contactInfo label="email" />
-    </contactInfos>`
+    </contactInfos>
+```
  - `FavoritesDestinationPath` folder path to which favorites document will be saved
  - `DisableFastShare` hides the quick share button on all documents
  - `DisableFavorites` disable the document basket/favorites feature.
@@ -114,5 +129,11 @@ Each parameter must be written using the following structure : `<param name="par
   - `phoneNumber`
   - `organization`
   - `finance.budget`
+
+ ## Universes Categories
+
+The universes can be sorted into categories by naming them with the pattern `category name, universe name` .
+In the start page, you will then see buttons for each category that will display their inner universe on clic.
+To customize categories look, you can add images named `category name_preview.jpg` in your `Compositeur Digital` folder.
 
 [Back to the menu](index.md)
