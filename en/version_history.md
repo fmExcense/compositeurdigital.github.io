@@ -1,5 +1,15 @@
 # Release Notes
 
+### 4.1.0.1
+
+- Universes sortable by category
+-	Blanksheet support for typed text
+-	Layered sequences
+-	Additional share targets
+-	[FIX] Project opening in universes stored on SharePoint or OneDrive
+-	[FIX] quizz side visual doesn’t always appear
+
+
 ### 4.1
 
 - Simplified the export file structure
