@@ -16,4 +16,4 @@ In addition, the Compositeur Digital can handle interactive content for specific
 - [Real estate selector](immo.md)
 - [Mortgage simulator](bank_simulator.md)
 
-[Back to the home page](home.md)
+[Back to the home page](index.md)
