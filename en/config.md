@@ -64,7 +64,9 @@ Example : `*.table.hideCommands = true`
 
 
 ## Configuration files
-Each parameter must be written using the following structure : `<param name="parameterName" value="parameterValue, secondOptionalValue, third, etc" />`
+Each parameter must be written using the following structure : 
+
+`<param name="parameterName" value="parameterValue, secondOptionalValue, third, etc" />`
 
 *App.xml*
 
@@ -85,9 +87,7 @@ Each parameter must be written using the following structure : `<param name="par
  - `DisablePostIt` hides the note creation button
  - `CustomLogUIPath` path where UI logs (= analytics) will be stored. Copy previous logs saved in the default folder into this custom folder. Handle windows environment variables.
  - `HelpEmailAdress` custom support email adress
- - `AdditionalShareDestinations` adds new targets for share operations. Handles windows and Compositeur Digital environment variables.
- 
- eg :
+ - `AdditionalShareDestinations` adds new targets for share operations. Handles windows and Compositeur Digital environment variables. eg :
 ```xml
 <param name="AdditionalShareDestinations">
  <shareDestinations>
