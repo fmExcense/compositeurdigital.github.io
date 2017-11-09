@@ -17,6 +17,8 @@
 ### 1. Configurer OneDrive
 Se rendre sur la page de la [bibliothèque Sharepoint](https://insideso.sharepoint.com/sites/KetB/Documents%20partages/Forms/AllItems.aspx) et utiliser le compte. ketb@compositeurdigital.com (mot de passe fourni par votre contact excense). Cliquer `Synchronisation` et conserver la configuration par défaut de OneDrive.
 
+Si la version de Onedrive est récente, la fonctionnalité "Fichiers à la demande" est activée par défaut. Se rendre dans les paramètres et décocher la case intitulée 'Libérer de l'espace et télécharger les fichiers quand vous en avez besoin'.
+
 **_Remarque : la synchronisation initiale provoque le téléchargement de plusieurs dizaines de Go de données : elle ne doit pas être faite sur site K&B. Seules les mises à jour différentielles sont faites sur site K&B. Suivre l'une des méthodes suivantes :_**
 >- Faire la synchro initiale sur un réseau rapide avant de mettre en place le PC sur site.
 >- Récupérer les contenus sur un PC déjà synchronisé, les copier sur la machine cible à l’aide d’une clef USB/disque externe dans le répertoire %userprofile%\Excense\Kaufman & Broad - Documents\ avant de lancer la synchro avec OneDrive à partir du site SharePoint. OneDrive demande dans ce cas s’il faut bien réutiliser le dossier existant, répondre oui. 
