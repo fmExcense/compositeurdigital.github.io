@@ -62,6 +62,8 @@ Example : `*.table.hideCommands = true`
  - `paper.disableBlankSheet = true` hides the blanksheet creation button
  - `paper.disablePostIt = true` hides the note creation button
 
+*Language:*
+- `culture = en` in a file `_meta.txt` at the universe root force the UI language for this universe. (supported languages : en, fr). Note that default used language is based on your Windows language.
 
 ## Configuration files
 Each parameter must be written using the following structure : 
