@@ -1,9 +1,5 @@
 # Programme immobilier K&B
 
-Flux d'information K&B
-Le flux contient la description de chaque : lieu, liste des lots, état d'avancement, etc.
-A chaque programme sont associés des contenus marketing. Ceux-ci proviennent de plusieurs sources.
-
 | Contenus                         | Source    |  Identifiant / répertoire                              |  OneDrive                                                                           |
 |----------------------------------|-----------|--------------------------------------------------------|-------------------------------------------------------------------------------------|
 | Icône                            | Flux XML  | VISUEL                                                 | _preview.jpg                                                                        |
