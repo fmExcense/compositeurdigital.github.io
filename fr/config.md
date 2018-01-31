@@ -56,7 +56,7 @@ Exemple : `*.table.hideCommands = true`
  - `disableHelp = true` masque le bouton d'aide
  - `disableContactUs = true` masque le bouton de contact
 
-*Favoris :*
+Favoris :*
  - `favorites.disableFastShare = true` masque le bouton de partage rapide sur les documents
  - `favorites.disableFavorites = true` désactive le mécanisme de favoris/panier : masque le bouton d'ouverture des favoris dans la barre de menu et les boutons d'ajout/suppression des documents
 
@@ -107,7 +107,7 @@ Chaque paramètre s'écrit sous la forme `<param name="nomDuParamètre" value="v
  - `CacheDirectory` permet de spécifier un répertoire particulier où enregistrer les fichiers de cache 
  
 
- ## <a name="valueKeys"></a>Données partagées entre les documents
+## <a name="valueKeys"></a>Données partagées entre les documents
  Certains types de documents permettent de partager des données avec d'autres documents (c'est à dire de récupérer les valeurs précédemment renseignées et de les modifier).
  Un mot clé commun renseigné pour un champ "valueKey" permettra de créer ce lien. La valeur des clés par défaut sont modifiables dans l'onglet Profil du menu.
  Les clés déjà existantes sont :
