@@ -1,6 +1,6 @@
 # Documentation
 
-### [Prerequisites](Prerequisites.md)
+### [Prerequisites](prerequisites.md)
 
 
-### [Create an Compositeur Digital UX account](CreateanCompositeurDigitalUXaccount.md)
+### [Create an Compositeur Digital UX account](createanCompositeurDigitalUXaccount.md)
