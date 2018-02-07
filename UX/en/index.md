@@ -1,6 +1,6 @@
 # Documentation
 
-### [Getting started](gettingstarted.md)
+### [Getting started](gettingstarted/index.md)
 Installing and launching the *Compositeur Digital UX*.
 
 ### [User guide](user_guide.md)
