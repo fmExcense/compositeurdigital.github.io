@@ -3,15 +3,15 @@
 ### [Getting started](gettingstarted/index.md)
 Installing and launching the *Compositeur Digital UX*.
 
-### [User guide](user_guide.md)
+### [User guide](user_guide/index.md)
 Discovering how to interact with the content in the *Compositeur Digital UX*.  
 
-### [Supported content](supported_content.md)
+### [Supported content](supported_content/index.md)
 List of supported content types and related actions.
 
-### [FAQ](FAQ.md)
+### [FAQ](FAQ/index.md)
 Contains frequently asked questions about installing and using *Compositeur Digital UX* and provides solutions to common problems.
 
-### [Release notes](release_notes.md)
+### [Release notes](release_notes/index.md)
 Description of new features and bug fixes in releases of the *Compositeur Digital UX*  
 
