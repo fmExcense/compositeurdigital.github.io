@@ -1,7 +1,9 @@
 # Documentation
 
-### [Collaboration Meting](collaboration_meting.md)
+## Use Cases
 
-### [Sales Meeting](sales_meeting.md)
+### [Collaboration Meeting](collaboration_meeting.md)
 
 ### [Showcase](showcase.md)
+
+### [Sales Meeting](sales_meeting.md)
