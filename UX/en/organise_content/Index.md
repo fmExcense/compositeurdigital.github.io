@@ -1,6 +1,7 @@
 # Documentation
 
 ### [Supported content](supported_content/index.md)
+List of supported content types and related actions.
 
 ### [Advanced configuration](advanced_configuration)
 

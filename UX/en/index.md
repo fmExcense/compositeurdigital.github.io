@@ -7,7 +7,7 @@ Installing and launching the *Compositeur Digital UX*.
 Discovering how to interact with the content in the *Compositeur Digital UX*.  
 
 ### [Organise content](organise_content/index.md)
-List of supported content types and related actions.
+
 
 ### [FAQ](FAQ/index.md)
 Contains frequently asked questions about installing and using *Compositeur Digital UX* and provides solutions to common problems.
