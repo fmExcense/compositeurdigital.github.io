@@ -1,3 +1,0 @@
-# Documentation
-
-## Organise contents
