@@ -81,7 +81,7 @@ At any time, you can freely decide to sign out.
 
 ![3. Sign-out on shared devices](../img/signout-shareddevice-3.jpg){:width="60%"}
 
-![2. Sign-out on your laptop](../img/signout-laptop-2.jpg)
+![2. Sign-out on your laptop](../img/signout-laptop-2.jpg){:width="60%"}
 
 1. On the app start page, click on the `...` at the bottom right corner of the page.
 1. Click on the `Settings` button.
