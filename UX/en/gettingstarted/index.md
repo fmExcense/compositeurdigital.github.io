@@ -59,11 +59,11 @@ At any time, you can freely decide to sign out.
 
 ![2. Sign-in on shared devices](../img/signin-shareddevice-2.jpg)
 
-![3. Sign-in on shared devices](../img/signin-shareddevice-3.jpg)
+![3. Sign-in on shared devices](../img/signin-shareddevice-3.jpg){:width="60%"}
 
-![4. Sign-in on shared devices](../img/signin-shareddevice-4.jpg)
+![4. Sign-in on shared devices](../img/signin-shareddevice-4.jpg){:width="60%"}
 
-![5. Sign-in on shared devices](../img/signin-shareddevice-5.jpg)
+![5. Sign-in on shared devices](../img/signin-shareddevice-5.jpg){:width="60%"}
 
 1. On the app start page, click on the `...` at the bottom right corner of the page.
 1. Click on the `Settings` button.
@@ -79,9 +79,9 @@ At any time, you can freely decide to sign out.
 
 ![2. Sign-out on shared devices](../img/signout-shareddevice-2.jpg)
 
-![3. Sign-out on shared devices](../img/signout-shareddevice-3.jpg)
+![3. Sign-out on shared devices](../img/signout-shareddevice-3.jpg){:width="60%"}
 
-![2. Sign-out on your laptop](../img/signout-laptop-2.jpg)
+![2. Sign-out on your laptop](../img/signout-laptop-2.jpg){:width="60%"}
 
 1. On the app start page, click on the `...` at the bottom right corner of the page.
 1. Click on the `Settings` button.
