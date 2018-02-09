@@ -18,12 +18,10 @@ a {
     border: solid 1px #dce6f0;
 }
 
-.resizeAndCenter{
-    width: 60%;
-}
-
 p .resizeAndCenter {
-    text-align:center;
+    margin: 0 auto;
+    display: block;
+    width: 60%;
 }
 
 /*@media screen and (min-width:64em)*/
