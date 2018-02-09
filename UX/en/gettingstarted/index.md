@@ -79,7 +79,7 @@ At any time, you can freely decide to sign out.
 
 ![2. Sign-out on shared devices](../img/signout-shareddevice-2.jpg)
 
-![3. Sign-out on shared devices](../img/signout-shareddevice-3.jpg)
+![3. Sign-out on shared devices](../img/signout-shareddevice-3.jpg){:width="60%"}
 
 ![2. Sign-out on your laptop](../img/signout-laptop-2.jpg)
 
