@@ -10,9 +10,3 @@ List of supported content types and related actions.
 ### [Deploy & share universe](deploy_share_universe.md)
 
 ### [Advanced setting (meta)](advanced_setting.md)
-
-
-
-
-
-
