@@ -46,7 +46,7 @@ At any time, you can freely decide to sign out.
 
 ![1. Sign-out on your laptop](../img/signout-laptop-1.jpg)
 
-![2. Sign-out on your laptop](../img/signout-laptop-2.jpg) {:class="resizeAndCenter"}
+![2. Sign-out on your laptop](../img/signout-laptop-2.jpg){:class="resizeAndCenter"}
 
 1. On the app start page, click on your name
 2. Click on `Sign out`.
