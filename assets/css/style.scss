@@ -18,6 +18,14 @@ a {
     border: solid 1px #dce6f0;
 }
 
+.resizeAndCenter{
+    width: 60%;
+}
+
+p .resizeAndCenter {
+    text-align:center;
+}
+
 /*@media screen and (min-width:64em)*/
 .project-name {
     font-size: 2.25rem;
