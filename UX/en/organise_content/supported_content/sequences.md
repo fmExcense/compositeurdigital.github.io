@@ -6,11 +6,11 @@ This content type allows you to display a 360° view of any objects, using a seq
 
 ### Action within Compositeur Digital UX
 
-* [X] Move forward and backward in the sequence of images using the slider.
-* [X] Make a copy of your sequence using the `Duplicate` action.
-* [X] Make a capture (i.e. create an image of current position in the sequence) using the `Capture` action.
-* [X] Add the sequence to your favorite, using the `Add to favorites` action.
-* [X] Remove the sequence from your favorites, using the `Remove from favorites` action.
+- [X] Move forward and backward in the sequence of images using the slider.
+- [X] Make a copy of your sequence using the `Duplicate` action.
+- [X] Make a capture (i.e. create an image of current position in the sequence) using the `Capture` action.
+- [X] Add the sequence to your favorite, using the `Add to favorites` action.
+- [X] Remove the sequence from your favorites, using the `Remove from favorites` action.
 
 ### Content extension
 
