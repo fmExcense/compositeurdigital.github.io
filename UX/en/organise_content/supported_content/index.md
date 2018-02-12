@@ -3,10 +3,10 @@
 ## Supported content
 
 ### Native formats
-#### [Images](picture.md)
-#### [Pdf](pdf.md)
-#### [Powerpoint](powerpoint.md)
-#### [Video](video.md)
+* [Images](picture.md)
+* [Pdf](pdf.md)
+* [Powerpoint](powerpoint.md)
+* [Video](video.md)
 
 ### Compositeur Digital UX formats
 #### [Board](board.md)
