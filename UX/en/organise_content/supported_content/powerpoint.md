@@ -10,17 +10,17 @@ Format supported are `.ppt` and `.pptx`.
 
 ### Actions within Compositeur Digital UX
 
-* [X] Annotations.
-* [X] Can be sticked on any document.
-* [X] Navigation to next page or previous page using `<` or `>` buttons.
-* [X] Open a linked document by tapping on interactive area on the slide.
-* [X] Go-to a specific slide using the `Slides` action.
-* [X] Make a copy of your slideshow (including all annotations, and pasted documents) using the `Duplicate` action.
-* [X] Make a capture (i.e. create an image of a slide that you can edit in your workspace) using the `Capture` action.
-* [X] Save a local copy using the `Save as` action.
-* [X] Share the slideshow, as a pdf document containing a picture of each slides, with its annotations and pasted document, using the `Share` action.
-* [X] Add the slideshow to your favorite, using the `Add to favorites` action.
-* [X] Remove the slideshow from your favorites, using the `Remove from favorites` action.
+- [X] Annotations.
+- [X] Can be sticked on any document.
+- [X] Navigation to next page or previous page using `<` or `>` buttons.
+- [X] Open a linked document by tapping on interactive area on the slide.
+- [X] Go-to a specific slide using the `Slides` action.
+- [X] Make a copy of your powerpoint (including all annotations, and pasted documents) using the `Duplicate` action.
+- [X] Make a capture (i.e. create an image of a slide that you can edit in your workspace) using the `Capture` action.
+- [X] Save a local copy using the `Save as` action.
+- [X] Share the powerpoint, as a pdf document containing a picture of each slides, with its annotations and pasted document, using the `Share` action.
+- [X] Add the powerpoint to your favorite, using the `Add to favorites` action.
+- [X] Remove the powerpoint from your favorites, using the `Remove from favorites` action.
 
 ### Hot Spots
 
@@ -28,7 +28,9 @@ You can create a "hot spot" on a document to open another document when touched.
 
 1. Create a transparent shape on top of the selected hot spot area. The shape should cover entire hot spot area.
 
-**Warning : If the area is the text box. Select the text BOX. Do not not select the TEXT**
+**Warning 1 : If the area is the text box. Select the text BOX. Do not not select the TEXT**
+
+**Warning 2 : The color of the shape must be TRANSPARENT. If you are creating a shape that is not filled by any color, the link will not work.** 
 
 2. Select the shape, and go to INSERT 
 1. Go to HyperLink and define the location of the target document.
@@ -43,4 +45,4 @@ You can create a "hot spot" on a document to open another document when touched.
 
 By default, powerpoint files are handled by Compositeur Digital UX like `.slideshow` extension. [See Slideshow section](slideshows.md).
 
-[Go back to the previous page](index.md)
+[Back to Supported Content](index.md)
