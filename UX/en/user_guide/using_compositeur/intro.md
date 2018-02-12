@@ -14,5 +14,9 @@ Compositeur Digital UX allows you to
 
 Take your face-to-face presentations to the next level and unleash the power of interaction with your audience!
 
+Show me the concepts behind Compositeur Digital UX:
+* [Universes](../using_compositeur/universe_concept.md)
+* [Projects](../using_compositeur/project_concept.md)
+
 [Show me how to use Compositeur Digital UX](../using_compositeur/navigation.md)
 
