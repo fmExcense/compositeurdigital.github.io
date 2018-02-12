@@ -36,6 +36,16 @@ To add one of these documents in your project:
 1. Browse the documents area to select the type of document you want to add.
 1. Drag and drop the document in the workspace, or just tap on it.
 
+#### Adding corkboard 
+
+Corkboards are useful to centralize all your important documents and keep them visible on screen.
+To add a corkboard:
+1. Tap on the main button menu.
+1. Browse the documents area to select a type of corkboard.
+1. Drag and drop the corkboard in the workspace, or just tap on it.
+1. Drag and drop a document you want to pin on your corkboard.
+1. Pin your document.
+
 #### Favorites documents
 
 Favorites are useful to share all the important documents you have been working on during a face-to-face presentation or a meeting.
