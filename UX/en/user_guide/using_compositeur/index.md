@@ -1,6 +1,6 @@
 # Documentation
 
-## Universe
+## Using Compositeur Digital UX
 
 ### [Intro](intro.md)
 
